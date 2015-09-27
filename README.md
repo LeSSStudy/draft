@@ -14,6 +14,7 @@ index.md -> index.jp.md
 - inProgress:翻訳中
 - Draft:レビュー待ち
 - Done:マージ済み
+
 ## 運用方法(案)
 ### 案1
 - 各自作業単位でブランチを切って、pull request で運用していくこと
