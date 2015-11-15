@@ -1,7 +1,7 @@
 ---
 layout: mechanics
 title: LeSS huge
-order: 30
+order: 100
 ---
 <!---
 LeSS Huge is the second LeSS Framework, which is suitable for LeSS adoptions of more than eight teams. Conceptually is it LeSS scaled up further by having multiple (smaller) LeSS frameworks stacked on top of each other.
