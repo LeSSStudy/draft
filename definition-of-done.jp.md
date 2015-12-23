@@ -78,7 +78,7 @@ The teams discuss their context and select the subset of the activities that all
 <!---
 The difference between the Definition of Done and Potentially Shippable is referred to as Undone Work. The Sprint is planned according to the Definition of Done and thus the Undone Work is excluded—it is planned to be left undone
 --->
-完成の定義と出荷可能の差は、<終わらない作業>と呼ばれます。スプリントは、完成の定義に従って計画される。したがって、<終わらない作業>は除外される。それは完成しないものは残る計画となる。
+完成の定義と出荷可能の差は、<終わらなかった作業>と呼ばれます。スプリントは、完成の定義に従って計画される。したがって、<終わらなかった作業>は除外される。それは完成しないものは残る計画となる。
 
 <figure>
   <img src="/img/framework/dod.jpg" alt="dod.jpg">
@@ -109,14 +109,14 @@ The terms Potentially Shippable and Definition of Done are often not used consis
 <!---
 **Undone Work**—The difference between the Definition of Done and Potentially Shippable. When the Definition of Done is perfect then there is no Undone Work. If this isn’t the case then the organization has to decide, (1) How do we deal with the Undone Work, and (2) How do we improve so that there is less Undone Work in the future.
 --->
-**<終わらなかった作業>** - 完成の定義と出荷可能との違い。完成の定義が完全である場合は、<終わらない作業>はありません。そうで無い場合は、組織は決定をしなければならない。(1)どのように<終わらない作業>を対処するのか。(2)どのように将来的に<終わらない作業>を少なくするための改善を行うのか。
+**<終わらなかった作業>** - 完成の定義と出荷可能との違い。完成の定義が完全である場合は、<終わらなかった作業>はありません。そうで無い場合は、組織は決定をしなければならない。(1)どのように<終わらなかった作業>を対処するのか。(2)どのように将来的に<終わらなかった作業>を少なくするための改善を行うのか。
 
 <!---
 **Unfinished, not finished, or not done**—Work that was planned in a Sprint but wasn’t completed. This is often confused with Undone Work. ‘Unfinished’ is work that the team planned for but didn’t finish whereas Undone Work was never even planned for. When a team has work that was not finished then they ought to feel anxious and discuss improvement actions during their Retrospective.
 --->
 **未完、終わってない、途中** - スプリントで計画されたが、完了しなかった作業。
-これは多くの場合、<終わらない作業>と混同されています。
-未完は、チームは計画したが終わらなかった作業なのに対し、<終わらない作業>は、計画さえしていない。
+これは多くの場合、<終わらなかった作業>と混同されています。
+未完は、チームは計画したが終わらなかった作業なのに対し、<終わらなかった作業>は、計画さえしていない。
 チームは、作業が途中になってしまった場合は、彼らは不安に感じるべきで、レトロスペクティブの間に改善活動を議論するべきです。
 <!---
 Teams should never leave work-in-progress at the end of the Sprint and “carry over” to the next one. This causes a lack of transparency and reduces scope flexibility. If they forecast too much work, they need to remove complete items which they haven’t started yet.
@@ -131,39 +131,39 @@ Teams should never leave work-in-progress at the end of the Sprint and “carry 
 Potentially Shippable = Definition of Done + Undone Work
 Work in Iteration = Product Backlog Item * Definition of Done
 --->
-出荷可能 = 完成の定義 + <終わらない作業>
+出荷可能 = 完成の定義 + <終わらなかった作業>
 イテレーションの作業 = プロダクトバックログアイテム * 完成の定義
 {: .box_top_bottom  .text_centered_bold }
 
 <!---
 ## Undone Work -> Risk and Delay
 --->
-<終わらない作業> -> リスクと遅延
+<終わらなかった作業> -> リスクと遅延
 <!---
 Let’s first explore the effects of Undone Work by running through a scenario.
 --->
-それでは、シナリオを通して、<終わらない作業>の効果を最初に調査してみよう。
+それでは、シナリオを通して、<終わらなかった作業>の効果を最初に調査してみよう。
 
 <!---
 The teams completed—according to the Definition of Done—twenty Product Backlog Items in the first Sprint. They have no unfinished work but there is a lot of Undone Work due to their weak Definition of Done. After the teams completed—according to the weak Definition of Done—forty Product Backlog Items in three Sprints. The amount of Undone Work has grown enormously causing a false sense of progress.
 --->
-チームは - 完成の定義に従って - 最初のスプリントで20プロダクトバックログアイテムを完了した。未完の作業は残っていないが、多くの<終わらない作業>がある。原因は、彼らの弱い完成の定義にある。その後、チームは - 弱い完成の定義に従って - 3スプリントで40のプロダクトバックログアイテムを完成した。<終わらない作業>の量は、進捗の誤った感覚を引き起こして、非常に成長した。
+チームは - 完成の定義に従って - 最初のスプリントで20プロダクトバックログアイテムを完了した。未完の作業は残っていないが、多くの<終わらなかった作業>がある。原因は、彼らの弱い完成の定義にある。その後、チームは - 弱い完成の定義に従って - 3スプリントで40のプロダクトバックログアイテムを完成した。<終わらなかった作業>の量は、進捗の誤った感覚を引き起こして、非常に成長した。
 
 <!---
 But they can’t ship. They have ‘done’ the features but their weak Definition of Done caused a vast amount of Undone Work to accumulate. This Undone Work causes delay and hidden risk.
 --->
-しかし、彼らは出荷出来ない。彼らはフィーチャーは完成しているが、弱い完成の定義が原因で、膨大な量の<終わらない作業>が溜まっている。この<終わらない作業>は、遅延と隠されたリスクの原因となった。
+しかし、彼らは出荷出来ない。彼らはフィーチャーは完成しているが、弱い完成の定義が原因で、膨大な量の<終わらなかった作業>が溜まっている。この<終わらなかった作業>は、遅延と隠されたリスクの原因となった。
 
 <!---
 **Delay**—Extra effort is needed to perform the Undone Work. This causes a lack of flexibility for the Product Owner—he can’t directly respond to market needs and changes. The pain caused by this delay is aggravated by the fact that the effort to complete the Undone Work is highly variable and thus hard to predict.
 --->
-**遅らせること**- <終わらない作業>を行うのに余分な手間が必要になる。この原因は、プロダクトオーナーにとって柔軟性の欠如となる - 市場のニーズや変化に対応することは出来ません。<終わらない作業>は、非常に変わりやすいく、見通すことが難しいため、この遅延による痛みは、<終わらない作業>を完成させるまでの努力によって、悪化する。
+**遅らせること**- <終わらなかった作業>を行うのに余分な手間が必要になる。この原因は、プロダクトオーナーにとって柔軟性の欠如となる - 市場のニーズや変化に対応することは出来ません。<終わらなかった作業>は、非常に変わりやすいく、見通すことが難しいため、この遅延による痛みは、<終わらなかった作業>を完成させるまでの努力によって、悪化する。
 
 <!---
 **Risk**—The Undone Work causes a lack of transparency. Risks are hidden in it. For example, if performance testing is left Undone then it delays the risk of a non-performing system until close to release—when it hurts most.
 --->
-**リスク** - <終わらない作業>は透明性の欠如の原因となる。リスクはその中に隠されている。
-例えば、パフォーマンステストが残っている場合は、システムのリリースの近く - 最も損害を与える時 - まで、不履行のリスクを遅らせる。 
+**リスク** - <終わらなかった作業>は透明性の欠如の原因となる。リスクはその中に隠されている。
+例えば、パフォーマンステストが残っている場合は、システムのリリースの近く - 最も損害を与える時 - まで、不履行のリスクを遅らせる。
 
 <!---
 A good Product Owner wants a perfect Definition of Done as that reduces product risk and avoids delay.
