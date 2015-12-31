@@ -42,7 +42,7 @@ Product Backlog Refinement is often done in:
 <!---
 ## Overall Product Backlog Refinement
 --->
-## 全宅的なプロダクトバックログリファインメント
+## 全体的なプロダクトバックログリファインメント
 
 <!---
 The LeSS rule raises the questions: How to decide which teams are likely to implement which items? And there are the scaling issues just examined: shared understanding, coordination, common work, aligned estimates, and balancing specialization and agility.
