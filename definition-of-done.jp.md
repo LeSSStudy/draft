@@ -22,7 +22,7 @@ The Definition of Done is an agreed list of criteria that the software will meet
 <!---
 ## Creating the Definition of Done
 --->
-完成の定義を作成する
+## 完成の定義を作成する
 <!---
 The initial Definition of Done must be agreed before the first Sprint. This usually happens in the [Initial Product Backlog Refinement workshop](initial-product-backlog-refinement.html).
 --->
