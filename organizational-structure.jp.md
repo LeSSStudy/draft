@@ -29,6 +29,7 @@ A typical LeSS organizational chart looks like this:
 Notice what isn’t here:
 --->
 ここでは無いことに注意をしてください:
+
 <!---
 * No project/program organization or project/program management office (PMO).
 These traditional control organizations cease to exist in a LeSS organization as their responsibilities are distributed between the feature teams and the Product Owner. Insisting on keeping such organizations will cause confusion and conflicts of responsibilities.
@@ -36,6 +37,7 @@ These traditional control organizations cease to exist in a LeSS organization as
 * プロジェクト/プログラム組織または、プロジェクト/プログラムマネジメントオフィス(PMO)ではない
 これらの従来の制御組織は、その責任はフィーチャーチームとプロダクトオーナーに分散しているようにLeSSの組織には存在しなくなります。
 このような組織維持しようとすると、混乱と責任の競合状態になるでしょう。
+
 <!---
 * No support groups such as configuration management, continuous integration support, or “quality and process”.
 LeSS organizations prefer to expand the existing teams responsibility to include this work over creating more complex organization with specialized groups. Specialized support groups tend to ‘own’ their area which leads to them becoming a bottleneck.
