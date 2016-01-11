@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title:  よりLeSS
+title:  より少ないことからより大きなことをなす
 order: 10
 ---
 
