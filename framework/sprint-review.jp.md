@@ -41,13 +41,13 @@ The most common mistake in a Sprint Review is to focus on the Product Owner acce
 <!---
 ## Sprint Review Bazaar
 --->
-## スプリントレビューバザー
+## スプリントレビューバザール
 
 <!---
 The Sprint Review is best conducted using a diverge-converge meeting pattern. During the diverge periods, use a bazaar. This is analogous to a science fair: A large room has multiple areas, each staffed by team representatives, where the items developed by a team are shown and discussed. Stakeholders visit areas of interest.
 --->
 スプリントレビューは、発散・収束のミーティングパターンで行うのが最良です。
-発散中は、バザーを使用します。
+発散中は、バザールを使用します。
 これはサイエンスフェアに似ています。
 大きな部屋を複数のエリアに分け、各チームの代表者が各エリアで、チームによって開発されたプロダクトバックログアイテムを示し、議論します。
 ステークホルダーは、興味のあるエリアに訪れます。
@@ -55,7 +55,7 @@ The Sprint Review is best conducted using a diverge-converge meeting pattern. Du
 <!---
 During the converge periods, stakeholders summarize their opinions from the bazaar. A subset of items may be inspected on a common computer projector during this time, also.
 --->
-収束時は、ステークホルダーは、バザーからの意見をまとめます。
+収束時は、ステークホルダーは、バザールからの意見をまとめます。
 プロダクトバックログアイテムの一部は、この時、共同のプロジェクターで検査することが出来ます。
 
 <!---
