@@ -47,6 +47,7 @@ The LeSS framework applies to products with 2-“8” teams.
 * プロダクトグループは、"開始時"にLeSSの構造を確立します。これはLeSSを採用するためには不可欠です。
 * プロダクトグループを超えた大規模な組織の場合は、実験と改善が標準であるような組織を作成するために、現場主義を使用し、LeSSを進化的に採用する。
 
+<!---
 ### LeSS Product
 
 * There is one Product Owner and one Product Backlog for the complete shippable product.
@@ -56,6 +57,16 @@ The LeSS framework applies to products with 2-“8” teams.
 * Each team can have their own expanded Definition of Done.
 * The definition of product should be as broad and end-user/customer centric as is practical. Over time, the definition of product might increase. Broader definitions are preferred.
 * The perfection goal is to improve the Definition of Done so that it results in a shippable product each Sprint (or even more frequently).
+--->
+### LeSSのプロダクト
+
+* 一人のプロダクトオーナーと完全に出荷可能なプロダクトのための一つのプロダクトバックログがあります。
+* プロダクトオーナーは、プロダクトバックログリファインメントを一人で行わないでください。プロダクトオーナーは、顧客/ユーザーや他のステークホルダーと直接作業する複数のチームでサポートされています。
+* 全ての優先順位付けは、プロダクトオーナーが実施しますが、明確化は可能な限りチームと顧客/ユーザーや他のステークホルダーの間で直接行われます。
+* プロダクト全体のために、一つの完成の定義が共有されます。
+* 各チームは、独自拡張した完成の定義を持つことが出来ます。
+* プロダクトの定義は幅広く、実用的なエンドユーザー/顧客中心であるべきです。時間が経つにつれて、プロダクトの定義が拡張する可能性があります。より広い定義が好ましいです。
+* 完成のゴールは、出荷可能なプロダクトを各スプリント毎(またはより頻繁に)できるように、完成の定義を改善することです。
 
 ### LeSS Sprint
 
