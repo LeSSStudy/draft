@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title: 完成の定義
+title: 完成の定義(Definition of Done)
 order: 87
 ---
 
