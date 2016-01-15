@@ -1,10 +1,10 @@
 ---
 layout: mechanics
-title: ƒXƒvƒŠƒ“ƒgƒoƒbƒNƒƒO (Sprint Backlog)
+title: ã‚¹ãƒ—ãƒªãƒ³ãƒˆãƒãƒƒã‚¯ãƒ­ã‚° (Sprint Backlog)
 order: 65
 ---
 
 <!---
 A Sprint Backlog is the list of work that the team will need to do for completing the selected Product Backlog Items. The Sprint Backlog is hence per team and there is no difference between a LeSS Sprint backlog and a Scrum Sprint Backlog.
 --->
-ƒXƒvƒŠƒ“ƒgƒoƒbƒNƒƒO‚ÍAƒvƒƒ_ƒNƒgƒoƒbƒNƒƒOƒAƒCƒeƒ€‚©‚ç‘I‘ð‚³‚ê‚½Aƒ`[ƒ€‚ª‚±‚È‚·•K—v‚ª‚ ‚éŽdŽ–‚ÌƒŠƒXƒg‚Å‚ ‚éB‚»‚ê‚ä‚¦AƒXƒvƒŠƒ“ƒgƒoƒbƒNƒƒO‚ÍAƒ`[ƒ€‚²‚Æ‚É‘¶Ý‚·‚é‚à‚Ì‚Å‚ ‚èALeSS ƒXƒvƒŠƒ“ƒgƒoƒbƒNƒƒO‚ÆƒXƒNƒ‰ƒ€ƒXƒvƒŠƒ“ƒgƒoƒbƒNƒƒO‚ÌŠÔ‚Éˆá‚¢‚Í‚È‚¢B
+ã‚¹ãƒ—ãƒªãƒ³ãƒˆãƒãƒƒã‚¯ãƒ­ã‚°ã¯ã€ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆãƒãƒƒã‚¯ãƒ­ã‚°ã‚¢ã‚¤ãƒ†ãƒ ã‹ã‚‰é¸æŠžã•ã‚ŒãŸã€ãƒãƒ¼ãƒ ãŒã“ãªã™å¿…è¦ãŒã‚ã‚‹ä»•äº‹ã®ãƒªã‚¹ãƒˆã§ã‚ã‚‹ã€‚ãã‚Œã‚†ãˆã€ã‚¹ãƒ—ãƒªãƒ³ãƒˆãƒãƒƒã‚¯ãƒ­ã‚°ã¯ã€ãƒãƒ¼ãƒ ã”ã¨ã«å­˜åœ¨ã™ã‚‹ã‚‚ã®ã§ã‚ã‚Šã€LeSS ã‚¹ãƒ—ãƒªãƒ³ãƒˆãƒãƒƒã‚¯ãƒ­ã‚°ã¨ã‚¹ã‚¯ãƒ©ãƒ ã‚¹ãƒ—ãƒªãƒ³ãƒˆãƒãƒƒã‚¯ãƒ­ã‚°ã®é–“ã«é•ã„ã¯ãªã„ã€‚
