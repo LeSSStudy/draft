@@ -68,6 +68,7 @@ The LeSS framework applies to products with 2-“8” teams.
 * プロダクトの定義は幅広く、実用的なエンドユーザー/顧客中心であるべきです。時間が経つにつれて、プロダクトの定義が拡張する可能性があります。より広い定義が好ましいです。
 * 完成のゴールは、出荷可能なプロダクトを各スプリント毎(またはより頻繁に)できるように、完成の定義を改善することです。
 
+<!---
 ### LeSS Sprint
 
 * There is one product-level Sprint, not a different Sprint for each Team. Each Team starts and ends the Sprint at the same time. Each Sprint results in an integrated whole product.
@@ -85,6 +86,20 @@ The LeSS framework applies to products with 2-“8” teams.
   * Guidance: Use decentralized “diverge-merge” techniques for better feedback and less boring meetings.
 * Each Team has their own Sprint Retrospective.
 * An Overall Retrospective is held after the Team Retrospectives to discuss cross-team and system-wide issues, and create improvement experiments. This is attended by Product Owner, ScrumMasters, Team Representatives, and managers (if there are any).
+--->
+
+### LeSSのスプリント
+* 各チームごとの異なるスプリントではなく、１つのプロダクトレベルのスプリントがある。
+* スプリントプランニングは２つのパートで構成されている:スプリントプランニング第一部は、全てのチームで行う。スプリントプランニング第二部は、各チーム分かれて行う。
+* スプリントプランニング第一部は、プロダクトオーナーとチームまたはチームの代表者が出席します。彼らは一緒に、次のスプリントに取り組むプロダクトバックログアイテムを暫定的に選択します。チームは共同で作業や最後の質問を明確にする機会を特定します。<!--- ここの訳はなんだ！？ --->
+* 各チームはチームのスプリントバックログがあります。
+* スプリントプランニング第二部は、チームが選択したプロダクトバックログアイテムをどう実施していくか決定します。これは通常、設計とスプリントバックログの作成が含まれています。彼らが次のスプリントの間にたくさんのプロダクトバックログアイテムを完成することが出来るか予測します。
+ * ガイダンス:いくつかのチームは連携を強化するために共有スペースで行います。
+* 各チームでデイリースクラムを行います。
+* クロスチームでの連携はチームによって決定されます。集中型の協調を超える分散化と非公式での調整を優先します。
+ * ガイダンス:オープンスペースでの協調、他のチームのデイリースクラムに参加、スクラムオブスクラム、マルチチームでのワークショップ、または単に同じスペースで作業しお互いに話す、視覚的なマネージメントの利用<!--- 視覚的なマネジメント？ --->
+
+
 
 ## LeSS Huge Framework Rules
 
