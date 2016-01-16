@@ -116,23 +116,50 @@ The table below and Figure 2 show the differences between feature teams and more
   <figcaption>図2. コンポーネントチーム vs フィーチャーチーム</figcaption>
 </figure>
 
+<!---
 The table below summarizes the differences between feature teams and conventional project or feature groups.
+--->
+以下の表は、フィーチャーチームと従来のプロジェクトやフィーチャーグループとの違いをまとめたものです。
 
+<!---
 |feature team|	feature group or feature project|
 |stable team that stays together for years and works on many features|	temporary group of people created for one feature or project|
 |shared team responsibility for all the work|	individual responsibility for ‘their’ part based on specialization|
 |self-managing team	|controlled by a project manager|
 |results in a simple single-line organization (no matrix!)|	results in a matrix organization with resource pools|
 |team members are dedicated—100% allocated—to the team|	members are part-time on many projects because of specialization|
+--->
+|フィーチャーチーム|フィーチャーグループ or フィーチャープロジェクト|
+|年間を通じて一緒にたくさんのフィーチャーで作業を維持する安定したチーム|1つのフィーチャーまたはプロジェクトのために集められた一時的なグループ|
+|全ての作業において責任を共有するチーム|専門に基づく個人の責任|
+|自己組織化されたチーム|プロジェクトマネージャーに管理される|
+|シンプルな単一ライン組織における結果(マトリックスではない)|リソースプールを持つマトリックス組織の結果|
+|チームメンバーは専任(100%割り当てられる)チーム|メンバーは専門であるがゆえに多くのプロジェクトで作業するパートタイム|
 
+<!---
 Most drawbacks of component teams are explored in the “Feature Teams” chapter of Scaling Lean & Agile Development, Figure 3 summarizes some of these.
+--->
 
+コンポーネントチームの欠点の多くは、"フィーチャーチーム"のスケーリングリーン＆アジャイル開発の章で検討されている。図3は、これらのいくつかをまとめたものです。
 
+<!---
 What is sometimes not seen is that a component team structure reinforces sequential development (a ‘waterfall’ or V-model), with many queues with varying-sized work packages, high levels of WIP, many handoffs, and increased multitasking and partial allocation.
+--->
+見えないこともあるが、コンポーネントチームの構造は、シーケンシャル開発(ウォーターフォールやV字モデル)を強化する。それは、多くの待ち行列や可変サイズの作業の塊、たくさんのWIP、多くの情報伝達、増大するマルチタスク、部分的な割り当てをもたらす。
 
+<!---
 ## Choose Component Teams or Feature Teams?
+--->
+## コンポーネントチームとフィーチャーチームとどちらを選ぶ？
 
+<!---
 A pure feature team organization is ideal from the value-delivery and organizational-flexibility perspective. Value and flexibility, however, are not the only criterion for organizational design, and many organizations therefore end up with a hybrid—especially during a transition from component to feature teams. Caution: hybrid models have the drawbacks from both worlds and can be…painful.
+--->
+
+純粋なフィーチャーチームの組織は、価値を届けるのと組織の柔軟性の観点から理想的です。
+価値と柔軟性は、しかしながら、組織設計のための唯一の基準ではなく、多くの組織は、特にコンポーネントチームからフィーチャーチームへの移行中にハイブリッドで終わる。
+注意:ハイブリッドモデルでは、両者の欠点と痛みを伴う...
+
 
 A frequently expressed reason in favor of a hybrid organization is the need to build infrastructure, construct reusable components, or clean up code—work traditionally done within component teams. But these activities can also be done in a pure feature team organization—without establishing permanent component teams. How? By adding infrastructure, reusable components, or cleanup work to the Product Backlog and giving it to an existing feature team—as if it were a customer-centric feature. The feature team temporarily—for as long as the Product Owner wishes—does such work and then returns to building customer-centric features.
 
