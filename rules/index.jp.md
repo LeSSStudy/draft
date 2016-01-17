@@ -105,13 +105,21 @@ The LeSS framework applies to products with 2-“8” teams.
 * 各チーム毎にスプリントレトロスペクティブを行います。
 * 全体的なレトロスペクティブは、クロスチームとシステム全体の課題を議論し、改善策を出すために、チームのレトロスペクティブの後に行われます。これは、プロダクトオーナー、スクラムマスター、チームの代表者、マネージャー(任意)が出席します。
 
-
+<!---
 ## LeSS Huge Framework Rules
+--->
+## LeSS Hugeフレームワークルール
 
+<!---
 LeSS Huge applies to products with “8+” teams. Avoid applying LeSS Huge for smaller product groups as it will result in more overhead and local optimizations.
 
 All LeSS rules apply to LeSS Huge, unless otherwise stated.
+--->
+LeSS Hugeは、8チーム以上に適用されます。より多くのオーバーヘッドとローカルの最適化をもたらすため、小さいプロダクトグループに適用するのは避けてください。
 
+特に明記しない限り、すべてのLeSSルールは、LeSS Hugeにも適用されます。
+
+<!---
 ### LeSS Huge Structure
 
 * Customer requirements that are strongly related from a customer perspective are grouped in Requirement Areas.
@@ -120,7 +128,18 @@ All LeSS rules apply to LeSS Huge, unless otherwise stated.
 * Each Requirement Area has between “4-8” teams. Avoid violating this range.
 * LeSS Huge adoptions, including the structural changes, are done with an evolutionary incremental approach.
 * Remember each day: LeSS Huge adoptions take months or years, infinite patience, and sense of humor.
+--->
 
+### LeSS Hugeの構造
+
+* 顧客の視点から強い関連のある顧客の要求は、要求エリアにグループ化されます。
+* 各チームは1要求エリアに特化しています。要求エリアよりもチームの方が長命なため、チームは各スプリントごとに要求エリアを変えることはないが、他の要求エリアの価値が大きくなってきた場合には、チームは、要求エリアを変更します。
+* 各要求エリアには、1人のエリアプロダクトオーナーがいます。
+* 各要求エリアは、"4~8"のチームが所属できます。この範囲を違反しないようにしてください。
+* 構造変化を伴うLeSS Hugeの採用は、漸進的なインクリメンタルなアプローチで行われます。
+* LeSS Hugeの採用は、数ヶ月または数年と無限の忍耐力、またユーモアのセンスが必要です。毎日忘れないでください。
+
+<!---
 ### LeSS Huge Product
 
 * Each Requirement Area has one Area Product Owner.
@@ -128,7 +147,15 @@ All LeSS rules apply to LeSS Huge, unless otherwise stated.
 * Area Product Owners act as Product Owners towards their teams.
 * There is one Product Backlog; every item in it belongs to exactly one Requirement Area.
 * There is one Area Product Backlog per Requirement Area. This backlog is conceptually a more granular view onto the one Product Backlog.
+--->
+### LeSS Hugeのプロダクト
+* 各要求エリアには、1人のエリアプロダクトオーナーがいます。
+* 1人の(全体の)プロダクトオーナーは、プロダクト全体の優先順位付けと決定を行う責任があります。プロダクトオーナーは、エリアプロダクトオーナーと密接に協力します。
+* エリアプロダクトオーナーは、チームに対してはプロダクトオーナーとして機能します。
+* 1つのプロダクトバックログに、エリアプロダクトバックログの全てが入っている。
+* 要求エリアごとにエリアプロダクトバックログが存在します。このバックログは概念的には1つのプロダクトバックログをよりきめ細かにしたものです。
 
+<!---
 ### LeSS Huge Sprint
 
 * There is one product-level Sprint, not a different Sprint for each Requirement Area. It ends in one integrated whole product.
@@ -138,3 +165,15 @@ All LeSS rules apply to LeSS Huge, unless otherwise stated.
   * Guidance: Hold an additional product-level Sprint Review, to inspect key items, and to summarize and synchronize the learnings to enable product-level adaptation.
 * A Overall Retrospective is held per Requirement Area.
   * Guidance: Hold an additional product-level Overall Retrospective to identify global problems and structural changes, and create improvement experiments.
+--->
+
+### LeSS Hugeのスプリント
+
+* 要求エリアごとに異なるスプリントではなく、1プロダクトレベルのスプリントで行われる。これは1つの統合されたプロダクト全体で終わる。
+* 全てのスプリントでは、各要求エリアごとにLeSSルールが適用される。
+* プロダクトオーナーとエリアプロダクトオーナーは、頻繁に同期を行います。スプリントプランニングを行う前に、チームが価値の高いプロダクトバックログアイテムに取り組めるようする。スプリントレビューの後は、プロダクトレベルでの適応を可能にする。
+* スプリントレビューは、要求エリアごとに行われます。
+ * ガイダンス:重要なプロダクトバックログアイテムを検査し、まとめ、プロダクトレベルでの適応を可能にするための学びを同期するために、追加のプロダクトレベルのスプリントレビューを開催します。
+* 全体的なレトロスペクティブは、要求エリアごとに行われます。
+ * ガイダンス:全体的な課題の特定や、構造の変更、改善の試みを作成するために、追加のプロダクトレベルでの全体的なレトロスペクティブを開催します。
+ 
