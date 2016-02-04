@@ -56,7 +56,7 @@ Let’s examine a LeSS organization…
 “Head of Product Group” is called differently in different organization, here we mean the hierarchical manager of all the teams.
 --->
 **プロダクトグループ長**—ほとんどのLeSSの組織では、"プロダクトグループ長"などのマネージャーが存在する。
-彼らは現場主義によってチームをサポートし、それらが障害の除去し、チームが成長するのを助けます。
+彼らは現地現物によってチームをサポートし、それらが障害の除去し、チームが成長するのを助けます。
 ”プロダクトグループ長”は、ここでは、全てのチームの階層的なマネージャーを指しているが、異なる組織では別の名前で呼ばれています。
 
 <!---
