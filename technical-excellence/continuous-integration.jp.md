@@ -149,7 +149,7 @@ Similar to the lean concept of jidoka , CI means always having a stable system.
 When a test fails–run locally or on the CI system–the developer fixes it immediately and therefore always keeps a working and stable system.
 
 リーンにおける「自働化」の概念同様、CIは常に安定したシステムを意味する。
-テストが失敗した時、ローカルだろうがCIシステム上だろうが、開発者はそれをすぐに修正することで、稼働して安定したシステムを維持する。
+テストが失敗した時、ローカルだろうがCIシステム上だろうが、開発者はそれをすぐに修正することで、役に立って安定したシステムを維持する。
 
 Traditional sequential development has un-integrated work-in-progress (WIP). 
 Nobody knows if these parts work together or if they are free of defects. 
@@ -171,7 +171,7 @@ Both reduce variability, uncertainty, and risk by working in small batches--iter
 
 This working system, evolved in small increments, is created by…
 
-この動いているシステムは、小さなインクリメントが含められ、作られるのだがそれは。。。
+この役に立つシステムは、小さなインクリメントが含められ、作られるのだがそれは。。。
 
 <img class="rounded shadowed" src="http://less.works/img/technical-excellence/xcontinuous-integration-chicken.png.pagespeed.ic.nvadKU22pt.png" alt="continuous-integration-chicken.png" pagespeed_url_hash="3833794616" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 
@@ -267,13 +267,23 @@ Rather, whenever a small amount of work can be integrated without breaking the s
 
 How frequent is ‘continuous’? As frequently as possible! This is limited by
 
-* the ability to split large changes
-* speed of integration
-* speed of feedback cycle
+「継続的」とはどのくらいだろうか？可能なかぎり頻繁にということだ！これには次の制限を受ける。
+
+- the ability to split large changes
+- speed of integration
+- speed of feedback cycle
+
+- 大きな変更を分割する能力
+- 統合するスピード
+- フィードバックサイクルのスピード
 
 Ability to split large changes –splitting large changes into smaller ones, while keeping the old functionality working, is a skill that must be learned.
 The better developers are at this splitting, the more frequently they can integrate.
 TDD, in short ten-minute cycles, is an excellent technique for this.
+
+**大きな変更を分割する能力** - 機能を維持しつつ大きな変更を小さく分割するということは、学ぶべきスキルだ。
+開発者がより優れているほど、この分割で彼らはより頻繁に統合できている。
+10分程度のサイクルでのTDDは、これの非常に良いテクニックとなる。
 
 Speed of integration –the more time it takes to integrate changes into the code repository, the less frequently developers will do so.
 Changes are batched for the sake of efficiency.
@@ -282,6 +292,16 @@ Reduce this overhead or find creative ways to do things differently.
 For example, we worked with a 40-person product group where the check-in message had to mention the person who had reviewed the code.
 The result? Developers batched many changes to make the code reviews more ‘effective’ and thus delayed integration–a local optimization.
 Solution? Code reviews can instead be done on already integrated code–not delaying the integration.
+
+**統合のスピード** - コードリポジトリに変更を加えて噛合するのに時間がかかるほど、開発者がそうする頻度が減っていく。
+変更は効率化のために大きな塊になってしまう。
+統合の努力は、開発者が統合する前に承認やレビューを要するような、プロセスのオーバーヘッド（やりとりのコスト）に影響を受ける。
+オーバーヘッドを減らすか、違ったやり方を見つけよう。
+例えば、筆者らは誰がコードをレビューしたのかというメッセージをチェックイン時のメッセージに残すという、40人のプロダクトグループで仕事をしたことがある。
+どうなったかって？
+開発者はコードのレビューをより「効率的」に行うよう沢山の変更を一つにまとめ、それによって統合が遅れるという、局所最適に陥った。
+解決策は？
+コードレビューは、すでに統合されたコードで終わらせられたことにできる。これで統合は遅れない。
 
 Speed of feedback cycle –a developer should only integrate changes that do not break existing tests.
 Ideally, he runs all the tests before integrating.
@@ -295,28 +315,71 @@ Finally, when the build is fixed, all developers integrate their batched changes
 Therefore, the safety-net-feedback cycle has to be fast.
 This decreases the chance the build will break and increases the ability to check in more frequently.
 
+**フィードバックサイクルのスピード** - 開発者は既存のテストを壊さない変更のみを統合すべきだ。
+理想的には、全てのテストを統合前に実行していると良い。
+これを可能とするには、テストがとても早く実行できるべきだ。
+もし遅いようなら、開発者は「より効率良く働く」ために統合を遅らせるだろう。
+しかしながら、全てのテストを実行することは、大きなシステムでは困難だ。
+なので、開発者はチェックインの前にテストのサブセットのみを実行し、CIシステムが残りのテストを実行する。
+CIシステムは、開発者が実行しなかったテストのフィードバックを返すことでセーフティーネットとして振る舞う。
+CIシステムが遅かったらどうなるだろう？
+まず、一つのサイクル中に多くの変更が含まれ、ビルドが壊れる問題が増加するだろう。
+そして、開発者はビルドが壊れているうちは彼らの変更を統合しなくなり、それらを大きなバッチにするだろう。
+そして終いには、ビルドが治った時、すべての開発者が大きなバッチになった変更を統合し、再びビルドが壊れる問題がより多発することになるだろう。
+それゆえ、セーフティーネットのフィードバックサイクルは早くあるべきなのだ。
+これはビルドが壊れる問題を減らし、より頻繁にチェックインできる機会を多くしてくれるのだ。
+
 Rule of thumb for large products moving to agile and lean development: All developers integrate at least daily.
 Even though “daily builds are for wimps ” [Jeffries04], daily is a first step for large products.
 Recall the “lake and rocks” metaphor used in lean thinking–the big rock of just being able to build once a day with everyone’s updates is hard enough on big old systems with 300 developers in four countries.
 Eventually, that big rock is removed, and shorter cycles are possible.
 
+大きなプロダクトでのアジャイルやリーン開発への移行をおおまかにいとこうだ。
+すべての開発者は少なくとも1日に1回統合する。
+[「意気地なしのデイリービルド」](http://www.amazon.com/dp/0735619492)だとしても、日次実行は大きなプロダクトでの第一歩である。
+リーン思考の「水と石」のメタファを思い出そう。
+全員の更新分を1日に1回ビルドできるようにする際の大きな岩は、4つの国で300人の開発者がいる大きな古いシステムではとても困難なものだ。
+最終的に大きな岩は取り除かれ、短いサイクルが可能となる。
+
 On large products, it will take time to learn to split changes, simplify the integration process, and set up a fast CI system running…
+
+大きなプロダクトでは、変更の分割を学ぶには時間がかかるだろうが、統合プロセスを単純化し、早いCIシステムをセットアップし、、、
 
 ### On the Mainline
 
 Developers integrate on the mainline or trunk [BA03].
 Making changes on a separate branch means that the integration with the main branch is delayed.3 The current status is not visible, so you do not know if everything works together.
 
+開発者はメインラインかtrunkに統合する。
+異なるブランチに変更を加える事は、メインのブランチでの統合が遅れることを意味する。
+現在の状況が見えないので、全てが一緒に動くかどうかはわからないだろう。
+
 Branching during development breaks the purpose of CI and should be avoided.
 There are exceptions: First, customers might not want to upgrade their product to the latest release but still want patches.
 Thus, release branches are needed.4 Second, when scaling up a CI system, it can be useful to have very short-lived branches that are automatically integrated in the mainline–more about that later.
+
+開発中のブランチ分けはCIの目的を壊すので、避けるべきである。
+が、例外はある。
+一つ目は、顧客が彼らのプロダクトを最新リリースにアップグレードをしたいとは思っておらず、パッチを当てたいと思っている場合だ。
+これにはリリースブランチが求められる。
+二つ目は、CIシステムがスケールアップした時、メインラインでの統合を自動で行うかなり短命のブランチを作るのは有用だろう。
+これについては後述する。
 
 What about branching for customization? Bad idea! Instead, manage these through a configurable design or parameterized build instead of using your Software Configuration Management (SCM) system.
 We once worked on a network-optimizing product being built by a co-located product group who insisted on branching for different configurations.
 Developers worked on these separate branches for over a year.
 Afterwards, it took them an additional half-year –and lots of fighting–to merge them in the trunk.
 
+カスタマイズ用のブランチはどうだろう？
+それは悪い考えだ！
+そうではなくて、フトウェア構成管理システムを使う代わりに、設定可能な設計やパラメタライズドビルドを通して管理するのだ。
+筆者らはかつて、異なる構成にブランチを使用することにこだわった一箇所にまとめられたプロダクトグループによって構築された、ネットワーク最適化プロダクトの仕事に関わったことがある。
+開発者はい年以上を通して分離したブランチで作業を行っていた。
+その後、trunkにそれらをマージするのに多くの格闘とともに更に半年費やしていた。
+
 Successful mainline development is…
+
+メインラインの開発をうまくやるには、、、
 
 ### Supported by a CI System
 
@@ -326,11 +389,25 @@ Mistakes become painfully visible when these buffers are removed–and that is a
 The same thing happens when all changes are integrated directly to the mainline.
 All developers update their local copy frequently; when someone checks in broken code, it is visible to everybody–they will be annoyed.
 
+リーンはムダの一つである在庫の最小化を強調している。
+在庫は、誤りが隠蔽されてしまうバッファやキューとして振る舞う。
+誤りはバッファが取り除かれると痛々しさが目に見えるものとなるが、それはいいことなのだ。
+同じようなことが、すべての変更がメインラインで直接統合されるときに現れる。
+すべての開発者はローカルコピーを頻繁に更新する。
+誰かが壊れたコードをチェックインしてしまうと、みんなに対して可視化されているので、彼らはイラつくだろう。
+
+
 People make mistakes.
 That’s OK.
 A lean stop-the-line safety net is needed to detect them early.
 Developers fix a mistake before it affects others.
 This safety net, an andon -like system, in Toyota terminology, is a CI system.
+
+人はミスを犯してしまうものだ。
+それは仕方がない。
+リーンのラインを止めるセーフティーネットは、それらを素早く検知するためのものだ。
+開発者は他に影響を及ぼす前にミスを修正する。
+この、トヨタの用語で言うあんどんのようなシステムであるセーフティーネットはCIシステムなのだ。
 
 <img src="http://less.works/img/technical-excellence/xcontinuous-integration-system.png.pagespeed.ic.-b-wfzT07E.png" alt="continuous-integration-system.png" pagespeed_url_hash="215266350" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 
@@ -340,9 +417,21 @@ All this happens fast; Extreme Programming recommends within ten minutes.
 If a developer breaks the build, the CI system will query the SCM system and find out who made the change.
 It sends him e-mail saying: “You broke the build, fix it!” Fixing the broken build is the number one priority because it affects everybody.
 
+CIシステムはSCMをリスンする。
+開発者がコードをチェックインすると、CIシステムは全てのコードをチェックアウトしてコンパイルし、いくつかの種類のテストを実行し、インストールし、そしてさらに別のテストを実行する。
+これら全ては素早く行われる。
+XPでは10分以内と述べている。
+もし開発者がビルドを壊してしまったら、CIシステムはSCMシステムに問い合わせ、どの変更によるものかを見つける。
+そしてその開発者に対し、「ビルドを壊したので修正するように！」とメールを送り付ける。
+壊れたビルドを修正することは全員に対して影響をおよぼすので、No.1のプライオリティを持つ。
+
 For a small product, it is easy to have a fast, ten-minute build.
 For a large product with legacy code and many people, it is quite a challenge.
 Later, this chapter examines several techniques for scaling up a CI system…
+
+小さなプロダクトでは10分以内に素早くビルドを行うことは容易だ。
+レガシーコードと多くの人が関わる大きなプロダクトでは、かなりのチャレンジとなる。
+後ほど、このチャプターでCIシステムのスケールアップに関する幾つかのテクニックについて考察する、、、
 
 ### With Lots of Automated Tests
 
@@ -350,10 +439,19 @@ It is not very hard to have a CI system compile everything; it’s not very usef
 You want to have as many tests as possible running in your CI system.
 The more automated tests, the better your safety net and the more confidence your system is working.
 
+CIシステムに全てをコンパイルさせることはそれほど大変でもないし、それほど有益なものでもない。
+CIシステムで走らせられるだけのテストをほしいと思うだろう。
+自動テストが多いほど、セーフティーネットが良くなり、システムが動くという自信がより持てるだろう。
+
 For new products, creating automated tests is not hard.
 However, many large products have legacy code without automated tests.
 Developers need to add automated tests–which is a lot of work.
 The chapter on legacy code covers this.
+
+新規のプロダクトでは、自動テストを作るのはそれほど大変でもない。
+がしかし、多くの大きなプロダクトは、自動テストのないレガシーコードを持つ。
+開発者は自動テストを追加する必要があるが、それは多くの作業を要する。
+レガシーコードの章でこれを扱う。
 
 ### Scaling a CI System
 
@@ -361,17 +459,31 @@ First, the build and test need to be fully automated.
 Many large products groups we worked with have manual steps in their build.
 See the recommended readings for texts that are useful for automating the build.
 
+まず、ビルドとテストは完全に自動化できている必要がある。
+筆者らが働いていた多くの大きなプロダクトはビルドのステップがマニュアル化されていた。
+自動ビルに関する有用なおすすめ記事を見ること。
+
 The obstacles for scaling a CI system relate to more people producing more code and tests.
 First, the probability of breaking the build increases with more people checking in code.
 Second, an increase in code size leads to a slower build and thus a slower CI feedback loop.
 These together can lead to continuous build failure (See the dynamics of broken builds.).
 
+CIシステムをスケーリングする際の障害は、より多くの人がより多くのコードとテストを生み出しているかに関わる。
+最初に、ビルドが壊れる可能性は多くの人がコードをチェックインするにつれ増大化していく。
+次に、コードのサイズの増加がビルドを遅くしてしまうので、CIのフィードバックループも遅くなってしまう。
+これらはともに継続的ビルドの失敗へと繋がるのだ。（ビルド失敗のダイナミクスの図を参照）
+
 <img src="http://less.works/img/technical-excellence/xcontinuous-integration-causal-loop-ci-number-of-people.png.pagespeed.ic.IEXxsQEX8M.png" alt="continuous-integration-causal-loop-number-of-people" pagespeed_url_hash="884724140" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 
 The solutions are simple:
 
+解決策は単純だ。
+
 * speed up the build
 * implement a multi-stage CI system
+
+* ビルドの速度を上げる
+* マルチステージのCIシステムを実装する
 
 Job one: Speed up the build.
 If the whole product can be compiled and tested within one second , then scaling techniques are not needed.
@@ -379,6 +491,14 @@ The one-second build is out of reach for large products, for now .
 Though every improvement brings us closer, the one-second build helps.
 Giving general guidelines for speeding up builds is hard–it’s often product specific.
 Some general solutions [Rasmusson04]:
+
+最初の作業は、ビルドの高速化だ。
+もしすべてのプロダクトが1秒でコンパイルとテストを実行できるなら、スケールするテクニックは不要だろう。
+1秒ビルドは大きなプロダクトでは今のところ難しい。
+しかし、全ての進歩は1秒ビルドに近づく助けとなる。
+ビルドの高速化の一般的なガイドラインを提供することは難しい。
+プロダクトの特性によるからだ。
+いくつかの一般的な解決策はこれだ。
 
 * add hardware
 * parallelize
@@ -388,15 +508,34 @@ Some general solutions [Rasmusson04]:
 * manage dependencies
 * refactor tests
 
+* ハードウェアの増設
+* 並列化
+* ツールの変更
+* 増分ビルド
+* 増分デプロイ
+* 依存性の管理
+* テストのリファクタ
+
 Add hardware –the easiest way to speed up the build is to buy more hardware.
 Throw a couple of extra computers, extra memory, or a faster network connection at the problem and it goes away.
 Upgrading existing hardware takes investment and only minimum effort, making it the easiest and best choice.
 The build of one telecom product speeded up 50 percent by compilation on a RAM disk–and this only required a memory upgrade.
 
+**ハードウェアの増設** - ビルドの高速化の最も手っ取り早い手段はハードウェアを買い足すことだ。
+幾つかのコンピューター、メモリ、あるいは高速なネットワーク接続の追加をすることで、問題を取り除ける。
+既存のハードウェアをアップグレードすることは、投資とほんのちょっとした努力を要するが、対処としては最も容易で最善の選択である。
+あるテレコムのプロダクトのビルドはコンパイルにRAMディスクを利用することで、50パーセントの高速化ができた。
+そしてそれはメモリを増設するだけですんだのだ。
+
 Parallelize –related to adding hardware is to parallelize and distribute the build.
 It often requires redesigning the build scripts, changing tools, or even building new tools.
 Therefore, more effort is needed compared with just adding new hardware.
 A large telecom product speeded up their build by building every component on a separate computer.
+
+**並列化** - ハードウェアの増設と関連することに、ビルドの並列化と分散化がある。
+それはたいてい、ビルドスクリプトの再設計、ツールの変更、あるいは新しいツールのビルドなどが必要となる。
+それゆえ、ハードウェアを増設するよりも多くのやるべきことがある。
+大きなテレコムプロダクトは全てのコンポーネントを別々のコンピューターでビルドすることで、ビルドの高速化ができた。
 
 Change tools –upgrading tools to the latest version or replacing a slow tool with a fast one speeds up the build a lot.
 Simply by switching compilers we once made a 50 percent improvement in compile time.
@@ -406,11 +545,29 @@ Some misinformed people incorrectly argue that Subversion is not suitable for la
 But we have seen it used successfully in product groups with four hundred people located at multiple sites around the globe.
 Ironically, the so-called large-scale features of ClearCase, such as multisite support, make real CI impossible because they force code ownership.
 
+**ツールの変更** - ツールを最新版にアップグレードするか遅いツールを早いものに置き換えるかすることで、ビルドの高速化をはかれる。
+単純にコンパイラを変えることで、筆者らはコンパイル時間を50パーセント改善した。
+非常によくある厄介事だが、筆者らが見た遅いツールというのはIBMのRational ClearCaseだ。
+プロダクトグループの全ての時間に関して、ClearCaseから（よく出来たオープンソースのフリーなSCMシステムである）Subversionに変えたら。。。
+第一に、（筆者らの顧客の25%から50%の環境で）ビルド時間が短くなった。
+第二に、ライセンスを除外することで企業の大事なお金の出費を抑えられた。
+そして第三に、開発者の生活常用が改善した。
+それ以来、筆者らが仕事をしているグループでは、ClearCaseは最も嫌がられるツールである。
+何人かの勘違いを人たちが、Subversionは大規模なプロダクト開発には向かないと、誤ったことを伝えている。
+しかし、筆者らは400人もの人びとと世界中の幾つかの場所からなるプロダクトのグループでうまく使っているのを見たことがある。
+皮肉なことに、ClearCaseのマルチサイトサポートといった、いわゆる大規模向けなフィーチャーは、コードのオーナーシップを共用するので、真のCIを不可能にしてしまっているのだ。
+
 Build incrementally –you only need to compile changed components and run related tests.
 Easy in theory; hard in practice.
 Dependencies between components, changes in interfaces, or incompatible binaries are some of the things that make compiling only the change a difficult proposition.
 For the same reasons, finding all tests related to the changed component can be difficult.
 Incremental builds are rarely 100 percent reliable, and to prevent corruption of the incremental build, it’s a good idea to also keep a clean daily build.
+
+**増分ビルド** - 変更のあったコンポーネントをコンパイルして、関連するテストを実行する必要があるだけだ。
+理論はやさしいが、実践は難しい。
+コンポーネントの遺贈関係、インターフェイスの変更、あるいは互換性のないバイナリーは、変更した部分だけをコンパイルするのを難しいものとしてしまう。
+同じ理由で、コンポーネントの変更に関わる全てのテストを検出することも難しくなる。
+増分ビルドが100パーセント確かなものとなることはあまりないので、増分ビルドの腐敗を避けるのに、日次でのクリーンビルド実行もいい考えだ。
 
 Deploy incrementally –on large embedded products, it can take a long time to deploy or install software; a radio network’s telecom product we worked with took more than an hour to deploy.
 This is not unusual.
@@ -419,10 +576,24 @@ The changes need to be loaded, and this can be done by rebooting the system.
 However, starting a large system is time consuming, and therefore some systems are upgraded dynamically–an important feature in telecom and other industries where downtime is very expensive.
 Incremental deployment–especially dynamic upgrading–requires changes to the system, making this option difficult.
 
+**増分デプロイ** - 大規模の埋め込みプロダクトでは、ソフトウェアのデプロイやインストールは長い時間を要する。
+ラジオ放送網のテレコムプロダクトで働いていた時は、デプロイに1時間以上費やしていた。
+これは異常なことではない。
+テストは（変更のあったコンポーネントだけの）増分デプロイがなされると早くなる。
+変更はロードされる必要があり、それはシステムのリブートによりなされる。
+しかしながら、大規模なシステムの起動は時間がかかるので、幾つかのシステムは動的にアップグレードがなされる。
+テレコムや、停止時間が非常に高価なである他業種での重要なフィーチャーなどだ。
+（特に動的アップグレードだが）増分デプロイはシステムの変更を要することが、この選択肢を困難なものとしている。
+
 Manage dependencies –unmanaged dependencies are a common reason for slow builds.
 Examples: Header files including many other header files, or multiple link cycles to resolve cyclic link dependencies.
 For a multimedia product, we spent several hours on re-ordering link dependencies–cutting link time in half.
 Reducing dependencies speeds up your build and, as a side effect, improves the structure of your product.
+
+**依存性の管理** - 依存性を管理していないことが、ビルドが遅いことのよくある原因だ。
+例えば、たくさんのヘッダーファイルをインクルードしたヘッダーファイルや、循環参照を解決するための複数のリンクサイクルだ。
+マルチメディアプロダクトで、筆者らはリンクの依存性の順番替えに数時間を費やして、リンクする時間を半分にしたこともある。
+依存性を減らすことはビルドを高速化するが、副次的な効果として、プロダクトの構造の改善にも繋がる。
 
 > Note a key insight
 > Improving the build improves the structure of your product.
@@ -430,14 +601,33 @@ Why? Because bad structure becomes painfully visible when you try to shorten the
 
 > This is a lean insight discussed before: A powerful side effect of shorter cycle times is the need to dramatically improve the processes and the product to support short cycles and small batches.
 
+> 洞察メモ
+> ビルドの改善がプロダクトの構造を改善する。
+なぜかって？
+良くない構造はビルドのサイクルタイムを短くしようとした時に、苦行に見えるようになってしまうからだ。
+
+> リーンでの洞察で前に述べたことだ。
+サイクルタイムを短くする強力な副次的な効果は、短いサイクルとスモールバッチを支援するために、プロセスとプロダクトの劇的な改善を必要とすることだ。
+
 Refactor tests –unfortunately, many developers care less about test code than production code.
 The result? Badly structured test code and slow tests.
 We once spent only half a day refactoring tests–and speeded up the build by 60 percent! By profiling and refactoring tests you can frequently make these kinds of quick gains.
+
+**テストのりファクター** - 不幸なことに、多くの開発者はプロダクトコードほどテストコードに気を配らない。
+結果は？
+良くない構造のテストコードと遅いテストだ。
+筆者らはかつてテストのリファクタリングにたった半日費やしただけで、60％もビルドが早くなったことがある。
+テストを調べてリファクタリングすることで、頻繁にこの手の素早い結果を出せる。
 
 A multi-stage CI system splits the build and executes it in different feedback cycles.
 At the lowest level, it has a very fast CI build containing unit tests and some functional tests.
 When this CI build succeeds, it triggers a higher-level build, containing slower system-level tests.
 Larger products have more stages.
+
+マルチステージのCIskステムはビルドを分割し、それらを異なったフィードバックサイクルで実行する。
+最も低いレベルでは、単体テストといくつかの機能テストを含んだ非常に高速なCIビルドを持つ。
+このCIビルドが成功すると、遅いシステムレベルのテストを含んだ高いレベルのビルドが始まる。
+大きなプロダクトではステージがもっとある。
 
 A CI system is comparable to the “stop the line” culture at Toyota.
 When a defect is detected, Toyota stops the line, and the first priority is to fix the defect and its root cause.
@@ -445,15 +635,33 @@ Isn’t a multi-stage CI system hiding defects and against this lean principle? 
 A stop-the-line attitude is absolutely needed, but this does not mean that you should blindly stop all the work.
 Even Toyota does not do that [LM06a].
 
+CIシステムはトヨタの「ラインを止める」文化に例えられる。
+欠陥が見つかると、トヨタはラインを止め、そして最優先として行うことは、欠陥を直しその根本原因を突き止めることだ。
+マルチステージのCIシステムは欠陥を隠し、これがリーンの原則に反してやいないかだって？
+反してはいない。
+ラインを停めるという態度は本当に必要だが、盲目的に全てを止めるということを意味してないのだ。
+トヨタでさえそうしてない。
+
 > Toyota has developed a system that allows problems to be identified and elevated without necessarily stopping the line.
 When a problem is identified and the cord is pulled, the alarm sounds and a yellow light is turned on.
 The line will continue to move until the end of work zone–the “fixed position stop” point… the line will stop when the fixed position is reached and the andon will turn red.
+
+> トヨタは、ラインを止めることなく問題を特定し浮上させるようなシステムを開発した。
+問題が特定され紐が引かれると、渓谷がなり黄色いランプが点灯する。
+ラインは作業エリアの最後、定位置停止と呼ばれるところまでは動き続ける。
+ラインが止まるのは定位置停止に到達したときで、そこでアンドンが赤く点灯する。
 
 A multi-stage CI system works the same way.
 You identify the problem early and act on it, but you do not want it to affect everyone.
 Only if the problem turns out to be really serious do you “stop the line.”
 
+マルチステージのCIも同様に働く。
+問題を早く見つけ、そこに働きかけるが、みんなに影響を与えたくはないだろう。
+問題が本当に深刻になった場合にだけ、「ラインを止める」のだ。
+
 When building a multi-stage CI system, consider
+
+マルチステージのCIシステムを構築するときは、以下のことを考慮する。
 
 * a developer build
 * component or feature focus
@@ -461,9 +669,19 @@ When building a multi-stage CI system, consider
 * event or time triggers
 * the number of stages
 
+* 開発者ビルド
+* コンポーネントかフィーチャーかにフォーカス
+* 自働か手動かのプロモーション
+* イベントか時間かで実行
+* ステージの数
+
 A developer build –developers practicing CI need to verify their changes before checking in.
 Therefore, they must be able to work with a subset of the system, often a component, and be able to run unit tests for it.
 Take this into account when automating your build.
+
+**開発者ビルド** - 開発者のCIの実践はチェックイン前に彼らの変更の検証が必要だ。
+なので、彼らはコンポーネントなどといったシステムのサブセットで作業でき、その単体テストを実行できる必要がある。
+ビルドを自動化するときには考慮しよう。
 
 Component or feature focus –a traditional multi-stage CI system is structured around components.
 The lowest level builds one component, the next level a subsystem, and the highest level builds the whole product.
@@ -472,8 +690,19 @@ But where to include higher-level acceptance tests, and what about feature teams
 When someone checks in code, all the related feature-CI systems are triggered.
 Tests are now run in parallel, but the same component is compiled multiple times.
 
+**コンポーネントかフィーチャーかにフォーカス** - 伝統的なマルチステージのCIシステムはコンポーネントを中心に構築されている。
+低いレベルでは一つのコンポーネントをビルドし、次のレベルではサブシステム、更に高いレベルでは全てのプロダクトをビルドする。
+コンポーネントを中心に組織化されたチームでは、チームは「自分たちの」Ciシステムの面倒を見る。
+しかし高いレベルの受け入れテストを含むところで、フィーチャーチームはどうなんだろう？
+代替案はCIシステムをフィーチャー中心に構築することだ。
+誰かがコードをチェックインすると、全ての関連するフィーチャーのCIシステムが実行される。
+テストは並列で実行されるが、同じコンポーネントは複数回コンパイルされる。
+
 One distributed product group we worked with mixes the two approaches.
 On a lower level, the CI system is organized around components, and the output of this triggers multiple-feature CI systems running higher-level acceptance tests in parallel.
+
+2つのことなるアプローチをミックスしていた、とある分散したプロダクトグループで働いていた。
+低いレベルではCIシステムはコンポーネント中心に組織化され、これの成果物により並列に高いレベルの受け入れテストを実行する複数のフィーチャーCIシステムが動いていた。
 
 Automatic or manual promotion –letting all stages of a CI system listen to the mainline creates a mess.
 When a developer makes a mistake, all the stages fail.
@@ -483,6 +712,14 @@ Promoting a component can be done automatically or manually [Poole08].
 With automatic promotion the lower-level CI system promotes a component after it passed.
 Avoid manual promotion whereby the team decides when the component is “good enough” and promotes it.
 
+**自動か手動かのプロモーション** - CIシステムの全ステージはメインラインの混乱をリスンする。
+開発者がミスを犯した時、全てのステージが失敗する。
+高いレベルのCIシステムはコンポーネントが利用可能だというアナウンスによってトリガーされる必要がある。
+このようなアナウンスはプロモーションと呼ばれ、コンポーネントのラベリング（あるいはタギング）によって完了する。
+コンポーネントをプロモートするのは自動でも手動でもできる。
+低いレベルのCIシステムの自動プロモーションは、コンポーネントがパスしたことをプロモートする。
+手動でのプロモーションによって、コンポーネントが「いいぐあい」であることを判断し、プロモートするようなことはやめよう。
+
 Event or time triggers –every CI system is triggered by either an event or by time.
 The low-level CI systems are always triggered by an event–a code check-in.
 For higher-level CI systems, the trigger is either the promotion of a component or time.
@@ -490,8 +727,19 @@ A trigger by promotion is faster, but for slow builds it is not worth the extra 
 A higher-level daily build might be good enough [Vodde08].
 For example, one distributed product group we worked with had low-level, code-triggered CI systems, a higher-level promotion-triggered CI system, and a daily build running tests that lasted over eight hours.
 
+**イベントか時間かで実行** - 全てのCIシステムはイベントか時間かによってトリガーされる。
+低いレベルのCIシステムはコードのチェックインといったイベントによって常にトリガーされる。
+高いレベルのCIシステムでは、トリガーはコンポーネントのプロモーションか時間になる。
+プロモーションによるトリガーは早いが、ビルドが遅いところでは構成やメンテナンスの余計な努力をする価値はない。
+高いレベルではデイリービルドで十分かもしれない。
+例えば、とある分散したプロダクトグループで働いてた時、低いレベルではコードによってトリガーされるCIシステムがあり、高いレベルではプロモーションによってトリガーされるCIシステムがあった。
+そして、テストを実行するのに8時間を超えるデイリービルドが実行されていた。
+
 The number of stages –the size and ‘legacy-ness’ of the product determine how many levels of CI systems are needed.
 Common stages are
+
+**ステージの数** - サイズとプロダクトの「レガシーさ」がどれだけの数のCIシステムのレベルが必要かを決める。
+一般的なステージは次の通り。
 
 * fast component-level –a very fast low-level CI system for quick feedback.
 It runs unit tests, code coverage, static analysis, and complexity measurements.
@@ -506,9 +754,27 @@ It runs system-level tests, which often take hours.
 * stability-performance-level –a very slow high-level CI system.
 It continuously runs stability and performance tests, which often take days, if not weeks.
 
+
+- 早いコンポーネントのレベル - フィードバックの早い高速な低いレベルのCIシステム。
+単体テストを実行し、カバレッジを取り、静的解析をし、複雑度を計測する。
+- 遅いコンポーネントのレベル - 遅い低いレベルのCIシステム。
+結合テストか遅いコンポーネントレベルのテストを実行する。
+- プロダクトの安定性レベル - 基礎となるプロダクトの安定性に対するフィードバックの早い高速なプロダクトレベルのCIシステム。
+速い機能テスト（スモークテスト）を実行する。
+- フィーチャーレベル - より遅くて高いレベルのCIシステム。
+機能テストと受け入れテストを実行する。
+- システムレベル - 遅くて高いレベルのCIシステム。
+たいてい数時間は掛かるシステムレベルのテストを実行する。
+- パフォーマンスの安定性レベル - 非常に遅くて高いレベルのCIシステム。
+安定性とパフォーマンスのテストを数週間ではないものの数日かけて実行し続ける。
+
 We have yet to see all stages in one product.
 Most products select stages most important for them and add more stages only when needed.
 An unnecessarily complex CI system is a waste.
+
+筆者らは一つのプロダクトに全てのステージがあるのを見たことがない。
+殆どのプロダクトはこの中から重要なものを選び、必要になった時だけ追加する。
+不必要に複雑なCIシステムはムダだ。
 
 ### Example Staged-CI System
 
@@ -518,6 +784,11 @@ In this example, every component has a CI system executing unit tests, plus stat
 A successful build promotes the component and triggers feature-level CI systems executing higher-level tests.
 A daily build executes system-level tests such as performance tests.
 
+ステージにわかれたCIシステムの事例で、スケールしたCIシステムを見てみよう。
+この事例では、全てのコンポーネントは単体テストに加え、静的解析やコードカバレッジといったメトリクス取得を実行するCIシステムを持つ。
+ビルドが成功するとコンポーネントがプロモートされ、高いレベルのテストを実行するフィーチャーレベルのCIシステムをトリガーする。
+デイリービルドはパフォーマンステストといったシステムレベルのテストを実行する。
+
 <img src="http://less.works/img/technical-excellence/xcontinuous-integration-scaled-system-example.png.pagespeed.ic.FnY9-Dpf1k.png" alt="continunous-integration-scaled-system-example.png" pagespeed_url_hash="1603173634" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 
 A CI system can effectively include visual management–a lean principle.
@@ -526,9 +797,21 @@ The intent is not for managers to punish the developer who broke the build; it i
 What would they do with this information? Investigate what is going on or delay their integration when the build fails.
 If, after some time, the visual signal still indicates failure, more people may explore why it is not fixed.
 
+CIシステムはリーンの原則である見える化を効果的に含められる。
+ビルドが壊れたら、トヨタで言うところのアンドンで見える化できる。
+意図としてはマネージャーがビルドを壊した開発者を罰するためのものということではない。
+開発者がビルドの状態を見るためのものなのだ。
+この情報で彼らは何をするんだろう？
+ビルドが失敗すると、何が起こっているのかを調査するか、あるいは統合を遅らせる。
+もしいくらか時間が経ったあとでまだアンドンが失敗を示しているなら、多くの人がなぜ解決できないのかを超世するだろう。
+
 A popular early visual tool to plug into a CI system was a lava lamp.
 A green bubbling lava lamp indicated a passing build.
 But when the build failed, a red lava lamp started bubbling.
+
+CIシステムに最初に取り入れられる見える化ツールはラバランプだった。
+緑の泡のラバランプはビルドが通ったことを表す。
+しかし、ビルドが壊れると、赤のラバランプが泡立ちはじめる。
 
 After lava lamps, people started attaching all kinds of displays to the build, such as Christmas lights, sirens, and moving skeletons that screamed when the build broke.
 Though less entertaining, a simple monitor showing a Web page of a large red or green color blob (a red-green screen ) is more easily reproducible.
@@ -536,25 +819,52 @@ Red-green screens seem to have become ubiquitous in large-scale CI.
 Some versions include a yellow signal to indicate “the broken build is now being fixed.” The simple large color blob–visible from a distance–is the key element, but the display can also add text or chart data, such as build duration or test coverage.
 The information does not need to be limited to build information [Rogers08].
 
+ラバランプのあとは、クリスマスライトやサイレンやビルドが失敗した時に叫ぶ動く骸骨といったものを使いはじめる。
+あまり面白くないが、単純に大きな赤か緑のウェブページを見せるだけのモニターは、より感嘆に真似できる。
+赤と緑の画面は大規模CIにおいてはユビキタス言語になってきているように見える。
+別のところでは、ビルドが治ったのを表すのに黄色を使うのもある。
+単純な大きな色の塊はは遠くから見ることもでき、重要な要素ではあるが、ビルド時間やテストのカバレッジといった文字列や表データをディスプレイに表示できる。
+情報はビルドの情報に限定する必要もない。
+
 <img class="rounded shadowed" src="http://less.works/img/technical-excellence/xcontinuous-integration-andon-skeleton.jpg.pagespeed.ic.PuB-qPPam_.webp" alt="andon-skeleton.jpg" pagespeed_url_hash="1570946843" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 
 <img class="rounded shadowed" src="http://less.works/img/technical-excellence/xcontinuous-integration-andon-red-green.jpg.pagespeed.ic.5N9GjbchL1.webp" alt="andon-red-green.jpg" pagespeed_url_hash="543269719" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
 
 One warning related to visual management, well stated by Jeffrey Liker [LH08]:
 
+見える化に関する忠告はジェフリーライカーがうまく述べている。
+
 > Just because there is visual presentation does not mean there is visual management.
 It is relatively easy to set up nice display areas that are for show.
 The challenging part is making them “for go.” Many people who visit Toyota openly voice the difference of their approach.
 We often hear comments such as “Now I see, the things that Toyota displays are actually driving action on a daily basis.” This is indeed the difference, and Toyota would suggest that if it is not driving daily action, get rid of it.
+
+> 単に見えるものがあれば、見える化できているというわけではない。
+見せるためのいい感じのディスプレイエリアを用意するのは比較的簡単だ。
+頑張りどころはそれらを「なしですませる」ことだ。
+トヨタを訪れる多くの人が彼らのアプローチとの違いを口にする。
+「やっとわかったのは、トヨタが示していることは、日常的に実際に運転するさいの行動だ」というコメントをよくきく。
+これは実際に違っていて、もし運転するときの日々の行動ではなければ取り除く、ということをトヨタが示唆しているのだ。
 
 On large products it is even harder to split large changes into small ones.
 Developers sometimes want to restructure or re-architect their legacy system and are convinced that it must be done in one large change.
 But we have yet to see a large refactoring that could not be done gradually.
 Every time, after discussion with the developers, we found ways of splitting the must-be-done-at-once large refactoring [RL06].
 
+大きなプロダクトでは大きな変更を小さく分けるのですら難しい。
+開発者は時々レガシーシステムを再構築や再設計したがり、大きな変更ではそうすべきだと確信を持つ。
+しかし、我々は徐々にはできない大きなリファクタリングをまだ見たことがない。
+開発者と議論した後、毎回「一度に実施されるべき大きなリファクタリング」を分割する方法を見つけている。
+
 Interface changes are a common problem in large systems.
 Many components use the interface and need to be changed–making it impossible to do gradually, right? Not so.
 In fact, an interface change in APIs is common, and there is a well-known solution:
+
+インターフェイスの変更は大きなシステムではよくある問題だ。
+そのインターフェイスを使っている多くのコンポーネントが修正される必要がある。
+それを徐々にすることは不可能だって？ほんとに？
+違うでしょ。
+実際には、APIのインターフェイスの変更はよくあることなので、よく知られた解決策もある。
 
 Every step can be done independently and at different times.
 For public APIs, it is impossible to find out if there are still users of the old interface.
@@ -562,60 +872,122 @@ This makes removing the old interface difficult.
 But most interfaces are not part of a published API, so do not forget to remove the obsolete one.
 We have seen many products with three or four file system interfaces or logging interfaces because the old ones were never removed.
 
+全てのステップは依存せずに別々の時間で実施できる。
+パブリックなAPIでは、古いインターフェイスを使ってるユーザーがいるなら、不可能に見える。
+これが古いインターフェイスを取り除くことを難しくしている。
+しかし多くのインターフェイスは公開されたAPIの部分にあるわけではないので、使われないものを消すのを忘れないように。
+筆者らは、古いものが全く削除されずに、3つか4つのファイルシステムやロギングのインターフェイスをもつ多くのプロダクトを見た。
+
 ### Do’s and Don’ts
 
 The previous section alluded to CI do’s and don’ts:
 
+これまでの節でCIでやることとやらないことをそれとなく示してきた。
+
 DO commit and integrate every TDD cycle (e.g., every 5 or 10 minutes)—And as hands-on developers ourselves we know that speed is easy with new code, but hard with messy legacy code.
+
+**（5か10分の）全てのTDDサイクルでコミットして統合すべし** - 実践する開発者としては、新しいコードではそのスピード感は簡単に達成できるが、乱雑なレガシーコードでは難しいことを知っている。
 
 Do NOT develop on branches—If using a distributed tool such as Git, push to the common ‘master’ every TDD cycle.
 
+**ブランチで開発すべからず** - Gitのような分散ツールを使っていても、すべてのTDDサイクルでmasterにpushすべし。
+
 Do NOT have a policy to review code before commit—If you do that, you will have long-delayed integration creating other big quality problems and many hidden issues! Instead…
+
+**コミット前のコードレビューのポリシーを持つべからず** - もしそうしてるなら、他の大きな品質問題と多くの見えない問題を生み出す、統合の長期遅延を招くだろう。その代わりに。。。
 
 DO build quality in to the code to support optimistic integration— How to move from a pessimistic policy of delayed integration after a code review to an optimistic policy of early integration?2 Create a culture of software craftsmanship, TDD and refactoring for clean code, pair or mob programming to review-while-coding, and automated code- checking tools.
 And if code reviews are still desired, do them on a slower cycle of small batches of already-checked-in code.
+
+**楽観的な統合をサポートするためにコードに品質を埋め込むべし** - コードレビュー後の遅い統合という悲観的なポリシーから、どのようにして早い統合の楽観的なポリシーに移行できるのだろうか？
+ソフトウェア職人の文化を作り、クリーンコードのためのTDDとリファクタリングを行い、コード時にレビューするペアやモブプログラミングを行い、コードをチェックするツールを自動化しよう。
+それでもコードのレビューが望まれるなら、チェックイン済みコードのスモールバッチの遅いサイクルで行おう。
 
 Do NOT have a “don’t break the build” policy; and do NOT have blaming and shaming when it breaks—if you do that, it will create fear and avoidance of integration.
 Then once again, long-delayed integration with many hidden problems.
 Instead…
 
+**「ビルドを壊すべからず」というポリシーとそれを壊した時に非難して恥をかかせるようなことはやるべからず** - もしそれをやってしまうと、統合に対して恐れを抱き、避けるようになってしまうだろう。
+そしてもう一度、多くの問題が隠蔽された長く遅延した統合になってしまう。
+その代わりに。。。
+
 DO make it is easy to fail fast, stop & fix, and learn from ‘mistakes’— Create a lighting-fast CI system that gives rapid feedback when the build breaks.
 Eliminate the barriers that inhibit people from practicing stop and fix.
 Create an environment of personal safety where people can admit problems and learn to improve.
 
+**早く失敗し、直し、「誤り」を学ぶことが簡単になるようにすべし** - ビルドが壊れた時に素早いフィードバックをくれる光速のCIシステムを構築しよう。
+人びとが手を止めて直すことを実践するのを抑制するような、バリアを取り除こう。
+問題を受け入れられて改善を学べるような、安全な環境を作ろう。
+
 DO “stop and fix” when the build breaks—“We’re too busy dealing with problems to fix our broken build.” Need to spell it out? Didn’t think so.
 
+**ビルドが壊れたら「手を止めて直す」べし** - 「壊れたビルドを直すにも対処する問題で手一杯なんです。」
+まだ説明する必要があるのか？
+そうは思わないが。
+
 DO use visual management showing the state of the build—Install old and unloved computers and monitors ‘everywhere’ to show build state.
+
+**ビルドの状態を見える化すべし** - 古くて使われてないコンピューターとモニターでビルドの状態を「どこでも」見えるようにしよう。
 
 ### Use Feature Toggles
 
 As with continuous integration, feature toggle are often (unfortunately) not seen as a mechanism to support coordination and integration.
 
+継続的インテグレーションで、フィーチャートグルは（残念なことに）連携と統合をサポートするメカニズムだとみなされることはほとんどない。
+
 A frequent large-group integration-coordination problem is that some teams have added features that are immediately ready for use, and other teams have added features that aren’t ready for prime time and shouldn’t be made visible.
 This is usually because they aren’t feature-rich enough to be minimally useful.
 Rather than delay integration by working on a separate branch or not checking in the code, what to do?
 
+大きなグループの統合と連携のよくある問題は、幾つかのチームはすぐに利用できるフィーチャーを追加し、別のチームはゴールデンタイムで準備はできてなく、見えているひつようもないフィーチャーを追加する場合だ。
+これはたいてい、それらが十分小さくて有用なフィーチャーリッチなものではないことによる。
+分割したブランチで作業して、コードをチェックインせずに統合を遅らせる以上に何ができるんだろう？
+
 Use feature toggles that expose or hide features based on configuration settings, while still integrating continuously across all developers and teams.
 And for scaling use a free open-source tool such as Togglz.
 
+すべての開発者とチームをとうして継続的に統合している間は、構成の設定でフィーチャーを晒したり隠したりする**フィーチャートグル**を使おう。
+そしてスケールするにはTogglzといったフリーのオープンソースツールを使おう。
+
 At the simplest level, a feature toggle is just a conditional statement around code.
 So why a special tool? What makes tools such as Togglz useful in a scaling context are the administrative features they provide for toggle management of many features in different deployments, such as production versus sandbox.
+
+単純なレベルでは、フィーチャーとグルはコードでの条件文だ。
+なんで特別なツールを？
+スケーリングのコンテキストでTogglzのようなツールのもたらす利点は、プロダクションとサンドボックスのような異なった成果物での、多くのフィーチャーのトグルマネジメントを提供している管理用フィーチャーであることだ。
 
 ### Conclusion
 
 How to start? Using CI requires
 
-changing developer behavior
-setting up a CI system
+どうやってはじめる？
+CIを使うにあたって必要なのはこれらだ。
+
+* changing developer behavior
+* setting up a CI system
+
+* 開発者の振る舞いを変える
+* CIシステムを構築する
+
 Changing developer behavior –Because large products have many people, this is the hardest task.
 Focus on TDD–a great way of splitting a large change into smaller ones.
 Using TDD coaches, who pair-program to teach, is an efficient way of learning TDD.
 But be patient.
 TDD is a hard change for most developers and learning takes time.
 
+**開発者の振る舞いを変える** - 大きなプロダクトは人が多いので、これは大変な作業だ。
+大きな変更を小さな単位に分割する素晴らしい手法、TDDにフォーカスを当てよう。
+ペアプロを教えるTDDのコーチを使うのは、TDDを学ぶのに効果的だ。
+しかし、忍耐強くあること。
+TDDは多くの開発者にとっては変わるのが難しく、学びには時間がかかる。
+
 Setting up a CI system –Most products we worked with set up a separate project for building a CI system.
 This works, though a better alternative is to add the work to the Product Backlog and let an existing feature team work on it.
 This creates more visibility and a sense of ownership–the developers are also users.
+
+**CIシステムを構築する** - 筆者らが働いてきたほとんどプロダクトでは、分離したプロジェクトごとにCIシステムを構築した。
+これは機能したが、より良い代替案はプロダクトバックログに作業を加え、既存のフィーチャーチームにそれを実施させることだ。
+これはより見える化と、開発者が同時にユーザーでもあるというオーナーシップの感性を生み出す。
 
 Most problems implementing CI are organizational and not technical.
 In many products we worked with, CI became an organizational mess.
@@ -624,7 +996,18 @@ The result was unclear responsibilities, blaming, and committees (aka “steerin
 The result? No progress.
 If this happens, do not try to hide the organizational problems with technical solutions and do not give up because “our product is too complex for CI. ”
 
+CIの実装でよくある問題は、組織的なものであって技術的なことではない。
+筆者らが働いてきた多くのプロダクトでは、CIは組織的な混乱になった。
+開発者、マネージャー、テスター、テスト自動化エンジニア、スクラムマスター、アジャイルコーチ、SCM管理者、IT部門といった多くの伝統的な職能とロールがあった。
+そして、不透明な責任、非難、そして（関係者の集まる運営グループとして知られる）誰も本当の仕事をすることなく延々と議論している委員会となった。
+結果は？
+何も進まない。
+もしこうなったら、技術的な解決策で組織の問題を隠すようなことはせず、「我々の製品はCIするには複雑なので」という理由で投げ出さないことだ。
+
 Why not give up? Because every product group we have worked with who went through this “big rock removal” process toward CI has unequivocally found it immensely useful .
+
+ギブアップしないって？
+CIでのこの「大きな岩とり」のプロセスを切り抜けてきた、我々が関わってきた全てのプロダクトグループは、疑いの余地なく非常に効果があることを知ったからだ。
 
 ### Recommended Readings
 
