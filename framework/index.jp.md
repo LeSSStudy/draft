@@ -118,8 +118,7 @@ LeSSでは、全てのチームは共通のスプリントで共通の出荷可�
 --->
 * スプリントレビュー:1つのチームでのスクラムと同じだが、各チーム毎に2名とプロダクトオーナーと外部のステークホルダーで実施する。レビューの途中で”バザール”や”サイエンスフェア”スタイルのフェーズを検討してみよう。複数のエリアがある大きな部屋で、エリアごとにチームの代表が、そこでチームによって開発されたフィーチャーを見せ、議論する。並行してステークホルダーは興味のあるエリアに訪れチームメンバーはフィードバックを記録する。しかしながら、最初と最後は、全体的なフィードバックと整合性を高めるために、全員で共通の議論を行う。
 
-<!---
-* Overall Retrospective: Maximum duration: 45 minutes per week of Sprint. Since the Team Retrospective ends the Sprint, this Joint Retrospective is held early in the first week of the subsequent Sprint. ScrumMasters and one representative of each Team meet to identify and plan improvement experiments for the overall product or organization.
+<!--- * Overall Retrospective: Maximum duration: 45 minutes per week of Sprint. Since the Team Retrospective ends the Sprint, this Joint Retrospective is held early in the first week of the subsequent Sprint. ScrumMasters and one representative of each Team meet to identify and plan improvement experiments for the overall product or organization.
 --->
 
 * 全体的なふりかえり:1週間のスプリントであれば45分のタイムボックス。
