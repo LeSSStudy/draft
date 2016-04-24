@@ -21,7 +21,7 @@ During each of the individual team Retrospectives, they should also brainstorm a
 ## レトロスペクティブ概要
 
 <figure>
-  <img src="/img/framework/sprint-review-retrospective.png" alt="sprint-review-retrospective.png">
+  <img src="/img/framework/sprint-review-retrospective.jp.png" alt="sprint-review-retrospective.jp.png">
 </figure>
 
 <!---
