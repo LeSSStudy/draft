@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title:  より少ないことからより大きなことをなす
+title:  LeSSでもっと多く
 order: 10
 ---
 
@@ -12,7 +12,7 @@ Per definition, this explanation must be short ;)
 <!---
 What does “more with LeSS” imply?
 --->
-何を意味しているのか？
+"LeSSでもっと多く"とは、何を意味しているのか？
 
 <!---
 From Empirical Process Control: more learning and adaption with less defined processes, prescriptions, and formulas. More based on principles, less based on detailed practices.
@@ -21,7 +21,7 @@ From Agile Values: more organizational agility (flexibility) with less complexit
 From Lean Thinking: more value with less waste and overhead.
 From Impact Mapping and Value-Driven Development: more outcome with less outputs
 --->
-* [経験的プロセス制御](empirical_process_control.jp.html)から:より少ないプロセスの定義、規定、規約からより多くの学習と適応を得る。詳細なプラクティスに基づくより、原則に基づく。
+* [経験ベースのプロセス管理](empirical_process_control.jp.html)から:より少ないプロセスの定義、規定、規約からより多くの学習と適応を得る。詳細なプラクティスに基づくより、原則に基づく。
 * スケーリングから:多くの伝統的なスケーリングへのアプローチと比べ、少ないロール、少ない成果物、スペシャリスト集団ではなく、少ないオーバーヘッド、少ない引き継ぎと情報散乱、開発者と顧客との関係性
 * アジャイルの価値から:より少ない複雑性から、より組織的なアジリティ(柔軟性)
 * リーンシンキングから:より少ないムダとオーバーヘッドから、より価値を
