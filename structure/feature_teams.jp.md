@@ -112,7 +112,7 @@ The table below and Figure 2 show the differences between feature teams and more
 |実装が一見簡単|実装が一見難しい|
 
 <figure>
-  <img src="img/feature_teams/xcomponent_vs_feature_teams.png" alt="component_vs_feature_teams.png">
+  <img src="/img/feature_teams/xcomponent_vs_feature_teams.jp.png" alt="component_vs_feature_teams.jp.png">
   <figcaption>図2. コンポーネントチーム vs フィーチャーチーム</figcaption>
 </figure>
 
