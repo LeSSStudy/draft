@@ -129,6 +129,7 @@ The table below summarizes the differences between feature teams and conventiona
 |results in a simple single-line organization (no matrix!)|	results in a matrix organization with resource pools|
 |team members are dedicated—100% allocated—to the team|	members are part-time on many projects because of specialization|
 --->
+
 |フィーチャーチーム|フィーチャーグループ or フィーチャープロジェクト|
 |年間を通じて一緒にたくさんのフィーチャーで作業を維持する安定したチーム|1つのフィーチャーまたはプロジェクトのために集められた一時的なグループ|
 |全ての作業において責任を共有するチーム|専門に基づく個人の責任|
@@ -160,15 +161,40 @@ A pure feature team organization is ideal from the value-delivery and organizati
 価値と柔軟性は、しかしながら、組織設計のための唯一の基準ではなく、多くの組織は、特にコンポーネントチームからフィーチャーチームへの移行中にハイブリッドで終わる。
 注意:ハイブリッドモデルでは、両者の欠点と痛みを伴う...
 
-
+<!---
 A frequently expressed reason in favor of a hybrid organization is the need to build infrastructure, construct reusable components, or clean up code—work traditionally done within component teams. But these activities can also be done in a pure feature team organization—without establishing permanent component teams. How? By adding infrastructure, reusable components, or cleanup work to the Product Backlog and giving it to an existing feature team—as if it were a customer-centric feature. The feature team temporarily—for as long as the Product Owner wishes—does such work and then returns to building customer-centric features.
+--->
+ハイブリッド組織を選択してたびたび発現した原因は、
+インフラの構築、再利用可能なコンポーネントの構築、コードのクリーンアップなど、必要な作業は、
+伝統的なコンポーネントチームで行われた。
+しかし、これらの活動はまた、恒久的なコンポーネントチームを確立し、組織することなく、純粋なフィーチャーチームで行うことができます。
+どうやって？
+プロダクトバックログに、インフラや、再利用可能なコンポーネント、クリーンアップなどの作業を追加し、
+既存のフィーチャーチームに顧客中心のフィーチャーと同様にそれを与える。
+フィーチャーチームは、一時的にこのような作業(プロダクトオーナーの要望であるならば)を行い、その後、顧客中心のフィーチャーの構築に戻します。
 
+<!---
 ## Transitioning to Feature Teams
+--->
+## フィーチャーチームへの移行
 
+<!---
 Different organizations require different transition strategies when changing from component to feature teams. We have experience with many strategies that worked…and failed in a different context. A safe—but slow—transitioning strategy is to establish one feature team within the existing component team organization. After this team performs well, a second feature team is formed. This continues gradually at the speed the organization is comfortable with. This is shown in Figure 4.
+--->
+コンポーネントチームからフィーチャーチームへの移行する場合は、異なる組織は異なる移行戦略が必要になる。
+私たちは、多くの戦略と経験を持っている...そして異なるコンテキストによって失敗もしている。
+安全な(しかしゆっくりと)移行戦略は、既存のコンポーネントチームの中から一つのフィーチャーチームを作ることです。
+このチームが上手くできたのちに、第2のフィーチャーチームが作られます。
+これを、組織がしっくりくるスピードで徐々に続けていきます。
+図4に示しています。
 
+<!---
 ## Recommended Reading
+--->
 
+## 推薦図書
+
+<!---
 * Feature Team Primer
 This article originally appeared as the [Feature Team Primer](http://www.featureteamprimer.com/)
 * Feature Teams chapter of [Scaling Agile & Lean Development](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961)
@@ -179,3 +205,11 @@ Originally published in 1995 but republished in 2008. Jim’s book is a true cla
 This early large-scale agile development article is published in Extreme Programming Perspectives. It is a insightful and much under-appreciated article describing the strong relationship between feature teams and continuous integration.
 * [“How Do Committees Invent?” by Mel Conway.](http://www.melconway.com/research/committees.html)
 This 40-year article is as insightful today as it was 40 years ago. It is available via the authors website at www.melconway.com.
+--->
+* フィーチャーチーム入門
+この記事はもともと[フィーチャーチーム入門](http://www.featureteamprimer.com/)として掲載されました。
+* [Scaling Agile & Lean Development](http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961)のフィーチャーチームの章
+60ページのフィーチャーチームとコンポーネントチームの分析[オンラインも利用可能です](http://www.infoq.com/resource/articles/scaling-lean-agile-feature-teams/en/resources/feature%20teams_%20infoq_%20final.pdf)
+* [Dynamics of Software Development by Jim McCarthy](http://www.amazon.com/Dynamics-Software-Development-Jim-McCarthy/dp/1556158238) 邦訳[ソフトウェア開発のダイナミズム](http://www.amazon.co.jp/dp/4756110525/sr=8-1/qid=1201160706/ref=olp_product_details?_encoding=UTF8&me=&qid=1201160706&sr=8-1) オリジナルは1995年に発表されたが、2008年に再販された。 Jimの本は、ソフトウェア開発における真の古典です。1995年にすでにフィーチャーチームを取り上げていました。その他、ソフトウェア開発に関連する洞察力のヒントが詰まっています。
+* [“XP and Large Distributed Software Projects” by Karlsson and Andersson.](http://dl.acm.org/citation.cfm?id=377525) この初期の大規模アジャイル開発の記事は、エクストリーム・プログラミングの視点で公開されています。過小評価されている記事ではあるが、フィーチャーチームと継続的インテグレーションの間に強い相関関係があることを記述した洞察力のある記事です。
+* [“How Do Committees Invent?”(委員会をどのように作り出すのか) by Mel Conway.](http://www.melconway.com/research/committees.html) 今日にも通用する40年前の洞察力のある記事です。この記事は、著者の[webサイト](www.melconway.com)を通じて入手できます。
