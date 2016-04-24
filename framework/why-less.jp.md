@@ -26,7 +26,7 @@ We (Craig and Bas) have been involved in software development for a long time in
 What is the strength of Scrum? That is not an easy question to answer. Of course, the concepts and principles behind Scrum, such as [Transparency](../principles/transparency.html), [Empirical Process Control](../principles/empirical_process_control), Iterative development, and [Self-managing teams](../management/self_managing_teams.html) are critical. Those principles have been around for quite a while, however, so their inclusion does not explain Scrum’s success. After much discussion, we have concluded:
 --->
 
-そもそもスクラムの強みとは何でしょう？これは簡単に答えられる質問ではありません。当然ながら、[透明性](../principles/transparency.html)や[経験則に基づくプロセスコントロール](../principles/empirical_process_control)、イテレーションによる開発、[自己管理化されたチーム](../management/self_managing_teams.html)等といった、スクラムの背景にある概念や原則はとても重要です。しかし、これらの原則はかなり昔から提唱されていたものであり、これらがスクラムが成功した原因であるとは言い切れない面があります。
+そもそもスクラムの強みとは何でしょう？これは簡単に答えられる質問ではありません。当然ながら、[透明性](../principles/transparency.jp.html)や[経験則に基づくプロセスコントロール](../principles/empirical_process_control.jp.html)、イテレーションによる開発、[自己管理化されたチーム](../management/self_managing_teams.jp.html)等といった、スクラムの背景にある概念や原則はとても重要です。しかし、これらの原則はかなり昔から提唱されていたものであり、これらがスクラムが成功した原因であるとは言い切れない面があります。
 
 議論を重ねた結果、我々は次のように結論に至りました。
 
@@ -45,7 +45,7 @@ For large groups, LeSS hits the sweet spot between defined concrete elements and
 {: .box_top_bottom  .text_centered_bold }
 --->
 
-そこで、我々は[スクラムを大規模スクラム](../principles/large_scale_scrum_is_scrum.html)として維持するためには、同じようなバランスを保つ必要があると考えました。すなわち、次のように考えたのです。
+そこで、我々は[Large-scale Scrumはスクラムである](../principles/large_scale_scrum_is_scrum.jp.html)として維持するためには、同じようなバランスを保つ必要があると考えました。すなわち、次のように考えたのです。
 
 大規模チーム開発向けに、LeSS は具体的に定義された要素と経験則に基づくプロセスコントロールとの間のスイートスポットをうまく捉える必要がある。
 
@@ -69,7 +69,7 @@ A common concept for process development is to define a universal, overarching f
 スクラムをスケールしたフレームワークの構成要素として捉えるのではなく、スクラムの各要素に対して「この要素が存在する目的は何か？」、「複数チームを前提にした場合、同じ目的をより大きなスケールで実現するためにはどうすればよいか？」を検討する必要があると考えました。
 
 * そぎ落としではなくスケールアップ
-プロセス開発の一般的な考え方は、まず汎用的・包括的なフレームワークを定義し、これをコンテキストに応じてそぎ落としていくというものです。しかし我々はこの考え方はうまくいかないと考えました。あるコンテキスト実現のためにすべての要素が必要であると考えてしまうことが多いため、結果としてプロセスが肥大化してしまうことが多いのです。もちろんスケールアップのための「要素追加」は必要ですが、要素追加で LeSS を「汚染」する代わりに、我々は [LeSS Huge](../less-huge/index.html) という別のフレームワークを用意することを選択しました。
+プロセス開発の一般的な考え方は、まず汎用的・包括的なフレームワークを定義し、これをコンテキストに応じてそぎ落としていくというものです。しかし我々はこの考え方はうまくいかないと考えました。あるコンテキスト実現のためにすべての要素が必要であると考えてしまうことが多いため、結果としてプロセスが肥大化してしまうことが多いのです。もちろんスケールアップのための「要素追加」は必要ですが、要素追加で LeSS を「汚染」する代わりに、我々は [LeSS Huge](../less-huge/index.jp.html) という別のフレームワークを用意することを選択しました。
 
 <!---
 ## LeSS uses experiments
@@ -90,7 +90,7 @@ There are no such things as best practices. There are only practices that are go
 {: .box_top_bottom  .text_centered_bold }
 
 <!--
-Thus, the books are full of experiments that we have done. Certain things we recommend you try, certain things we recommend you avoid, and others we caution will work in some contexts but are terrible in others. This worked well and we have received a lot of positive feedback about this approach. 
+Thus, the books are full of experiments that we have done. Certain things we recommend you try, certain things we recommend you avoid, and others we caution will work in some contexts but are terrible in others. This worked well and we have received a lot of positive feedback about this approach.
 -->
 
 この上で、前出の２冊では我々が行ってきた実験をまとめ、「我々が実践をオススメするもの」、「逆に実践すべきではないもの」、「あるコンテキストにおいてはうまくいくが他のコンテキストにおいてはまったくうまくいかないもの」等について解説を行いました。この試みはうまくいき、読者の方より多くの良い評価を頂くことができました。
@@ -141,7 +141,7 @@ We realized that our previous scaling work did not provide anything on the shu l
 LeSS is more than a set of principles and experiments. It also provides a framework with rules. The [LeSS Rules](../rules/index.html) define what is LeSS (and what isn't) and they provide a concrete framework for applying LeSS. Within the LeSS Framework, product groups can apply the experiments and discover what works best for them at a certain moment.
 -->
 
-LeSS は原則と経験則のセットを提供するだけではなく、ルールに基づくフレームワークを提供するものです。[LeSS ルール](../rules/index.html)は LeSS とは何か（何ではないか）を定義し、LeSS を適用するための具体的なフレームワークを提供します。このLeSSフレームワークの中で、製品開発グループは自分たちの経験則を当てはめ、ある瞬間において何がベストなのかを発見することができるようになっています。
+LeSS は原則と経験則のセットを提供するだけではなく、ルールに基づくフレームワークを提供するものです。[LeSSルール](../rules/index.html)は LeSS とは何か（何ではないか）を定義し、LeSS を適用するための具体的なフレームワークを提供します。このLeSSフレームワークの中で、製品開発グループは自分たちの経験則を当てはめ、ある瞬間において何がベストなのかを発見することができるようになっています。
 
 <!--
 This is also the basis of the third LeSS book, simply called [Large-Scale Scrum](http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710). In this book, LeSS is defined as:
