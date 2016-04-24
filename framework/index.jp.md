@@ -121,6 +121,7 @@ LeSSでは、全てのチームは共通のスプリントで共通の出荷可�
 <!---
 * Overall Retrospective: Maximum duration: 45 minutes per week of Sprint. Since the Team Retrospective ends the Sprint, this Joint Retrospective is held early in the first week of the subsequent Sprint. ScrumMasters and one representative of each Team meet to identify and plan improvement experiments for the overall product or organization.
 --->
+
 * 全体的なふりかえり:1週間のスプリントであれば45分のタイムボックス。
 チームのふりかえりはスプリントの最後に実施しているので、この共同でのふりかえりは、次のスプリントの最初の週の早い時期に開催される。
 スクラムマスターと各チームから1名の代表者は、
