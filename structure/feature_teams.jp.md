@@ -10,7 +10,7 @@ A feature team, shown in Figure 1, is a long-lived, cross-functional, cross-comp
 図1に示すフィーチャーチームは、ひとつづつ、たくさんの顧客のフィーチャーをエンドツーエンドで作り上げる、寿命が長く、機能横断的で、コンポーネント横断チームです。
 
 <figure>
-  <img src="img/feature_teams/xfeature_team.png" alt="feature_team.png">
+  <img src="/img/feature_teams/xfeature_team.jp.png" alt="feature_team.jp.png">
   <figcaption>図1. フィーチャーチーム</figcaption>
 </figure>
 
