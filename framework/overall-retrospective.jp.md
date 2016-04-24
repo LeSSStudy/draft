@@ -78,7 +78,7 @@ The common way out of this is to have the Overall Retrospective at the beginning
 一般的な方法は、次のスプリントの開始時に、全体的なレトロスペクティブを実施することです。
 
 <figure>
-  <img src="/img/framework/overall-retrospective-timing.png" alt="overall-retrospective-timing.png">
+  <img src="/img/framework/overall-retrospective-timing.jp.png" alt="overall-retrospective-timing.png">
 </figure>
 
 <!---
