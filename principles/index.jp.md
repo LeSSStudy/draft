@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title:  原則
+title:  原理原則
 order: 10
 ---
 
