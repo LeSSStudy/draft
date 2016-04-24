@@ -23,7 +23,7 @@ The Sprint Review is the occasion for all of the teams to review the *one* poten
 焦点は、[製品全体](../principles/whole-product-focus.jp.html) にあります。
 
 <figure>
-  <img src="/img/framework/sprint-review-retrospective.png" alt="sprint-review-retrospective.png">
+  <img src="/img/framework/sprint-review-retrospective.jp.png" alt="sprint-review-retrospective.jp.png">
 </figure>
 
 <!---
