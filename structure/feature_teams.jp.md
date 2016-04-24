@@ -27,7 +27,7 @@ The characteristics of a feature team are listed below:
 * composed of generalizing specialists
 * in Scrum, typically 7 ± 2 people
 --->
-* 長寿命 - チームは、より高いパフォーマンスを出すために、一緒にいます
+* 長寿命 - チームは、より高いパフォーマンスを発揮するために、一緒に居続ける。そして時間を掛けて新しいフィーチャーを引き受ける
 * 機能横断的でコンポーネント横断的
 * 理想的には同じ場所にいる
 * 全てのコンポーネントや領域(分析、プログラミング、テスト)を超え、完全なる顧客中心のフィーチャーで作業する
@@ -50,9 +50,10 @@ A common misunderstanding: every member of a feature team needs to know the whol
 * The team as a whole—not each individual member—requires the skills to implement the entire customer-centric feature. These include component knowledge and functional skills such as test, interaction design, or programming. But within the team, people still specialize… preferably in multiple areas.
 * Features are not randomly distributed over the feature teams. The current knowledge and skills of a team are factored into the decision of which team works on which features.
 --->
-* チーム全体 - 各チームメンバーではない - 顧客中心フィーチャー全体を実装するためのスキルを必要とします。
+* チーム(各チームメンバーではない)として、顧客中心のフィーチャー全体を実装するためのスキルを必要とします。
 これらスキルは、コンポーネントの知識、テストなどの機能スキル、インタラクションデザイン、プログラミングを含みます。
 しかしながら、チーム内でまだ特化してしまう...できれば複数の領域にしてください。
+* フィーチャーはフィーチャーチームを超えて、無作為に分配されるわけではない。どのフィーチャーをどのチームが作業するかは、現在の知識とチームのスキルを織り込んで決定する。
 
 <!---
 Within a feature team organization, when specialization becomes a constraint…learning happens.
