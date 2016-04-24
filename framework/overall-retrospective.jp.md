@@ -16,7 +16,7 @@ The Overall Retrospective is a new meeting in LeSS. Its purpose is to retrospect
 ## 全体的なレトロスペクティブ概要
 
 <figure>
-  <img src="/img/framework/sprint-review-retrospective.png" alt="sprint-review-retrospective.png">
+  <img src="/img/framework/sprint-review-retrospective.jp.png" alt="sprint-review-retrospective.jp.png">
 </figure>
 
 <!---
