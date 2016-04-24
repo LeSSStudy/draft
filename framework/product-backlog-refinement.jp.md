@@ -36,7 +36,7 @@ Product Backlog Refinement is often done in:
 * マルチチームのプロダクトバックログリファインメント
 
 <figure>
-  <img src="/img/framework/product-backlog-refinement.png" alt="product-backlog-refinement.png">
+  <img src="/img/framework/product-backlog-refinement.jp.png" alt="product-backlog-refinement.jp.png">
 </figure>
 
 <!---
