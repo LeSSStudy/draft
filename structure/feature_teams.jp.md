@@ -192,6 +192,11 @@ Different organizations require different transition strategies when changing fr
 これを、組織がしっくりくるスピードで徐々に続けていきます。
 図4に示しています。
 
+<figure>
+  <img src="/img/feature_teams/xtransition_component_teams_slow.jp.png" alt="xtransition_component_teams_slow.jp.png">
+  <figcaption>図4. フィーチャーチームへのゆるやかな移行</figcaption>
+</figure>
+
 <!---
 ## Recommended Reading
 --->
