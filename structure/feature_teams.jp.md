@@ -58,7 +58,7 @@ A common misunderstanding: every member of a feature team needs to know the whol
 <!---
 Within a feature team organization, when specialization becomes a constraint…learning happens.
 --->
-フィーチャーチームの組織では、分業が制約になると...学習が行われる。
+フィーチャーチームの組織では、分業が制約になると...学習が発生する。
 
 <!---
 A feature team organization exploits speed benefits from specialization, as long as requirements map to the skills of the teams.
@@ -142,7 +142,7 @@ The table below summarizes the differences between feature teams and conventiona
 Most drawbacks of component teams are explored in the “Feature Teams” chapter of Scaling Lean & Agile Development, Figure 3 summarizes some of these.
 --->
 
-コンポーネントチームの欠点の多くは、"フィーチャーチーム"のスケーリングリーン＆アジャイル開発の章で検討されている。図3は、これらのいくつかをまとめたものです。
+コンポーネントチームの欠点の多くは、Scaling Lean & Agile Developmentの"フィーチャーチーム"の章で検討されている。図3は、これらのいくつかをまとめたものです。
 
 <!---
 What is sometimes not seen is that a component team structure reinforces sequential development (a ‘waterfall’ or V-model), with many queues with varying-sized work packages, high levels of WIP, many handoffs, and increased multitasking and partial allocation.
@@ -159,15 +159,13 @@ A pure feature team organization is ideal from the value-delivery and organizati
 --->
 
 純粋なフィーチャーチームの組織は、価値を届けるのと組織の柔軟性の観点から理想的です。
-価値と柔軟性は、しかしながら、組織設計のための唯一の基準ではなく、多くの組織は、特にコンポーネントチームからフィーチャーチームへの移行中にハイブリッドで終わる。
+しかしながら、価値と柔軟性は、組織設計のための唯一の基準ではなく、多くの組織は、特にコンポーネントチームからフィーチャーチームへの移行中にハイブリッドで終わる。
 注意:ハイブリッドモデルでは、両者の欠点と痛みを伴う...
 
 <!---
 A frequently expressed reason in favor of a hybrid organization is the need to build infrastructure, construct reusable components, or clean up code—work traditionally done within component teams. But these activities can also be done in a pure feature team organization—without establishing permanent component teams. How? By adding infrastructure, reusable components, or cleanup work to the Product Backlog and giving it to an existing feature team—as if it were a customer-centric feature. The feature team temporarily—for as long as the Product Owner wishes—does such work and then returns to building customer-centric features.
 --->
-ハイブリッド組織を選択してたびたび発現した原因は、
-インフラの構築、再利用可能なコンポーネントの構築、コードのクリーンアップなど、必要な作業は、
-伝統的なコンポーネントチームで行われた。
+たびたびハイブリッド組織を支持する理由は、インフラの構築、再利用可能なコンポーネントの構築、コードのクリーンアップなど、伝統的なコンポーネントチームで行われた作業をする必要があることです。
 しかし、これらの活動はまた、恒久的なコンポーネントチームを確立し、組織することなく、純粋なフィーチャーチームで行うことができます。
 どうやって？
 プロダクトバックログに、インフラや、再利用可能なコンポーネント、クリーンアップなどの作業を追加し、
