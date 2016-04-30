@@ -144,6 +144,11 @@ Most drawbacks of component teams are explored in the “Feature Teams” chapte
 
 コンポーネントチームの欠点の多くは、Scaling Lean & Agile Developmentの"フィーチャーチーム"の章で検討されている。図3は、これらのいくつかをまとめたものです。
 
+<figure>
+  <img src="/img/feature_teams/xcomponent_teams_waterfall.jp.png" alt="xcomponent_teams_waterfall.jp.png">
+  <figcaption>図3. コンポーネントチームの欠点</figcaption>
+</figure>
+
 <!---
 What is sometimes not seen is that a component team structure reinforces sequential development (a ‘waterfall’ or V-model), with many queues with varying-sized work packages, high levels of WIP, many handoffs, and increased multitasking and partial allocation.
 --->
