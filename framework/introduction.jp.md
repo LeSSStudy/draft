@@ -11,7 +11,7 @@ Two economists are walking down the street. One sees a paper. “Is that a $100 
 “No.” his friend replies, “If it were a $100 bill, someone would have picked it up already.”
 </p></div>
 
-## One-Team Scrum
+## One-Team Scrum 1チームのスクラム
 
 In a nutshell... Scrum is an empirical process control development framework in which a cross-functional self-managing team develops a product in an iterative incremental manner. At the end of each (on average) two-week *Sprint* a completely ‘done’ *potentially shippable product increment* (for short, *shippable increment*) is delivered, and possibly shipped. A single *Product Owner* is responsible for maximizing product value, prioritizing *items* (features) in the *Product Backlog*, and adaptively deciding the goal of each Sprint based on frequent inspection. A *Team* of about seven is responsible for delivering the Sprint goal, and they have or learn all required skills. There are no special job titles and no single-specialized sub-teams. A *ScrumMaster* educates about Scrum and how to derive value with it, and coaches the Product Owner, Team, and organization to apply it. There is no project manager, team lead, or other role in Scrum. A Sprint starts with *Sprint Planning*, and ends with a *Sprint Review* and *Sprint Retrospective* to inspect and adapt, respectively, about the product and processes.
 
@@ -21,25 +21,31 @@ In the *Scrum Guide* and *Scrum Primer*, Scrum is described for one team.
 
 ## LeSS
 
-Large-Scale Scrum (LeSS) is Scrum applied to many teams working together on one product. Why LeSS? Similar to one-team Scrum...
+ラージスケールスクラム(LeSS)はスクラムを複数チームで1つのプロダクトを開発する状況に当てはめたもの。
+なぜLeSS？
+1チームのスクラムと同じように……
 
-> For large groups, LeSS hits a sweet-spot balance between defined concrete elements and empirical process control.
+> 大規模なグループにおいて、LeSSは必須要素と経験的プロセス制御とのあいだのいいバランスを取れる
 
-And just like one-team Scrum, LeSS is (1) lightweight, (2) simple to understand, and (3) difficult to master—due to essential complexity.
+また1チームスクラムと同様、LeSSは (1)軽量 (2)理解がシンプル (3)修得は難しい―本質的複雑さが原因。
 
-### Background
 
-In 2002, when Craig wrote *Agile & Iterative Development*, many ‘knew’ that agile development was for small groups. However, we became interested in—and got increasing requests—to apply Scrum to very large and multisite product development. So, since 2005 Craig and Bas have teamed up to work with clients to scale up Scrum. Today, the two LeSS frameworks (basic LeSS and LeSS Huge) have been adopted in big product groups worldwide in disparate domains, including:
+### Background 背景
 
-* telecom-equipment creators such as Ericsson & Nokia Networks
-* investment and retail banks such as JPMorgan and BAML
-* trading-system creators such as ION Trading
-* gaming site creators such as bwin
-* offshore outsourcers such as Valtech India
+2002年、Craigが「Agile & Iterative Development」を書いたころ、誰でもアジャイル開発は小規模グループ向けだと「知って」いた。
+だが我々はスクラムを非常に大きく複数サイトにまたがるプロダクト開発に当てはめることに興味を持ち、またリクエストも受けるようになっていた。
+そこで2005年からCraigとBasはタッグを組んで、クライアントに向けてスクラムのスケールアップに取り組んだ。
+現在、2つのLeSSフレームワーク(基本のLeSSと、LeSS Huge)を、大規模プロダクトを世界をまたいで開発している、さまざまなドメインにおいて適用している。
 
-To quantify ‘large’, as of this writing, at the top end we are involved in a LeSS Huge adoption in a product group of about 2500 people, 10 developments sites, tens of millions of lines of C++, with custom hardware.
+* Ericsson や Nokia Networksなどの通信機器開発
+* JPMorganやBAMLなどの投資銀行、個人向け銀行
+* ION Tradingなどのトレーディングシステム開発
+* bwinなどのゲームサイト開発
+* Valtech Indiaなどのオフショアアウトソーシング
 
-What’s an industry-median LeSS product group size? Perhaps three to five teams in one or two sites.
+「大規模」とは、いま書いている時点の最大でLeSS Hugeを適用しているプロダクトグループは2500名、10開発サイト、数千万ステップのC++コード、カスタムハードウェアを擁する。
+
+業界で真ん中くらいのLeSSプロダクトグループサイズは、1～2箇所のサイトに3～5チームがいるというものだ。
 
 Based on our experiences, in 2008 and 2010, we published two volumes on scaling agile development with the LeSS frameworks:
 
@@ -48,32 +54,32 @@ Based on our experiences, in 2008 and 2010, we published two volumes on scaling 
 
 This is the third book in the LeSS series, a prequel and primer. It summarizes rather than replaces the others. If you want, um… more LeSS details, read the first two volumes or the website less.works.
 
-### LeSS Principles and Themes
+### LeSS Principles and Themes LeSSの原則とテーマ
 
 <figure>
   <img src="/img/principles.png" alt="principles.png">
   <figcaption>Figure 2.1 LeSS principles</figcaption>
 </figure>
 
-**Large-Scale Scrum is Scrum**—It is not “new and improved Scrum.” Rather, LeSS is about figuring out how to apply the principles, elements, and purpose of Scrum in a large-scale context.
+**ラージスケールスクラムもスクラムだ**—LeSSは「新しい、よりよいスクラム」ではない。LeSSはスクラムそのものの原則、要素、目的を大規模なコンテキストにどうやって適応するかという話だ。
 
-**Empirical process control**—Inspection and adaptation of the product, processes, organizational design, and practices to craft a situational appropriate organization based on Scrum, rather than following a detailed formula. And empirical process control requires and creates…
+**経験的プロセス制御**—検査と適応をプロダクト、目的、組織デザイン、プラクティスにあてはめ、状況に適した組織をスクラムに沿って作り上げる。あらかじめ決まった法則に従うわけではない。経験的プロセス制御によってできるのが……
 
-**Transparency**—Based on tangible ‘done’ items, short cycles, working together, common definitions, and driving out fear in the workplace.
+**透明性**—さわれる「完成」アイテム、短いサイクル、共同作業、共通の定義、作業場所から恐怖を追い払う。
 
-**More with less**—(1) In empirical process control: more learning with less defined processes. (2) In lean thinking: more value with less waste and overhead. (3) In scaling, less roles, artifacts, and special groups.
+**より少なくでもっと多く**—(1) 経験的プロセス制御の意味合いでは、少ないプロセスの定義から多くの学びを得る。 (2) リーン思考の文脈では、ムダとオーバーヘッドを少なくし、価値を多くする。 (3) スケーリングの観点では、役割、作成物、スペシャルグループを少なくする。
 
-**Whole-product focus**—One Product Backlog, one Product Owner, one potentially shippable product increment, one Sprint—regardless if there are 3 or 33 teams. Customers want the product, not a part.
+**プロダクト全体にフォーカス**—プロダクトバックログは1つ、プロダクトオーナーは1人、出荷判断可能なプロダクトインクリメントを1つ、1スプリントで ―― チームが3つでも33つでも変わらない。顧客がほしいのはプロダクトであり、部分ではない。
 
-**Customer-centric**—Identify value and waste in the eyes of the paying customer. Reduce the cycle time from their perspective. Increase feedback loops with real customers. Everyone understands how their work today directly relates to and benefits paying customers.
+**顧客中心**—価値もムダも、お金を払う顧客の立場で考える。彼らから見えるサイクルタイムを短くする。本当の顧客とのフィードバックループを増やす。全員が、自分の今日の仕事がお金を払う顧客にどう関わり、どう利益をもたらすのか、理解している。
 
-**Continuous improvement towards perfection**—Create and deliver a product all the time, with no cost and no defects, that utterly delights customers, improves the environment, and makes lives better. Do humble and radical improvement experiments each Sprint towards that.
+**継続的改善で完璧を目指す**—いつもプロダクトを作って提供する。そこにはコストも欠陥もない。プロダクトはいつも顧客を喜ばせ、環境を改善し、生活をより良いものにする。スプリントのたびに謙虚かつ大胆に改善して、そこを目指す。
 
-**Systems thinking**—See, understand, and optimize the whole system (not parts), and use causal-loop modeling to explore system dynamics. Avoid the local and sub-optimizations of focusing on the ‘efficiency’ or ‘productivity’ of individuals and individual teams. Customers care about the overall concept-to-cash cycle time and flow, not individual steps.
+**システム思考**—見て、理解して、最適化するのはシステム全体だ。部分ではない。簡易的なループモデリングでシステムダイナミクスを探索する。局所最適や不十分な最適化を避け、「効率」や「生産性」を個人や個々のチームで考えない。顧客は全体的な「アイデアから現金まで」のサイクルタイムとフローに興味があり、個々の手順ではない。
 
-**Lean thinking**—Create an organizational system whose foundation is managers-as-teachers who apply and teach systems thinking and lean thinking, manage to improve, and who practice Go See at gemba. Add the two pillars of respect for people and continuous improvement. All towards the goal of perfection.
+**リーン思考**—組織的なシステムを作る。その基礎はマネージャーが教師としてシステム思考とリーン思考を適用し、教え、改善をマネジメントし、現場現物を実践するところにある。2つの柱、人びとへの敬意と継続的改善を置く。すべては完璧を目指す。
 
-**Queuing theory**—Understand how systems with queues behave in the R&D domain, and apply those insights to managing queue sizes, work-in-progress limits, multitasking, work packages, and variability.
+**キュー理論**—キューを含むシステムがどう働くかR&D分野で理解し、得た洞察をキューサイズ、WIP制限、マルチタスク、ワークパッケージ、変動に適用する。
 
 ### Two Frameworks: LeSS & LeSS Huge
 
