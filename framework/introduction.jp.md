@@ -5,10 +5,20 @@ order: 5
 ---
 (this is chapter 2 of the [forthcoming book "Large-Scale Scrum: More with LeSS" ISBN 9780321985712](http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710))
 
+<!---
 <div class="chapter_quote"><p>
 Two economists are walking down the street. One sees a paper. “Is that a $100 bill?”
 <br/>
 “No.” his friend replies, “If it were a $100 bill, someone would have picked it up already.”
+</p></div>
+--->
+<div class="chapter_quote"><p>
+2人のエコノミストが道を歩いていた。
+1人が道ばたに紙が落ちているのを見つけた。
+<br/>
+「あれは100ドル紙幣じゃないか？」
+<br/>
+「違うさ」もう1人が答えた。「100ドル紙幣だったら、もう誰かが拾っているよ」
 </p></div>
 
 ## One-Team Scrum 1チームのスクラム
@@ -17,9 +27,21 @@ In a nutshell... Scrum is an empirical process control development framework in 
 
 *Empirical process control* requires transparency, which is created through short-cycle iterative development of shippable increments. It emphasizes continuous learning, inspection, and adaptation about both product and processes. It is based on recognizing that in product R&D things are too complex and dynamic for detailed, formulaic, and “one size fits all” organization and process recipes.
 
+<!---
 In the *Scrum Guide* and *Scrum Primer*, Scrum is described for one team.
+--->
+
+**スクラムガイド**や**スクラムプライマー**では、1チームのスクラムしか語っていない
+
 
 ## LeSS
+
+<!---
+Large-Scale Scrum (LeSS) is Scrum applied to many teams working together on one product. Why LeSS? Similar to one-team Scrum...
+
+> For large groups, LeSS hits a sweet-spot balance between defined concrete elements and empirical process control.
+
+And just like one-team Scrum, LeSS is (1) lightweight, (2) simple to understand, and (3) difficult to master—due to essential complexity.--->
 
 ラージスケールスクラム(LeSS)はスクラムを複数チームで1つのプロダクトを開発する状況に当てはめたもの。
 なぜLeSS？
@@ -32,16 +54,34 @@ In the *Scrum Guide* and *Scrum Primer*, Scrum is described for one team.
 
 ### Background 背景
 
+<!---
+In 2002, when Craig wrote *Agile & Iterative Development*, many ‘knew’ that agile development was for small groups. However, we became interested in—and got increasing requests—to apply Scrum to very large and multisite product development. So, since 2005 Craig and Bas have teamed up to work with clients to scale up Scrum. Today, the two LeSS frameworks (basic LeSS and LeSS Huge) have been adopted in big product groups worldwide in disparate domains, including:
+--->
+
 2002年、Craigが「Agile & Iterative Development」を書いたころ、誰でもアジャイル開発は小規模グループ向けだと「知って」いた。
 だが我々はスクラムを非常に大きく複数サイトにまたがるプロダクト開発に当てはめることに興味を持ち、またリクエストも受けるようになっていた。
 そこで2005年からCraigとBasはタッグを組んで、クライアントに向けてスクラムのスケールアップに取り組んだ。
 現在、2つのLeSSフレームワーク(基本のLeSSと、LeSS Huge)を、大規模プロダクトを世界をまたいで開発している、さまざまなドメインにおいて適用している。
+
+<!---
+* telecom-equipment creators such as Ericsson & Nokia Networks
+* investment and retail banks such as JPMorgan and BAML
+* trading-system creators such as ION Trading
+* gaming site creators such as bwin
+* offshore outsourcers such as Valtech India
+--->
 
 * Ericsson や Nokia Networksなどの通信機器開発
 * JPMorganやBAMLなどの投資銀行、個人向け銀行
 * ION Tradingなどのトレーディングシステム開発
 * bwinなどのゲームサイト開発
 * Valtech Indiaなどのオフショアアウトソーシング
+
+<!---
+To quantify ‘large’, as of this writing, at the top end we are involved in a LeSS Huge adoption in a product group of about 2500 people, 10 developments sites, tens of millions of lines of C++, with custom hardware.
+
+What’s an industry-median LeSS product group size? Perhaps three to five teams in one or two sites.
+--->
 
 「大規模」とは、いま書いている時点の最大でLeSS Hugeを適用しているプロダクトグループは2500名、10開発サイト、数千万ステップのC++コード、カスタムハードウェアを擁する。
 
@@ -60,6 +100,28 @@ This is the third book in the LeSS series, a prequel and primer. It summarizes r
   <img src="/img/principles.png" alt="principles.png">
   <figcaption>Figure 2.1 LeSS principles</figcaption>
 </figure>
+
+<!---
+**Large-Scale Scrum is Scrum**—It is not “new and improved Scrum.” Rather, LeSS is about figuring out how to apply the principles, elements, and purpose of Scrum in a large-scale context.
+
+**Empirical process control**—Inspection and adaptation of the product, processes, organizational design, and practices to craft a situational appropriate organization based on Scrum, rather than following a detailed formula. And empirical process control requires and creates…
+
+**Transparency**—Based on tangible ‘done’ items, short cycles, working together, common definitions, and driving out fear in the workplace.
+
+**More with less**—(1) In empirical process control: more learning with less defined processes. (2) In lean thinking: more value with less waste and overhead. (3) In scaling, less roles, artifacts, and special groups.
+
+**Whole-product focus**—One Product Backlog, one Product Owner, one potentially shippable product increment, one Sprint—regardless if there are 3 or 33 teams. Customers want the product, not a part.
+
+**Customer-centric**—Identify value and waste in the eyes of the paying customer. Reduce the cycle time from their perspective. Increase feedback loops with real customers. Everyone understands how their work today directly relates to and benefits paying customers.
+
+**Continuous improvement towards perfection**—Create and deliver a product all the time, with no cost and no defects, that utterly delights customers, improves the environment, and makes lives better. Do humble and radical improvement experiments each Sprint towards that.
+
+**Systems thinking**—See, understand, and optimize the whole system (not parts), and use causal-loop modeling to explore system dynamics. Avoid the local and sub-optimizations of focusing on the ‘efficiency’ or ‘productivity’ of individuals and individual teams. Customers care about the overall concept-to-cash cycle time and flow, not individual steps.
+
+**Lean thinking**—Create an organizational system whose foundation is managers-as-teachers who apply and teach systems thinking and lean thinking, manage to improve, and who practice Go See at gemba. Add the two pillars of respect for people and continuous improvement. All towards the goal of perfection.
+
+**Queuing theory**—Understand how systems with queues behave in the R&D domain, and apply those insights to managing queue sizes, work-in-progress limits, multitasking, work packages, and variability.
+--->
 
 **ラージスケールスクラムもスクラムだ**—LeSSは「新しい、よりよいスクラム」ではない。LeSSはスクラムそのものの原則、要素、目的を大規模なコンテキストにどうやって適応するかという話だ。
 
@@ -81,15 +143,23 @@ This is the third book in the LeSS series, a prequel and primer. It summarizes r
 
 **キュー理論**—キューを含むシステムがどう働くかR&D分野で理解し、得た洞察をキューサイズ、WIP制限、マルチタスク、ワークパッケージ、変動に適用する。
 
-### Two Frameworks: LeSS & LeSS Huge
+### Two Frameworks: LeSS & LeSS Huge LeSSとLeSS Huge
 
+<!---
 Large-Scale Scrum has two frameworks:
 
 * **LeSS**: 2–‘8’ Teams.
 * **LeSS Huge**: ‘8+’ Teams, up to a few thousand people per product.
 
 The word ‘LeSS’ is overloaded to mean both Large-Scale Scrum in general, and the smaller basic LeSS framework. We find this convenient.
+--->
 
+ラージスケールスクラムには2つのフレームワークがある。
+
+* **LeSS** : チーム数が2～8
+* **LeSS Huge** : 9チーム以上、1プロダクト数千名まで
+
+<!---
 **LeSS Framework**—The (basic) LeSS framework is for one overall Product Owner (PO) and two to ‘eight’ teams. There is one overall real **Product** Owner (who truly “owns the product”) for one real shippable product, who manages one Product Backlog worked on by all the teams in one Sprint, optimizing for the whole product.
 
 ‘Eight’ is not a magic number for choosing between LeSS and LeSS Huge. The tipping point is situational. At some point, (1) the single overall PO can no longer grasp an overview of the entire product, (2) the PO cannot balance an external and internal focus, and (3) the Product Backlog is so large that it becomes difficult for one person to work with.
@@ -97,8 +167,17 @@ The word ‘LeSS’ is overloaded to mean both Large-Scale Scrum in general, and
 When the group *tips*, time to change. Perhaps to LeSS Huge, but try first to get smaller and simpler, not *huger*.
 
 The remainder of this major section explains the smaller **LeSS framework**; the **LeSS Huge framework** is covered later.
+--->
 
-### LeSS Framework Elements
+**LeSSフレームワーク** ―― (基本の)LeSSフレームワークは1人のプロダクトオーナー(PO)と、2～8のチームから成る。1人のPOは総合的な本当の**プロダクト**オーナーで(真にプロダクトをオウン＝背負っている)、1つの本当の出荷可能なプロダクトを見て、単一のプロダクトバックログを管理し、そのプロダクトバックログをもとに全チームが1つのスプリントで働き、プロダクト全体を最適化する。
+
+LeSSとLeSS Hugeを分ける「8チーム」はマジックナンバーではない。ティッピングポイントは状況による。ある時点で、(1)POが1人だけではプロダクト全体観を維持できなくなる、(2)POが外部と内部のフォーカスのバランスを取れなくなる、(3)プロダクトバックログが巨大すぎて1人では維持できなくなる。
+
+グループが*ティッピングポイント*を超えたら、変えるべきタイミングだ。LeSS Hugeに移行すべきかもしれないが、まずは小さくシンプルにする。Hugeに(＝大きく)考えてはいけない。
+
+本章の残りの部分では、小さい方の**LeSSフレームワーク**について説明する。**LeSS Hugeフレームワーク**はまた後で触れる。
+
+### LeSS Framework Elements LeSSフレームワークの要素
 
 The (smaller) LeSS framework elements are essentially the same as one-team Scrum:
 
@@ -113,6 +192,7 @@ The (smaller) LeSS framework elements are essentially the same as one-team Scrum
   <figcaption>Figure 2.2 LeSS framework</figcaption>
 </figure>
 
+<!---
 In addition to these elements, LeSS includes:
 
 **Rules**—Things the group should follow and do, such as Sprint Planning One and Two, and one Product Backlog for the shippable product. There are LeSS rules related to roles, artifacts, and events.
@@ -121,11 +201,29 @@ The few simple LeSS rules balance the low ‘prescriptive-ness’ required for e
 
 **Guides**—Advice to try, based on the experience of LeSS adopters, such as how to coordinate across teams during the Sprint. May or may not be appropriate, and are areas for continuous improvement experiments.
 
+--->
+
+こうした要素に加え、LeSSでは以下もある。
+
+**ルール** ―― グループが守り、やるべきこと。スプリントプランニング1と2や、単一のプロダクトバックログと出荷判断可能なプロダクトなど。LeSSルールには、役割、成果物、イベントそれぞれに対応するものがある。
+
+シンプルで数少ないLeSSルールは、わずかな「事前に定めた」感をバランスよく、経験的プロセス制御に交える。
+とりわけ新たに始めるグループにとって、最初に「なにをどう」したらいいか、正しい方向に向ける効果がある。
+そしてLeSSにおける透明性を実現することができる。
+「最初はきっちりと」というアプローチは、数多くの学習モデルに見られる初学者のニーズに応えるものだ。
+ジャズのトランペット奏者であり教師でもあるClark Terryは、学びを次のようにまとめている。真似、適応、改革。これはまた合気道の守破離(従う、分かれる、昇華する)としても知られる。
+
+**ガイド** ― 試してみるべきアドバイス。LeSS導入の経験者から与えられる。例えばスプリント中にチームどうしがどう調整するかなど。適当かも不適当かもしれず、継続的改善の実験の範疇になる。
+
 How to grasp the LeSS elements in practice? We’ll tell some stories...
 
-### LeSS Story: Flow of Teams & Events
+### LeSS Story: Flow of Teams & Events LeSSストーリー:チームのフローとイベント
 
+<!---
 > This story emphasizes the flow of *people and teams* going through events in a LeSS Sprint. A later story emphasizes the flow of customer features through events.
+--->
+
+この物語では*人とチーム*がLeSSのスプリントを経験するフローを説明する。その次の物語では、顧客のフィーチャーがイベントをどう通過するか説明する。
 
 On a crisp and sunny London morning, Dave walks into the distinctive ‘Gherkin’ building in the financial heart of The City. He takes the lift up to the 17th floor, and heads into the room where his team works—Team Trade, who collectively know quite a lot about trading European bonds. Devi’s already there, but not the rest of the crew. “Good morning!” she greets Dave. “Just a reminder: We’re the team representatives this Sprint and Sprint Planning One starts in 10 minutes.” “Right,” says Dave, “I’m gonna grab an espresso and meet you in the big room.”
 
@@ -269,15 +367,27 @@ Paolo lays out 22 ordered cards on a table, and says, “Here’s my offer for t
 
 ## LeSS Huge
 
-### Requirement Areas
+### Requirement Areas 要求エリア
 
+<!---
 With 1000 or even just 100 people on one product, divide-and-conquer is unavoidable. Traditional large-scale development divides into:
 
 * single-function groups (analysis group, test group, ...)
 * architectural-component groups (UI-layer group, server-side group, data-access component group, ...)
 
 This organization yields slow inflexible development with (1) high levels of waste (inventory, work-in-progress, handoff, information scatter, ...), (2) long-delayed ROI, (3) complex planning and coordination, (4) more overhead management, and (5) weak feedback and learning. And it is organized ‘inward’ around single-skills and architecture, rather than ‘outward’ around customer value.
+--->
 
+1つのプロダクトに関わる人が1000人となると、あるいは100人であっても、分割統治は避けられない。
+従来型の大規模開発では、以下のような分割をする。
+
+* 単一職能グループ(分析グループ、テストグループ、……)
+* アーキテクチャ上のコンポーネントグループ(UI層グループ、サーバーサイドグループ、データアクセスコンポーネントグループ、……)
+
+こうした組織はスピードが遅く、柔軟性に欠ける。理由は、(1)ムダが多い(在庫、仕掛かり、引き継ぎ、情報の分散、……)、(2)ROIの回収に時間がかかる、(3)計画と調整が複雑になる、(4)マネジメントのオーバーヘッドが多い、(5)フィードバックや学びが貧弱である、などだ。
+また組織が単一のスキルやアーキテクチャへ「内向き」になり、顧客価値へ「外向き」にならない。
+
+<!---
 But in the **LeSS Huge** framework, when above ‘8’ teams, you don’t divide by function or architecture; you divide around *major areas of customer concerns* called **requirement areas**. This reflects the *customer-centric* LeSS principle.
 
 For example, in one *Securities* product (to trade and manage securities), some major areas of customer requirements—requirement areas—are:
@@ -285,7 +395,17 @@ For example, in one *Securities* product (to trade and manage securities), some 
 * trade processing (from trade capture to settlement)
 * asset servicing (e.g. handling a stock split, dividends)
 * new market onboarding (e.g. Brazil)
+--->
 
+だが**LeSS Huge**フレームワークでは、8チームより大きい場合、職能やアーキテクチャでは分割しない。分割は*顧客の関心事の主要なエリア*でおこなう。これを**要求エリア**と呼ぶ。LeSSの原則である*顧客中心*を反映した分割だ。
+
+たとえば、*証券*のプロダクトを考えよう(証券のトレードや管理をする)。顧客の要求の主要なエリア――要求エリア――は、以下のようになる。
+
+* トレードの処理(取引の開始から完了まで)
+* 資産のサービス(株式分割、配当など)
+* 新興市場への対応(ブラジルなど)
+
+<!---
 Conceptually in the one Product Backlog, a “requirement area” attribute is added, and each item is classified into one and only one area:
 
 | Order    | Item   | Requirement Area      | ...  |
@@ -296,7 +416,20 @@ Conceptually in the one Product Backlog, a “requirement area” attribute is a
 | 4        | F      | market onboarding     |      |
 | ...      |
 {: .grid_table_with_header}
+--->
 
+概念的には、単一のプロダクトバックログに「要求エリア」属性を追加し、アイテムにそれぞれ要求エリアを必ず1つだけ持たせる。
+
+| 順序     | アイテム | 要求エリア          | ...  |
+|:---------------------:|:------------------------:|
+| 1        | B        | 新市場対応          |      |
+| 2        | C        | トレード処理        |      |
+| 3        | D        | 資産サービス        |      |
+| 4        | F        | 新市場対応          |      |
+| ...      |
+{: .grid_table_with_header}
+
+<!---
 Then people can focus on one **Area Product Backlog** (conceptually, a view onto one Product Backlog), such as the *market onboarding* area:
 
 | Order    | Item   | Requirement Area      | ...  |
@@ -304,9 +437,20 @@ Then people can focus on one **Area Product Backlog** (conceptually, a view onto
 | 1        | B      | market onboarding     |      |
 | 4        | F      | market onboarding     |      |
 {: .grid_table_with_header}
+--->
 
-### Area Product Owners and Teams
+そうして、**エリアプロダクトバックログ**に集中できるようになる。概念的には、単一のプロダクトバックログを参照するビューと考えられる。*新市場対応*のエリアプロダクトバックログは次のようになる。
 
+| 順序     | アイテム | 要求エリア          | ...  |
+|:---------------------:|:------------------------:|
+| 1        | B        | 新市場対応          |      |
+| 4        | F        | 新市場対応          |      |
+| ...      |
+{: .grid_table_with_header}
+
+### Area Product Owners and Teams エリアプロダクトオーナーとチーム
+
+<!---
 In LeSS Huge one new role is introduced. Each requirement area has an **Area Product Owner** that specializes in one requirement area and focuses on their Area Product Backlog. And, *several*—never just one—feature teams serve that Area Product Owner and likewise specialize in that requirement area.
 
 So, for example, the *Securities* product has:
@@ -316,11 +460,29 @@ So, for example, the *Securities* product has:
 * and four teams in each other requirement area
 
 Does a requirement area always have the same fixed set of teams? No. Slowly over time, as an area changes in importance, teams join or depart—mostly likely from or to another existing area.
+--->
 
-### LeSS Huge Framework Elements
+LeSS Hugeでは新しいロールが1つ増える。要求エリアにはそれぞれ1人**エリアプロダクトオーナー**がつき、そのエリアの専門家として、エリアプロダクトバックログを管理する。また*複数*の――けっして1つではない――フィーチャーチームがエリアプロダクトオーナー1人につき、そのエリアの専門チームとなる。
 
+したがって、たとえば*証券*プロダクトには、以下が存在することになる。
+
+* 全体のプロダクトオーナーが1人、エリアプロダクトオーナーが2人、3人をサポートするプロダクトマネージャーたち
+* (一番大きな)*証券トレード*要求エリアには6つのチーム
+* あとの2つの要求エリアには、4チームずつ
+
+要求エリアを担当するチームは固定だろうか？そうではない。時間とともにゆっくり、エリアの重要性が変化するのに合わせて、チームも増えたり減ったりする――他のエリアと行き来するのが一般的だ。
+
+
+### LeSS Huge Framework Elements LeSS Hugeフレームワークの要素
+
+<!---
 In brief, in LeSS Huge each requirement area works as a (smaller framework) LeSS implementation, each working in parallel in one overall Sprint. Variations reflecting transitional periods in gigantic groups are discussed in the *Adoption and Organize by Customer Value* chapters.
+--->
 
+簡単に言ってしまうと、要求エリアそれぞれは(小さい方の)LeSSを導入して、全体で統一したスプリントで並行して動く。
+巨大な組織への導入時期のいろいろなやり方について、*顧客価値による導入と組織*の章で議論する。
+
+<!---
 **Roles**—Same as LeSS, except: two or more **Area Product Owners**, and ‘four’ to ‘eight’ Teams in *each requirement area*. The *one* Product Owner (who focuses on overall product optimization) and the several Area Product Owners form the **Product Owner Team**. There are usually other supporting product managers in very large product groups.
 
 A requirement area normally has at least four teams. Exceptions?
@@ -329,12 +491,30 @@ A requirement area normally has at least four teams. Exceptions?
 * When re-balancing teams from an area with a decreasing demand to one with an increasing demand; an area could go from four to three teams. Ultimately, merge two reduced small areas back into a new larger area.
 
 Why at least ‘four’ teams? What’s the problem with small areas? Many tiny areas reduce visibility into overall Product Backlog priorities, increase coordination complexity, and create teams that are too narrowly specialized that lack the flexibility (agility) to take on the emerging highest-value items.
+--->
 
+**役割** ―― LeSSと同じだが、以下が変更点だ。2人以上の**エリアプロダクトオーナー**と、*要求エリアごと*に「4～8」チーム。*1人*のプロダクトオーナー(プロダクト全体の最適化にフォーカスする)、複数のエリアプロダクトオーナーが、**プロダクトオーナーチーム**を構成する。非常に大きなプロダクトグループでは、サポート役のプロダクトマネージャもいることが多い。
+
+1つの要求エリアには最低4チームいる。例外は？
+
+* 導入・移行の初期で、グループが少しずつ新しいエリアに広げていくタイミング。最終的に4チーム以上になると確信があるときは、小さくシンプルに1チームから始めてよい。
+* エリアの需要が増えたり減ったりして、バランスを取るためチームを入れ替えているタイミング。1エリアのチームが4つから3つに減ってもいい。最終的には、縮小したエリアを2つくっつけて1つの大きいエリアにする。
+
+なぜ最低「4」チームなのか？エリアが小さいとなにが問題なのか？小さいエリアが多数あると、プロダクトバックログ全体の優先順位の見通しが悪くなるし、調整も複雑になるし。またチームの専門領域が狭くなりすぎて、柔軟性(アジリティ)が失われ、価値最大のアイテムに発見的に対応しにくくなる。
+
+<!---
 **Artifacts**—Same as LeSS, except: a requirement area column in the one Product Backlog, and consequently an **Area Product Backlog** view for each requirement area.
 
 **Events**—There is still only one common Sprint for the product; it includes all the teams and ends in a common potentially shippable product increment. From the viewpoint of one team working in one area, LeSS Huge looks like LeSS regarding events. Other event details are illustrated in the upcoming story.
 
 As with LeSS, there are **rules** and **guides** for LeSS Huge, which are introduced in the following story, and fleshed out in upcoming chapters.
+--->
+
+**作成物** ―― LeSSと同じだが、以下が変更点だ。要求エリア列をプロダクトバックログに追加し、ビューとしての**エリアプロダクトバックログ**が要求エリアごとにできる。
+
+**イベント** ―― スプリントはプロダクト全体で共通と、ここでも変わらない。すべてのチームが同じスプリントで動き、スプリント終了時には共通の出荷判断可能なプロダクトインクリメントが1つできる。単一のエリアを担当するチームの観点では、LeSS HugeのイベントはLeSSと変わらない。イベントについて詳しくは、続く物語の中で見ていく。
+
+LeSSと同様、**ルール**と**ガイド**はLeSS Hugeにもあり、こちらも物語で紹介する。また後の章で解説する。
 
 ### LeSS Huge Story
 
@@ -450,11 +630,15 @@ A few Sprints later...
 
 At the Product Owner Team coordination meeting, Peter says, “As you know, Ariel’s area still only has two teams. I know that Ravi would like to keep his four teams in asset servicing, but Dodd-Frank is just too important to me this year. So we’re going to move one team from Ravi’s area into Ariel’s. Ravi, please ask for a volunteer team from your group and let me and Ariel know.”
 
-## Multisite
+## Multisite 複数拠点
 
-### Dispersed versus Multisite Teams
+### Dispersed versus Multisite Teams 分散 vs. 複数拠点
 
+<!---
 If the entire tiny development group is eight people in three countries, there is a single *dispersed* ‘team’. (We don’t recommend that; we’re defining terms.) But when your single product group is 50 or 500 people, dispersed teams are not necessary; each team can easily be co-located literally at the same table. However, some teams may be in different sites, so that the product group has *multisite teams*.
+--->
+
+開発グループが8人だけの小さなもので、それが3カ国にわかれていたら、*分散*「チーム」が1つあることになる(薦めているわけではない。言葉を定義しているだけだ)。1プロダクトのグループが50人、あるいは500人であれば、分散チームは必要ない。チームはそれぞれ同じ場所、文字通り1つのテーブルを囲んで働ける。だが他の拠点にいるチームも出てくる。この場合、プロダクトグループは*複数拠点チーム*となる。
 
 ### LeSS Huge Story when Multisite
 
@@ -498,8 +682,13 @@ As the above story sketch shows, “face to face” interaction is still possibl
 
 ## Onwards
 
+<!---
 **Whole product focus**—These stories give a feel for applying LeSS in the context of a Sprint and its events. Not emphasized but central to all the stories is the LeSS principle of whole product focus—all the teams together creating one common potentially shippable product increment delivered at the end of one common Sprint. That’s really important.
+--->
 
+**プロダクト全体にフォーカス** ―― ここで紹介した物語は、LeSSを実際に実践したときの、スプリントとイベントについて理解するためのものだ。あえて強調していないが、すべてのストーリーの中心には、プロダクト全体にフォーカスというLeSSの原則がある。すべてのチームが一緒になって、共通する1つの出荷判断可能なプロダクトインクリメントを、共通するスプリントの最後に提供する。この点は非常に重要だ。
+
+<!---
 **Organizations and fake Scrum**—Also important is the organizational design that enables all this.
 
 > Scaled Scrum is not a special scaled framework
@@ -520,4 +709,24 @@ It’s easy to create “fake Large-Scale Scrum” groups that are going through
 That just sucks.
 
 So, since real Large-Scale Scrum starts with *changing the organization rather than changing Scrum*, the next few chapters focus on LeSS organizational design and its adoption.
+--->
 
+**組織とニセスクラム** ―― もうひとつ重要なのが、こうしたことを実現するための組織設計だ。
+
+> スケールしたスクラムと、特別なスケールフレームワークで「チームはスクラム」というものを、混同してはならない。
+
+> スケールしたスクラムは、スクラムをスケールさせたものだ
+
+「ニセの大規模スクラム」を作るのは簡単だ。グループが一見スクラムの動きをしているように見えるが、表面をちょっと剥いてみると、今までやってきたことと何も変わらないという状況だ。スクラムやアジャイルっぽい用語をちょっと飾り付けただけだ。そうなると、大規模なグループはこうなる。
+
+* 「分析スクラムチーム」がユーザーストーリーを書く
+* 「UXスクラムチーム」がワイヤフレームでUXのストーリーのを描く
+* 「アーキテクチャスクラムチーム」パワーポイントのストーリーを作る
+* 「プログラミングスクラムチーム」はチームごとの「プロダクトバックログ」を持っている
+* 「テストスクラムチーム」
+
+……こうした人びとが、「プロジェクトを納期までに納品せよ。できたら教えろ」という命令の下で、スクラムマスターの皮をかぶったプロジェクトマネージャの指揮で働いている。
+
+こりゃひどい。
+
+さて、本当のラージスケールスクラムは*組織を変える、スクラムは変えない*というところから始まるので、続く章ではLeSSの組織設計と移行について見ていこう。
