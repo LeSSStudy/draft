@@ -22,7 +22,7 @@ A typical LeSS organizational chart looks like this:
 典型的なLeSSの組織図は以下のようになります:
 
 <figure>
-  <img src="/img/organizational-structure/xorganization-LeSS.png.pagespeed.ic.R51VOdvboZ.png" alt="organization-LeSS.png">
+  <img src="/img/organizational-structure/xorganization-LeSS.jp.png" alt="organization-LeSS.png">
 </figure>
 
 <!---
