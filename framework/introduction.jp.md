@@ -3,7 +3,7 @@ layout: mechanics
 title: Introduction to LeSS
 order: 5
 ---
-(this is chapter 2 of the [forthcoming book "Large-Scale Scrum: More with LeSS" ISBN 9780321985712](http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710))
+(this is chapter 2 of the [forthcoming book "Large-Scale Scrum: More with LeSS" ISBN 9780321985712]( http://www.amazon.com/Large-Scale-Scrum-More-Craig-Larman/dp/0321985710 ) )
 
 <!---
 <div class="chapter_quote"><p>
@@ -137,7 +137,7 @@ This is the third book in the LeSS series, a prequel and primer. It summarizes r
 
 **継続的改善で完璧を目指す**—いつもプロダクトを作って提供する。そこにはコストも欠陥もない。プロダクトはいつも顧客を喜ばせ、環境を改善し、生活をより良いものにする。スプリントのたびに謙虚かつ大胆に改善して、そこを目指す。
 
-**システム思考**—見て、理解して、最適化するのはシステム全体だ。部分ではない。簡易的なループモデリングでシステムダイナミクスを探索する。局所最適や不十分な最適化を避け、「効率」や「生産性」を個人や個々のチームで考えない。顧客は全体的な「アイデアから現金まで」のサイクルタイムとフローに興味があり、個々の手順ではない。
+**システム思考**—見て、理解して、最適化するのはシステム全体だ。部分ではない。因果ループモデリングでシステムダイナミクスを探索する。局所最適や不十分な最適化を避け、「効率」や「生産性」を個人や個々のチームで考えない。顧客は全体的な「アイデアから現金まで」のサイクルタイムとフローに興味があり、個々の手順ではない。
 
 **リーン思考**—組織的なシステムを作る。その基礎はマネージャーが教師としてシステム思考とリーン思考を適用し、教え、改善をマネジメントし、現場現物を実践するところにある。2つの柱、人びとへの敬意と継続的改善を置く。すべては完璧を目指す。
 
@@ -500,7 +500,7 @@ Why at least ‘four’ teams? What’s the problem with small areas? Many tiny 
 * 導入・移行の初期で、グループが少しずつ新しいエリアに広げていくタイミング。最終的に4チーム以上になると確信があるときは、小さくシンプルに1チームから始めてよい。
 * エリアの需要が増えたり減ったりして、バランスを取るためチームを入れ替えているタイミング。1エリアのチームが4つから3つに減ってもいい。最終的には、縮小したエリアを2つくっつけて1つの大きいエリアにする。
 
-なぜ最低「4」チームなのか？エリアが小さいとなにが問題なのか？小さいエリアが多数あると、プロダクトバックログ全体の優先順位の見通しが悪くなるし、調整も複雑になるし。またチームの専門領域が狭くなりすぎて、柔軟性(アジリティ)が失われ、価値最大のアイテムに発見的に対応しにくくなる。
+なぜ最低「4」チームなのか？エリアが小さいとなにが問題なのか？小さいエリアが多数あると、プロダクトバックログ全体の優先順位の見通しが悪くなるし、調整も複雑になる。またチームの専門領域が狭くなりすぎて、柔軟性(アジリティ)が失われ、価値最大のアイテムに発見的に対応しにくくなる。
 
 <!---
 **Artifacts**—Same as LeSS, except: a requirement area column in the one Product Backlog, and consequently an **Area Product Backlog** view for each requirement area.
