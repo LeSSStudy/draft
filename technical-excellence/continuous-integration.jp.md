@@ -738,7 +738,7 @@ For example, one distributed product group we worked with had low-level, code-tr
 The number of stages –the size and ‘legacy-ness’ of the product determine how many levels of CI systems are needed.
 Common stages are
 
-**ステージの数** - サイズとプロダクトの「レガシーさ」がどれだけの数のCIシステムのレベルが必要かを決める。
+**ステージの数** - プロダクトのサイズと「レガシーさ」がどれだけの数のCIシステムのレベルが必要かを決める。
 一般的なステージは次の通り。
 
 * fast component-level –a very fast low-level CI system for quick feedback.
@@ -766,7 +766,7 @@ It continuously runs stability and performance tests, which often take days, if 
 - システムレベル - 遅くて高いレベルのCIシステム。
 たいてい数時間は掛かるシステムレベルのテストを実行する。
 - パフォーマンスの安定性レベル - 非常に遅くて高いレベルのCIシステム。
-安定性とパフォーマンスのテストを数週間ではないものの数日かけて実行し続ける。
+安定性とパフォーマンスのテストを数日から場合によっては数週間かけて実行し続ける。
 
 We have yet to see all stages in one product.
 Most products select stages most important for them and add more stages only when needed.
@@ -803,7 +803,7 @@ CIシステムはリーンの原則である見える化を効果的に含めら
 開発者がビルドの状態を見るためのものなのだ。
 この情報で彼らは何をするんだろう？
 ビルドが失敗すると、何が起こっているのかを調査するか、あるいは統合を遅らせる。
-もしいくらか時間が経ったあとでまだアンドンが失敗を示しているなら、多くの人がなぜ解決できないのかを超世するだろう。
+もしいくらか時間が経ったあとでまだアンドンが失敗を示しているなら、多くの人がなぜ解決できないのかを模索するだろう。
 
 A popular early visual tool to plug into a CI system was a lava lamp.
 A green bubbling lava lamp indicated a passing build.
