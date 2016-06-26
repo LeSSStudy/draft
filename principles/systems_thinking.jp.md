@@ -29,7 +29,7 @@ Gerry Weinberg highlights two decisive factors in this situation:
 どうしたんだい？
 システム思考なら解決できるかもしれない。
 小さなグループにおいて、その要因がより迅速に見られて、自然な理解がされているが、大規模開発－または全ての大きなシステム－では、それが難しい。
-ゲリーワインバーグはこの状況の2つの決定的な要因を強調する：
+ゲイリーワインバーグはこの状況の2つの決定的な要因を強調する：
 
 <!---
 Weinberg-Brooks’ Law:
@@ -233,25 +233,60 @@ This introduction is organized around the following areas in systems thinking: L
 Seeing System Dynamics: Introduction
 --->
 
+### システム力学を知る：序文 
+
 <!---
 Static versus Dynamic Complexity
 --->
 
-<!---
-Many of us, especially in engineering and finance, are educated to master complexity of static details—learning to analyze and manage information (requirements, financial analysis, …), decompose complex structures into simpler ones, and so forth. That is, complexity of a static, information, or structural nature.
---->
+#### 複雑さにおける 静的 VS 動的 
 
 <!---
-Why do big software systems tend to degrade, with more and more time spent on defects? What might happen if the USA invades Iraq? Seeing the dynamics behind these questions involves analysis of the complexity of dynamics .
+Many of us, especially in engineering and finance, are educated to master complexity of static details—learning to analyze and manage information (requirements, financial analysis, …), decompose complex structures into simpler ones, and so forth.
+That is, complexity of a static, information, or structural nature.
 --->
 
-<!---
-In contrast to static-details education, many of us receive no formal education in analyzing dynamics complexity3, especially workplace dynamics. Perhaps there is a belief it is sufficient to rely on common sense in the workplace. Forrester demonstrated that “common sense” is just not so in complex systems, and showed it is possible to formally educate people to become better system dynamics thinkers in the workplace using dynamic system models visualized in flow diagrams [Forrester61].
---->
+私達の多くは、特にエンジニアリングおよび財政において、静的な内容
+ー情報（要件、財務分析、…）を分析し、管理したり、複雑な構造をより簡単なものなどに分解することを学ぶことなどー
+の複雑さをマスターするために教育される。
+すなわち、静的、情報、または構造の自然の複雑さ。
+
 
 <!---
-Flow diagrams encompass material, financial, and information flows, stocks (variables with a quantity, such as cash or number of defects), the impact of decisions and policies, and cause-effect relations. A popular simplification is the causal loop diagram that focuses on cause-effect relationships and feedback loops in a system [Sterman00]. There are a variety of similar notations; they all show stocks (variables), causal links, and delay. In [Weinberg92] this is called the diagram of effect .
+Why do big software systems tend to degrade, with more and more time spent on defects?
+What might happen if the USA invades Iraq?
+Seeing the dynamics behind these questions involves analysis of the complexity of dynamics.
 --->
+
+なぜ、大きなソフトウェアシステムは欠陥に使われたより多くの時間とともに低下する傾向があるのか？
+もし米国がイラクを侵略するならば、何が起こるであろうか？
+力学の背景にあるこれらの問題を理解するには、力学の複雑さに関する分析を必要とする。
+
+<!---
+In contrast to static-details education, many of us receive no formal education in analyzing dynamics complexity, especially workplace dynamics.
+Perhaps there is a belief it is sufficient to rely on common sense in the workplace.
+Forrester demonstrated that “common sense” is just not so in complex systems,
+and showed it is possible to formally educate people to become better system dynamics thinkers in the workplace using dynamic system models visualized in flow diagrams [Forrester61].
+--->
+
+静的詳細教育と対比すると、私達の多くは、特に職場力学という分析力学の複雑さについて形式的な教育を全然受けない。
+おそらく、職場の常識に頼っていることに十分な確信を持っている。
+フォレスターはただ「常識」が複雑系にそうないのを証明した、
+そして、フローチャート[Forrester61]において視覚化された動的なシステムモデルを使い、これまでよりも良い形で職場のシステム力学思想家になるように、人々を形式的に教育することが可能であると伝えている。
+
+<!---
+Flow diagrams encompass material, financial, and information flows, stocks (variables with a quantity, such as cash or number of defects), the impact of decisions and policies, and cause-effect relations.
+A popular simplification is the causal loop diagram that focuses on cause-effect relationships and feedback loops in a system [Sterman00].
+There are a variety of similar notations;
+they all show stocks (variables), causal links, and delay.
+In [Weinberg92] this is called the diagram of effect.
+--->
+
+フローチャートは、素材、金融、および情報フロー、株（欠陥の現金や数などの量を持つ変数）、決定と方針のインパクト、および原因効果関係を含んでいる。
+ポピュラーな単純化は、システム[Sterman00]の原因効果関係とフィードバックループを中心に行う原因となるループ図である。
+各種の同様な表記法がある；
+それらすべては、株（変数）、原因となるリンク、および遅延を示す。
+[Weinberg92]において、これは効果の図と呼ばれる。
 
 <!---
 The First Law of Diagramming: Model to Have a Conversation
