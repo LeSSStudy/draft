@@ -208,10 +208,10 @@ Systems thinking is a set of thinking tools to help…
 
 * システム力学を知る
   開発組織は、捉えがたいフィードバックループと予想だにしない成り行きと共にする人々とポリシーのシステムである
-    * 私達は、ワークショップで作成された原因となるループ図によってシステムを改善することを学ぶことができる
+    * 私達は、ワークショップで作成された因果ループ図によってシステムを改善することを学ぶことができる
 * 精神的なモデルを知る
   1つの理由の背景に、誤った仮定と不完全な理由からなっており最適な決断になっていない
-    * 原因となるループ図と'5つのなぜ'が、これらを露出する
+    * 因果ループ図と'5つのなぜ'が、これらを露出する
 * 部分最適を知る
   もう一方の最適な決断になっていない別の要因は、
   高い品質および高い意欲と共に早く納品の価値を提供するというリーンのシステムゴールのための全体最適化よりも、
@@ -283,7 +283,7 @@ In [Weinberg92] this is called the diagram of effect.
 --->
 
 フローチャートは、素材、金融、および情報フロー、株（欠陥の現金や数などの量を持つ変数）、決定と方針のインパクト、および原因効果関係を含んでいる。
-ポピュラーな単純化は、システム[Sterman00]の原因効果関係とフィードバックループを中心に行う原因となるループ図である。
+ポピュラーな単純化は、システム[Sterman00]の原因効果関係とフィードバックループを中心に行う因果ループ図である。
 各種の同様な表記法がある；
 それらすべては、株（変数）、原因となるリンク、および遅延を示す。
 [Weinberg92]において、これは効果の図と呼ばれる。
@@ -299,7 +299,7 @@ A tool to learn to see system dynamics is a causal loop diagram, ideally sketche
 Before going further, here is the First Law of Diagramming
 --->
 
-システム力学を理解するためのツールは、原因となるループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。
+システム力学を理解するためのツールは、因果ループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。
 先に進む前に、これが図示するための最初の規律である
 
 <!---
@@ -316,7 +316,7 @@ But still, the diagram is secondary to what people take away:
 learning and a revised understanding through a discussion.
 --->
 
-グループがホワイトボードに原因となるループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、
+グループがホワイトボードに因果ループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、
 主要な価値は対話であり、それが彼らがモデルを作成する間に生まれた理解を共有している。
 言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つ精神的なモデル－を具体的かつ明白にすることが重要である。
 それでもやはり、図は二の次である。人々が持ち帰る何か（対話を通しての理解で、学び復習すること）
@@ -329,7 +329,7 @@ Sketching a causal loop diagram together—modeling to have a conversation.
 --->
 
 システム思考を実践中。
-原因となるループズを対話しながら一緒にモデリングして描いている。
+因果ループ図を対話しながら一緒にモデリングして描いている。
 
 <!---
 Concrete modeling tip :
@@ -353,17 +353,47 @@ The most meaningful outcome is understanding ; in addition, some participants wi
 Seeing System Dynamics: Causal Loop Diagrams
 --->
 
-<!---
-Causal loop diagrams are used regularly in introductions to LeSS, to help see the dynamics of what is going on in large-scale development. It is useful to understand them for that reason alone. And more useful to you, we recommend you do these together with colleagues at a whiteboard. Model to have a conversation. When? Probably during a LeSS Overall Retrospective.
---->
+### システム力学を知る：因果ループ図 
 
 <!---
-The practical aspect of this tip is more important than may first be appreciated. It is vague and low-impact to suggest “be a systems thinker.” But if you and four colleagues get into the habit of standing together at a large whiteboard, sketching causal loop diagrams together, then there is a concrete and potentially high-impact practice that connects “be a systems thinker” with “do systems thinking.”
+Causal loop diagrams are used regularly in introductions to LeSS, to help see the dynamics of what is going on in large-scale development.
+It is useful to understand them for that reason alone.
+And more useful to you,
+we recommend you do these together with colleagues at a whiteboard.
+Model to have a conversation.
+When?
+Probably during a LeSS Overall Retrospective.
 --->
 
+因果ループ図は、大規模な開発において力学がそういうものだと理解するのに役立つように、LeSSの序文の中で正式に使われる。
+理由だけを理解することに役立つ。
+そして、あなたにとって有益である、私達は、ホワイトボードで同僚とともにこれらをするように勧める。
+対話しながらモデリングをする。
+いつ実施するのか？
+たぶん、LeSSのオーバーオールレトロスペクティブの時に。
+
 <!---
-The following examples seem sterile when presented in a book. But imagine you were at a whiteboard with other people and the diagrams were being sketched during a lively conversation. That’s the way we suggest ‘doing’ systems thinking.
+The practical aspect of this tip is more important than may first be appreciated.
+It is vague and low-impact to suggest “be a systems thinker.”
+But if you and four colleagues get into the habit of standing together at a large whiteboard,
+sketching causal loop diagrams together,
+then there is a concrete and potentially high-impact practice that connects “be a systems thinker” with “do systems thinking.”
 --->
+
+この秘訣の実用的な面は、最初に真価が認められうるより重要である。
+「システム思想家でありなさい。」ということを示唆することは、漠然としていて、印象としては小さい。
+しかし、もしあなたと4人の同僚が、大きいホワイトボードの前で一緒に立つことを習慣にしていれば、一緒に因果ループ図を描くことができ、
+そして、「システム思想家でありなさい」を、「システム思考をしなさい。」に繋げるプラクティスとして高い印象を与える可能性がある。
+
+<!---
+The following examples seem sterile when presented in a book.
+But imagine you were at a whiteboard with other people and the diagrams were being sketched during a lively conversation.
+That’s the way we suggest ‘doing’ systems thinking.
+--->
+
+以下の例は、本の中で示されているような内容が乏しいものに見えるかもしれない。
+しかし、あなたが、他の人々と一緒にホワイトボード前にいて、活発な会話中に図の概略を述べていたと想像してください。
+それが、私達が提案するシステム思考を‘実践する’方法である。
 
 <!---
 Notation and Examples
@@ -374,16 +404,11 @@ Causal loop diagrams contain many elements; the following common useful subset i
 --->
 
 <!---
-variables
-causal links
-opposite effects
-constraints
-goals
-reactions; quick-fix reactions
-interaction effects
-extreme effects
-delays
-positive feedback loops
+* Variables           reactions; quick-fix reactions
+* causal links        interaction effects
+* opposite effects    extreme effects
+* constraints         delays
+* goals               positive feedback loops
 --->
 
 <!---
