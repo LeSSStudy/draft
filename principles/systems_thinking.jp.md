@@ -3,103 +3,231 @@ layout: mechanics
 title:  システム思考
 order: 10
 ---
+
 <!---
 Systems Thinking
 --->
+## システム思考
 
 <!---
 I took a speed reading course and read “War and Peace” in twenty minutes. It involves Russia.
 —Woody Allen
 --->
+私は速読のクラスを取り、『戦争と平和』を20分で読んだ。それにはロシアについて書いてあったと思う。
+ウッディ・アレン
 
 <!---
-“No matter what we do, the number of defects in our backlog remains about the same,” a manager told us; this for a 15 MSLOC C and C++ product with several hundred developers where we were working. What’s going on? Systems thinking may help. In small groups the forces at play are more quickly seen and informally understood, but in large product development—or any large system—it’s tough. Gerry Weinberg highlights two decisive factors in this situation:
+“No matter what we do, the number of defects in our backlog remains about the same,” a manager told us;
+this for a 15 MSLOC C and C++ product with several hundred developers where we were working.
+What’s going on?
+Systems thinking may help.
+In small groups the forces at play are more quickly seen and informally understood, but in large product development—or any large system—it’s tough.
+Gerry Weinberg highlights two decisive factors in this situation:
 --->
+「たとえ私達が何をしても、私達のバックログの欠陥の数が、およそ同じであり続ける」と、マネジャーは私達に言った；
+1,500万行(15 MSLOC)のCとC++の製品をつくる私達が働いていた数百人の開発者に対して。
+どうしたんだい？
+システム思考なら解決できるかもしれない。
+小さなグループにおいて、その要因がより迅速に見られて、自然な理解がされているが、大規模開発－または全ての大きなシステム－では、それが難しい。
+ゲリーワインバーグはこの状況の2つの決定的な要因を強調する：
 
 <!---
-Weinberg-Brooks’ Law: More software projects have gone awry from management’s taking action based on incorrect system models than for all other causes combined.
+Weinberg-Brooks’ Law:
+More software projects have gone awry from management’s taking action based on incorrect system models than for all other causes combined.
 --->
 
+ワインバーグ-ブルックスの法則:
+結合されたすべての他の原因を兼ね備えたものより、間違ったシステムモデルに基礎を置くマネジメントの行動をとる多くのソフトウェアプロジェクトは間違っている。
+
 <!---
-Causation Fallacy: Every effect has a cause… and we can tell which is which. [Weinberg92]
+Causation Fallacy:
+Every effect has a cause…
+and we can tell which is which. [Weinberg92]
 --->
+
+因果関係の間違った考え方：
+すべての結果は原因を持っている…
+だから、どちらがどちらかわかる。[ワインバーグ92]
 
 <!---
 These reflect the impact of our mental models on the system, a subject that will be revisited later in this section.
 --->
 
-<!---
-Problems stemming from mental models and assumptions are one issue. Another is that large-scale adoption of Scrum, lean thinking, and agile principles is not isolated to the development group. It bumps into product management, budgeting, beta-testing, launch, and governance and HR policies. Accordingly, in large-scale agile adoption it is useful to be able to get together with colleagues and effectively reason about the mental models, causal relations, feedback loops, and control mechanisms (or illusions of control) in a big system that is about to be seriously perturbed. Systems thinking is one of those reasoning tools.
---->
+これらは、私達のシステム上における精神的なモデルの効果を示しており、このセクションの後で再び取り上げる問題である。
 
 <!---
-In 1958, the Harvard Business Review published “Industrial Dynamics: A Major Breakthrough for Decision Makers,” a landmark paper by Jay Forrester, MIT Sloan School professor. This paper spurred the movement of systems thinking in business education, and the MIT Sloan School of Management became known for educating people in system dynamics . System dynamics is sometimes treated as a synonym for systems thinking , though the latter is a more general term.
+Problems stemming from mental models and assumptions are one issue.
+Another is that large-scale adoption of Scrum, lean thinking, and agile principles is not isolated to the development group.
+It bumps into product management, budgeting, beta-testing, launch, and governance and HR policies.
+Accordingly, in large-scale agile adoption it is useful to be able to get together with colleagues and effectively reason about the mental models, causal relations, feedback loops, and control mechanisms (or illusions of control) in a big system that is about to be seriously perturbed.
+Systems thinking is one of those reasoning tools.
 --->
+
+精神的なモデルと仮定から生じる問題は、1つの論点である。
+もう一方は、スクラム、リーン思考やアジャイルの原則の大規模な採用は、開発グループと切り離されているということである。
+それは、プロダクトマネジメント、予算化、ベータテスト、ローンチ、および管理と人的リソースの方針に行き着く。
+従って、大規模なアジャイルの採用では、精神的なモデル、因果関係、フィードバックループ、およびコントロールの機構（または、コントロールの幻想）について
+同僚達と集まり、効果的に論じることができることは有益である。
+システム考察は、論じるためのツールの1つである。
+
+<!---
+In 1958, the Harvard Business Review published “Industrial Dynamics: A Major Breakthrough for Decision Makers,” a landmark paper by Jay Forrester, MIT Sloan School professor.
+This paper spurred the movement of systems thinking in business education, and the MIT Sloan School of Management became known for educating people in system dynamics.
+System dynamics is sometimes treated as a synonym for systems thinking , though the latter is a more general term.
+--->
+
+1958年、ハーバードビジネスレビューにおいて、MITスローン経営学大学院教授のジェイ・フォレスターによって「産業のダイナミクス：意思決定者のための主要なブレークスルー、」という画期的な論文が発表された。
+この論文は、職業教育においてシステム思考のムーブメントを駆り立て、そして、MITスローン経営学大学院は、システムダイナミクスの人々を教育するために知られた。
+
 
 <!---
 MIT also attracted other system-dynamics-oriented researchers such as Peter Senge.
 --->
+
+MITは、ピーター・センゲなどの他のシステム力学指向の研究者も引き付けた。
 
 <!---
 Consistent with Weinberg-Brook’s Law , Forrester’s research showed that decision makers who were given dynamic models of a business system and asked to improve their output performance, usually made them run worse [SKRRS94]. The observation was that most people have weak judgement on how to fundamentally improve systems, usually applying incorrect “common sense” and quick-fix ‘solutions’ that do not create long-lasting systemic improvement.
 --->
 
 <!---
-Why is the behavior of a large development group (a system) not understood or guided skillfully? The answer lies, in part, in the behavior of stochastic systems with queues and variability, as explored in the Queueing Theory LeSS principle. And the same answer lies in control theory : Most systems of interest—such as a product development group—have complex positive and negative feedback loops and nonlinear behavior. The behavior of these systems defies our gut instinct. And then there is the minor issue of people .
+Why is the behavior of a large development group (a system) not understood or guided skillfully?
+The answer lies, in part, in the behavior of stochastic systems with queues and variability, as explored in the Queueing Theory LeSS principle.
+And the same answer lies in control theory :
+Most systems of interest—such as a product development group—have complex positive and negative feedback loops and nonlinear behavior.
+The behavior of these systems defies our gut instinct.
+And then there is the minor issue of people.
 --->
+
+大きな開発グループ（組織）の振る舞いは、なぜ理解されない、あるいはうまく先導されなかったのか？
+答えは、LeSSの原則である待ち行列理論の中で掘り下げているように、列と変動性を持つ確率システムの振る舞いの部分的なものである。
+そして、同じような答えがコントロール理論にある：
+－製品開発グループのような－ほとんどの組織は、複合的にポジティブかつネガティブなフィードバックループおよび非線型挙動を持っている。
+これらの組織の行動は私達の直感を無視する。
+それから、ちょっとした人々の問題がある。
+
 
 <!---
 In summary, reasons for not being skillful in fathoming or guiding a big system include (but are not limited to):
 --->
+大きなシステムを測深することまたは誘導することに熟練していないことの理由の要約（しかし、以下に制限されない）：
 
 <!---
-lack of knowledge about the system dynamics, feedback loops, nonlinear systems behavior, and unintended consequences in workplace systems
-not understanding root causes of problems (and how to find)
-causes, not cause; in systems thinking one sees that there are multiple, indirect, and dynamic causes to problems
-not knowing if or why quick-fix or local-department decisions degraded overall delivery performance.
+* lack of knowledge about the system dynamics, feedback loops, nonlinear systems behavior, and unintended consequences in workplace systems
+* not understanding root causes of problems (and how to find)
+    * causes, not cause;
+      in systems thinking one sees that there are multiple, indirect, and dynamic causes to problems
+* not knowing if or why quick-fix or local-department decisions degraded overall delivery performance.
 --->
+
+* 職場システムのシステム力学、フィードバックループ、ノンリニアなシステム行動、および思いがけない結果についての知識の不足
+* 問題の根原因を理解しない（そして、どのように見つけるか）
+    * 原因、原因ではないもの  
+      システム思考をする中で、複数、間接的、動的に作用を及ぼすような原因から問題となっていることがわかるもの
+* 一時しのぎの仮定や理由、またはローカル部門の決定が全体の配達性能を低下させた理由がわからない
 
 <!---
 In short, not being systems thinkers.
 --->
 
+要するに、システム思考ができていない。
+
 <!---
-These reasons are consequential at the intersection of management and large-scale adoption of lean and agile principles. The leadership team is part of the system being perturbed; if they do not apply systems thinking, they could really perturb it—and not in a good way!
+These reasons are consequential at the intersection of management and large-scale adoption of lean and agile principles.
+The leadership team is part of the system being perturbed;
+if they do not apply systems thinking, they could really perturb it—and not in a good way!
 --->
+
+これらの理由は、マネジメントとリーンおよびアジャイルな原則の大規模な採用の交差する点において重要である。
+リーダーシップチームは、混乱しているシステムの一部である；
+もし彼らがシステム思考を適用しないならば、本当に混乱させるかもしれないし、よい方法ではない！
 
 <!---
 As a summary of systems thinking insight, we like the 11 ‘laws’ described in The Fifth Discipline:
 --->
 
+システム思考の見識からの要約として、私達は、5番目の修練において11の‘慣習’が説明されることを好んでいる：
+
+---
+
 <!---
-Today’s problems come from yesterday’s ‘solutions.’
-The harder you push, the harder the system pushes back.
-Behavior will grow worse before it grows better.
-The easy way out usually leads back in.
-The cure can be worse than the disease.
-Faster is slower.
-Cause and effect are not closely related in time and space.
-Small changes can produce big results…but the areas of highest leverage are often the least obvious.
+* Today’s problems come from yesterday’s ‘solutions.’
+* The harder you push, the harder the system pushes back.
+* Behavior will grow worse before it grows better.
+* The easy way out usually leads back in.
+* The cure can be worse than the disease.
+* Faster is slower.
+* Cause and effect are not closely related in time and space.
+--->
+
+* 今日の問題は昨日の‘解決策’から発生する
+* あなたが激しく押すにつれて、システムはより激しく押し戻す
+* 行動はよくなるよりも先に悪くなる
+* いつも先導されるのが当たり前という姿勢から抜け出す
+* 治療は病気より悪影響を与えることもある
+* より速くはより遅くなる
+* 原因と効果は、時間やスペースと密接に関連しない
+
+
+<!---
+Small changes can produce big results…
+but the areas of highest leverage are often the least obvious.
 You can have your cake and eat it too—but not all at once.
 Dividing an elephant in half does not produce two small elephants.
 There is no blame.
 --->
 
-<!---
-Toyota’s internal motto is “Good thinking, good products.” Systems thinking is a set of thinking tools to help…
---->
+小さな変更は、大きい結果をもたらすことができる…
+最高の手段というのは、少なく明白なことがほとんど。
+あなたはケーキを、一度だけでなく何度も食べることができる。
+象を半分に分けても、2匹の小さな象を産むわけではない。
+疑いようがない。
+
+---
 
 <!---
-see system dynamics—a development organization is a system of people and policies with subtle feedback loops and unintended consequences
-we can learn to see and thus improve the system with causal loop diagrams created in a workshop
-see mental models—one reason behind suboptimal decisions is mistaken assumptions and faulty reasoning
-causal loop diagramming and Five Whys expose these
-see local optimization—another source of suboptimal decisions is local optimization , making the ‘best’ decision from the viewpoint of a person or department, rather than global optimization for the lean systems-level goal of deliver value fast with high quality and high morale .
+Toyota’s internal motto is “Good thinking, good products.”
+Systems thinking is a set of thinking tools to help…
 --->
+
+トヨタの標語は、「よい思考、よい製品」である
+システム思考は、それを手助けする思考ツールのセットである…
+
+<!---
+* see system dynamics—
+  a development organization is a system of people and policies with subtle feedback loops and unintended consequences
+    * we can learn to see and thus improve the system with causal loop diagrams created in a workshop
+* see mental models—
+  one reason behind suboptimal decisions is mistaken assumptions and faulty reasoning
+    * causal loop diagramming and Five Whys expose these
+* see local optimization—
+  another source of suboptimal decisions is local optimization,
+  making the ‘best’ decision from the viewpoint of a person or department,
+  rather than global optimization for the lean systems-level goal of deliver value fast with high quality and high morale.
+--->
+
+* システム力学を知る
+  開発組織は、捉えがたいフィードバックループと予想だにしない成り行きと共にする人々とポリシーのシステムである
+    * 私達は、ワークショップで作成された原因となるループ図によってシステムを改善することを学ぶことができる
+* 精神的なモデルを知る
+  1つの理由の背景に、誤った仮定と不完全な理由からなっており最適な決断になっていない
+    * 原因となるループ図と'5つのなぜ'が、これらを露出する
+* 部分最適を知る
+  もう一方の最適な決断になっていない別の要因は、
+  高い品質および高い意欲と共に早く納品の価値を提供するというリーンのシステムゴールのための全体最適化よりも、
+  人または部門の観点から‘最もよい’決定を作るという部分最適化である
 
 <!---
 This introduction is organized around the following areas in systems thinking: Learning to see (1) system dynamics , (2) mental models , (3) root causes , and (4) local optimization .
 --->
+
+この序論は、システム思考の下記の要素で構成される：
+学べること
+(1) システム力学
+(2) 精神的なモデル
+(3) 根本原因
+(4) 部分最適化
+
 
 <!---
 Seeing System Dynamics: Introduction
