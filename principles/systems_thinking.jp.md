@@ -24,7 +24,7 @@ Systems thinking may help.
 In small groups the forces at play are more quickly seen and informally understood, but in large product development—or any large system—it’s tough.
 Gerry Weinberg highlights two decisive factors in this situation:
 --->
-「たとえ私達が何をしても、私達のバックログの欠陥の数が、およそ同じであり続ける」と、マネジャーは私達に言った；
+「たとえ私達が何をしても、私達のバックログの欠陥の数が、およそ同じであり続ける」と、マネージャーは私達に言った；
 1,500万行(15 MSLOC)のCとC++の製品をつくる私達が働いていた数百人の開発者に対して。
 どうしたんだい？
 システム思考なら解決できるかもしれない。
@@ -32,17 +32,17 @@ Gerry Weinberg highlights two decisive factors in this situation:
 ゲイリーワインバーグはこの状況の2つの決定的な要因を強調する：
 
 <!---
-Weinberg-Brooks’ Law:
-More software projects have gone awry from management’s taking action based on incorrect system models than for all other causes combined.
+> Weinberg-Brooks’ Law:
+> More software projects have gone awry from management’s taking action based on incorrect system models than for all other causes combined.
 --->
 
-ワインバーグ-ブルックスの法則:
-結合されたすべての他の原因を兼ね備えたものより、間違ったシステムモデルに基礎を置くマネジメントの行動をとる多くのソフトウェアプロジェクトは間違っている。
+> ワインバーグ-ブルックスの法則:
+> 結合されたすべての他の原因を兼ね備えたものより、間違ったシステムモデルに基礎を置くマネジメントの行動をとる多くのソフトウェアプロジェクトは間違っている。
 
 <!---
-Causation Fallacy:
-Every effect has a cause…
-and we can tell which is which. [Weinberg92]
+> Causation Fallacy:
+> Every effect has a cause…
+> and we can tell which is which. [Weinberg92]
 --->
 
 因果関係の間違った考え方：
@@ -292,27 +292,62 @@ In [Weinberg92] this is called the diagram of effect.
 The First Law of Diagramming: Model to Have a Conversation
 --->
 
-<!---
-A tool to learn to see system dynamics is a causal loop diagram, ideally sketched on a whiteboard in a LeSS Overall Retrospective with colleagues. Before going further, here is the First Law of Diagramming
---->
+### 図示の最初の規定：対話をするモデル
 
 <!---
-The primary value in diagrams is in the discussion while diagramming—we model to have a conversation.
+A tool to learn to see system dynamics is a causal loop diagram, ideally sketched on a whiteboard in a LeSS Overall Retrospective with colleagues.
+Before going further, here is the First Law of Diagramming
 --->
 
+システム力学を理解するためのツールは、原因となるループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。
+先に進む前に、これが図示するための最初の規律である
+
 <!---
-When a group gets together to sketch a causal loop diagram on a whiteboard (See it is the the acts of discussing and thinking that are most important when diagramming, Valtech India.), the primary value is the conversation and shared understanding they arrive at while creating the model. Its visualization as an easy-to-see diagram is important to make concrete and unambiguous (on the whiteboard) the ideas—the mental models people have—because words alone can be fuzzy and misunderstood. But still, the diagram is secondary to what people take away: learning and a revised understanding through a discussion.
+> The primary value in diagrams is in the discussion while diagramming—we model to have a conversation.
 --->
+
+図の主要な価値は、図示する間の議論にある－対話しながらのモデリング
+
+<!---
+When a group gets together to sketch a causal loop diagram on a whiteboard (See it is the acts of discussing and thinking that are most important when diagramming, Valtech India.),
+the primary value is the conversation and shared understanding they arrive at while creating the model.
+Its visualization as an easy-to-see diagram is important to make concrete and unambiguous (on the whiteboard) the ideas—the mental models people have—because words alone can be fuzzy and misunderstood.
+But still, the diagram is secondary to what people take away:
+learning and a revised understanding through a discussion.
+--->
+
+グループがホワイトボードに原因となるループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、
+主要な価値は対話であり、それが彼らがモデルを作成する間に生まれた理解を共有している。
+言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つ精神的なモデル－を具体的かつ明白にすることが重要である。
+それでもやはり、図は二の次である。人々が持ち帰る何か（対話を通しての理解で、学び復習すること）
 
 ![](https://less.works/img/systems_thinking/xgroup,P20cld,P20modeling.jpg.pagespeed.ic.Pnh1_YRIQk.jpg)
 
 <!---
-Doing system thinking. Sketching a causal loop diagram together—modeling to have a conversation.
+Doing system thinking.
+Sketching a causal loop diagram together—modeling to have a conversation.
 --->
 
+システム思考を実践中。
+原因となるループズを対話しながら一緒にモデリングして描いている。
+
 <!---
-Concrete modeling tip : We start by writing on sticky notes to define variables . A note might read “feature velocity” or “# defects.” We place these on a whiteboard. Then we sketch causal link lines between the sticky notes. There will be (or should be) lots of rewriting, erasing, and redrawing during the modeling session. The most meaningful outcome is understanding ; in addition, some participants will want to take a digital photo of the whiteboard sketch.
+Concrete modeling tip :
+We start by writing on sticky notes to define variables.
+A note might read “feature velocity” or “# defects.”
+We place these on a whiteboard.
+Then we sketch causal link lines between the sticky notes.
+There will be (or should be) lots of rewriting, erasing, and redrawing during the modeling session.
+The most meaningful outcome is understanding ; in addition, some participants will want to take a digital photo of the whiteboard sketch.
 --->
+
+具体的なモデリングの秘訣：
+私達は、変数を定義するために、付箋に書いて始める。
+付箋からは、“機能速度”、または“#欠陥。”を読みとることができる。
+これらをホワイトボードに貼る。
+そして、付箋の間に原因を表す線をスケッチする。
+モデリング中にたくさんの書き替え、消したり、また書き直したりする（または、そうであるはずである）。
+最も意味がある結果は理解がある；さらに、何人かの参加者がホワイトボードスケッチのデジタルの写真を撮りたいだろう。
 
 <!---
 Seeing System Dynamics: Causal Loop Diagrams
