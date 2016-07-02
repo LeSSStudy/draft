@@ -399,9 +399,14 @@ That’s the way we suggest ‘doing’ systems thinking.
 Notation and Examples
 --->
 
+#### 表記法と例
+
 <!---
 Causal loop diagrams contain many elements; the following common useful subset is explored through a scenario.
 --->
+
+因果ループ図は多くの要素を含んでいる；
+以下の共通の有益なサブセットはシナリオを通して探究される。
 
 <!---
 * Variables           reactions; quick-fix reactions
@@ -411,62 +416,112 @@ Causal loop diagrams contain many elements; the following common useful subset i
 * goals               positive feedback loops
 --->
 
+* Variables（変数）           反応; その場しのぎの反応
+* causal links（因果リンク）   相互作用した効果
+* opposite effects（相反効果） 極端な効果
+* constraints（制約）         遅延
+* goals（ゴール）             ポジティブなフィードバックループ
+
 <!---
 The following simplified scenario is for a particular organization. It is not a generalization.
 --->
 
+以下の簡素化されたシナリオは、特定の組織に向いているもので、一般化ではない。
+
 <!---
-Variables—Causal loop diagrams include variables (or stocks) such as the velocity (rate of delivery) of software features and number of defects . Variables have a measurable quantity.
+Variables—
+Causal loop diagrams include variables (or stocks) such as the velocity (rate of delivery) of software features and number of defects.
+Variables have a measurable quantity.
 --->
+
+変数ー
+因果ループ図は、欠陥数やソフトウェア機能の生産量（納品率）のような変数を含む。
+変数は、測定できる量を持っている必要がある。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-4.png.pagespeed.ic.7hyPwR5tv7.png)
 
 <!---
-Causal links—An element can have an effect on another, such as if feature velocity increases, then the number of defects increase; that is, more new code, more defects.
+Causal links—An element can have an effect on another, such as if feature velocity increases, then the number of defects increase;
+that is, more new code, more defects.
 --->
+
+因果リンク－要素は別の効果があるかもしれない、もし機能生産量の増加させれば、欠陥数が増加するかもしれない；
+すなわち、より新しいコードが増え、それに伴いより多くの欠陥が増えるということである。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-5.png.pagespeed.ic.1C4UDvPgs8.png)
 
 <!---
-Now it is time to bump into Weinberg-Brook’s Law and the Causation Fallacy . It is easy to sketch a diagram; it is something else to model with insight. For example, consider the relationship between the number of developers and feature velocity.
+Now it is time to bump into Weinberg-Brook’s Law and the Causation Fallacy.
+It is easy to sketch a diagram;
+it is something else to model with insight.
+For example, consider the relationship between the number of developers and feature velocity.
 --->
 
+今や、ワインバーグ・ブルックの法則と因果関係の誤った推論をぶつける時である。
+図を描くことは容易である；
+それは、洞察を持つ素晴らしいモデルである。
+例えば、開発者の数と機能生産量の間の関係を考察する。
+
 <!---
-The nature of any cause-effect relationship is actually not obvious, though it is common for people to jump to conclusions such as more developers means better velocity. Adding people late in development may reduce velocity (a sub-element of “Brooks’ Law” [Brooks95]). Or, more bad programmers could really slow you down. An argument can be made that removing terrible developers can improve velocity.
+The nature of any cause-effect relationship is actually not obvious,
+though it is common for people to jump to conclusions such as more developers means better velocity.
+Adding people late in development may reduce velocity (a sub-element of “Brooks’ Law” [Brooks95]).
+Or, more bad programmers could really slow you down.
+An argument can be made that removing terrible developers can improve velocity.
 --->
+
+人々がより多くの開発者がより生産量を多くするという意味のような結論に跳ぶというような発想は人々に共通しているが、
+全ての原因と効果の関係の性質は、実際には明らかにならない、
+人を追加することは、開発の遅延させ生産量を減らすかもしれない（「ブルックスの法則」の部分的な要素[Brooks95]）。
+または、能力の低いプログラマーは、あなたの生産性を落とすことができるだろう。
+ひどい開発者を除去することが生産量を高めることができると言った議論を作ることができる。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-6.png.pagespeed.ic.Gl_PMhx0t9.png)
 
 <!---
-Opposite effects—A causal link effect may be the same or opposite direction; if A goes up then B goes up, or vice versa. Opposite effect is shown with an ‘O’ on the line. Suppose defects going up puts a drag on the system, lowering the velocity of new features because people spend more time fixing or working around bugs.
+Opposite effects—A causal link effect may be the same or opposite direction;
+if A goes up then B goes up, or vice versa.
+Opposite effect is shown with an ‘O’ on the line.
+Suppose defects going up puts a drag on the system, lowering the velocity of new features because people spend more time fixing or working around bugs.
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-7.png.pagespeed.ic.uD9mVpPZOe.png)
 
 <!---
-Constraints—Unless you can find people to work for free, there is a constraint on the number of developers, based upon cash supply.
+Constraints—Unless you can find people to work for free,
+there is a constraint on the number of developers, based upon cash supply.
 --->
 
 <!---
-Constraints are not causal links. As cash supply goes up, it is not the case that the number of developers goes up.
+Constraints are not causal links.
+As cash supply goes up, it is not the case that the number of developers goes up.
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-8.png.pagespeed.ic.p4v-WNXZCh.png)
 
 <!---
-Goals and Reactions–People, departments, and systems have goals, such as higher feature velocity . Goals often generate pressure for people to react (or act), with the intent of achieving the goal. But since there is Causation Fallacy and Weinberg-Brooks’ Law to contend with, people should be cautious about assuming what actions will help. Now a goal and pressure for reaction is shown:
+Goals and Reactions–People, departments, and systems have goals, such as higher feature velocity.
+Goals often generate pressure for people to react (or act), with the intent of achieving the goal.
+But since there is Causation Fallacy and Weinberg-Brooks’ Law to contend with, people should be cautious about assuming what actions will help.
+Now a goal and pressure for reaction is shown:
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-9.png.pagespeed.ic.7T3j6vKX6T.png)
 
 <!---
-Not only does a goal with a reward create pressure to act, but also it creates pressure to appear to be acting and achieving, due to the measurement dysfunction generated by rewards. And the measurement dysfunction can be proportional to the perceived value of the reward because people are being motivated to get a reward, not to improve the system [Austin96]. Notice how rewards can actually degrade system performance. Visually, the system dynamics may be…
+Not only does a goal with a reward create pressure to act,
+but also it creates pressure to appear to be acting and achieving,
+due to the measurement dysfunction generated by rewards.
+And the measurement dysfunction can be proportional to the perceived value of the reward because people are being motivated to get a reward, not to improve the system [Austin96].
+Notice how rewards can actually degrade system performance.
+Visually, the system dynamics may be…
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-10.png.pagespeed.ic.dyejPasI0I.png)
 
 <!---
-It is quite interesting that all these dynamics have been added by introduction of reward, and yet there is no necessary connection between the top part of this model and the bottom.
+It is quite interesting that all these dynamics have been added by introduction of reward,
+and yet there is no necessary connection between the top part of this model and the bottom.
 --->
 
 <!---
@@ -474,29 +529,46 @@ There is no guarantee that feature velocity has improved—or even been worked o
 --->
 
 <!---
-Removing the reward system is a root-cause solution to the dysfunction. Another (lesser) surface countermeasure is the lean-thinking Go See (go see physically at the place of real work) principle and management behavior:
+Removing the reward system is a root-cause solution to the dysfunction.
+Another (lesser) surface countermeasure is the lean-thinking Go See (go see physically at the place of real work) principle and management behavior:
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-11.png.pagespeed.ic.mXineYilEP.png)
 
 <!---
-Quick-fix reactions—One difficult and slow solution toward the goal of higher velocity is to hire great developers, to increase coaching and education of existing staff, and to remove terrible workers. The alternative is called a quick fix , a reaction that is hoped to achieve the goal quickly and with less effort. Sometimes a quick fix works well both in the short and long term, really strengthening the system. Sometimes not…hence, “faster is slower.” For example, people may believe that increasing the number of developers increases the feature velocity. And they may thereby hope that hiring more developers will most quickly and easily solve the velocity problem. ‘QF’ indicates the quick fix:
+Quick-fix reactions—One difficult and slow solution toward the goal of higher velocity is to hire great developers,
+to increase coaching and education of existing staff, and to remove terrible workers.
+The alternative is called a quick fix , a reaction that is hoped to achieve the goal quickly and with less effort.
+Sometimes a quick fix works well both in the short and long term, really strengthening the system. Sometimes not…hence, “faster is slower.”
+For example, people may believe that increasing the number of developers increases the feature velocity.
+And they may thereby hope that hiring more developers will most quickly and easily solve the velocity problem.
+‘QF’ indicates the quick fix:
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-12.png.pagespeed.ic.BS-FVQWluL.png)
 
 <!---
-Interaction effects—There is the constraint of cash supply on hiring. One hard and slow solution is to get more cash. A quicker fix is to hire much cheaper developers. In this case, the level of cash supply now has an interaction effect with other causal links. Low cash tends to strengthen the hire rate of much cheaper developers when there is pressure to increase hire rates.
+Interaction effects—There is the constraint of cash supply on hiring.
+One hard and slow solution is to get more cash.
+A quicker fix is to hire much cheaper developers.
+In this case, the level of cash supply now has an interaction effect with other causal links.
+Low cash tends to strengthen the hire rate of much cheaper developers when there is pressure to increase hire rates.
 --->
 
 <!---
-One could simply draw an (opposite) causal link directly from cash supply to hire rate of very cheap developers , but that merely says that less cash leads to more hiring of extremely cheap developers. That is not quite what we want to say; rather, we want to show the interaction effect—that effect A influences effect B. This is done by showing a causal link entering another causal link. For example, from cash supply to the quick-fix line going into hire rate of very cheap developers :
+One could simply draw an (opposite) causal link directly from cash supply to hire rate of very cheap developers,
+but that merely says that less cash leads to more hiring of extremely cheap developers.
+That is not quite what we want to say; rather, we want to show the interaction effect—that effect A influences effect B.
+This is done by showing a causal link entering another causal link.
+For example, from cash supply to the quick-fix line going into hire rate of very cheap developers :
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-13.png.pagespeed.ic.hoU7NExB0v.png)
 
 <!---
-Extreme effects—We have worked with some very inexpensive developers with excellent skill and some very expensive developers that are terrible, but on average, you get what you pay for—when you hire from a large pool of very cheap labor, the average skill level is lower. In the model we want to show that the impact of hiring very cheap labor on the number of low-skilled developers is a significantly greater effect than average.
+Extreme effects—We have worked with some very inexpensive developers with excellent skill and some very expensive developers that are terrible,
+but on average, you get what you pay for—when you hire from a large pool of very cheap labor, the average skill level is lower.
+In the model we want to show that the impact of hiring very cheap labor on the number of low-skilled developers is a significantly greater effect than average.
 --->
 
 <!---
@@ -506,11 +578,17 @@ To show an extreme effect in the model, use a thick line:
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-14.png.pagespeed.ic.lhixsuuEBI.png)
 
 <!---
-Delays—One problem in hiring in software development is the fallacy of mild programmer variance —the mistaken belief that programmer variance (in terms of productivity, code quality, etc.) is relatively small. However, programmer variance studies suggest an average of four times faster in the top versus bottom quartile [Prechelt00]. Rather significant. Also, the COCOMO model—based on large and longitudinal studies—shows that the capability of the development personnel is by far the most important factor for productivity [Boehm00]. And, on average, very weak programmers create poor-quality code (poor design) and more defects, creating another drag on the system.
+Delays—One problem in hiring in software development is the fallacy of mild programmer variance —the mistaken belief that programmer variance (in terms of productivity, code quality, etc.) is relatively small.
+However, programmer variance studies suggest an average of four times faster in the top versus bottom quartile [Prechelt00].
+Rather significant.
+Also, the COCOMO model—based on large and longitudinal studies—shows that the capability of the development personnel is by far the most important factor for productivity [Boehm00].
+And, on average, very weak programmers create poor-quality code (poor design) and more defects, creating another drag on the system.
 --->
 
 <!---
-But the impacts of these effects are not immediately obvious. For example, it takes a relatively long time after hiring a large pool of weak programmers before the impacts of more and more bad code/design start to be felt. Similarly, the average decrease in feature velocity (because of the powerful impact of programmer variance) will not show up immediately.
+But the impacts of these effects are not immediately obvious.
+For example, it takes a relatively long time after hiring a large pool of weak programmers before the impacts of more and more bad code/design start to be felt.
+Similarly, the average decrease in feature velocity (because of the powerful impact of programmer variance) will not show up immediately.
 --->
 
 <!---
@@ -520,29 +598,44 @@ To show these delayed effects in the model, use a double-line through the effect
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-15.png.pagespeed.ic.wNs033QPdZ.png)
 
 <!---
-Delay has an intriguing influence on the educational or corrective power in a system. If an impact or unintended consequence is long delayed, one does not feel the effect (pain or gain) and so does not clearly see how A influenced B, or more subtly how A influenced B influenced A .
+Delay has an intriguing influence on the educational or corrective power in a system.
+If an impact or unintended consequence is long delayed,
+one does not feel the effect (pain or gain) and so does not clearly see how A influenced B, or more subtly how A influenced B influenced A .
 --->
 
 <!---
-Therefore, one does not learn from or correct mistakes—in policy, management actions, tools, and so forth. Likewise, gradual improvement through the lean thinking practice of kaizen can take a long time; patience and insight are needed to see if and how things improve.
+Therefore, one does not learn from or correct mistakes—in policy, management actions, tools, and so forth.
+Likewise, gradual improvement through the lean thinking practice of kaizen can take a long time;
+patience and insight are needed to see if and how things improve.
 --->
 
 <!---
-Positive feedback loops—Negative or positive feedback loops5 and delays are where things start to get more subtle in a system—and in understanding a system. For example, how does one become a better programmer? In part, by mentoring from great programmers and seeing lots of examples of great code. But an office with a lot of low-skill developers does not generate a lot of great code examples, nor does it attract or retain the small pool of great programmers who could act as mentors. They would rather work somewhere else.
+Positive feedback loops—Negative or positive feedback loops5 and delays are where things start to get more subtle in a system—and in understanding a system.
+For example, how does one become a better programmer?
+In part, by mentoring from great programmers and seeing lots of examples of great code.
+But an office with a lot of low-skill developers does not generate a lot of great code examples, nor does it attract or retain the small pool of great programmers who could act as mentors.
+They would rather work somewhere else.
 --->
 
 <!---
-Now the development group starts to enter a self-reinforcing downward spiral—a set of positive feedback loops . Fortunately, the downward trend is constrained by the supply of cash.
+Now the development group starts to enter a self-reinforcing downward spiral—a set of positive feedback loops.
+Fortunately, the downward trend is constrained by the supply of cash.
 --->
 
 <!---
-More great programmers—who could craft great code and mentor others—leave. So there is less and less quality code to look at and to learn from. The percentage of weak programmers grows even larger and feature velocity drops further. Code becomes more messy, awkward, and duplication-riddled, so the capacity to swiftly implement features declines. Since feature velocity is dropping further, there is more pressure to hire yet more very cheap programmers. All this leads to multiple positive reinforcement loops in the system, for example:
+More great programmers—who could craft great code and mentor others—leave.
+So there is less and less quality code to look at and to learn from.
+The percentage of weak programmers grows even larger and feature velocity drops further.
+Code becomes more messy, awkward, and duplication-riddled, so the capacity to swiftly implement features declines.
+Since feature velocity is dropping further, there is more pressure to hire yet more very cheap programmers.
+All this leads to multiple positive reinforcement loops in the system, for example:
 --->
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-16.png.pagespeed.ic.mnzd-1dyJm.png)
 
 <!---
-Tip : You can find positive feedback loops by finding cycles with an even number of ‘Opposite’ effect relationships. There are several examples in the model above.
+Tip : You can find positive feedback loops by finding cycles with an even number of ‘Opposite’ effect relationships.
+There are several examples in the model above.
 --->
 
 <!---
@@ -550,7 +643,9 @@ Conclusion
 --->
 
 <!---
-The example scenario is only that—an example. A causal loop diagram can visualize rich dynamics in a workplace system. These are best created by a group at a whiteboard.
+The example scenario is only that—an example.
+A causal loop diagram can visualize rich dynamics in a workplace system.
+These are best created by a group at a whiteboard.
 --->
 
 <!---
