@@ -13,7 +13,7 @@ Systems Thinking
 I took a speed reading course and read “War and Peace” in twenty minutes. It involves Russia.
 —Woody Allen
 --->
-私は速読のクラスを取り、『戦争と平和』を20分で読んだ。それにはロシアについて書いてあったと思う。
+私は速読のクラスを取り、『戦争と平和』を20分で読んだ。それにはロシアについて書いてあったと思う。  
 ウッディ・アレン
 
 <!---
@@ -24,11 +24,11 @@ Systems thinking may help.
 In small groups the forces at play are more quickly seen and informally understood, but in large product development—or any large system—it’s tough.
 Gerry Weinberg highlights two decisive factors in this situation:
 --->
-「たとえ私達が何をしても、私達のバックログの欠陥の数が、およそ同じであり続ける」と、マネージャーは私達に言った；
-1,500万行(15 MSLOC)のCとC++の製品をつくる私達が働いていた数百人の開発者に対して。
-どうしたんだい？
-システム思考なら解決できるかもしれない。
-小さなグループにおいて、その要因がより迅速に見られて、自然な理解がされているが、大規模開発－または全ての大きなシステム－では、それが難しい。
+「たとえ私達が何をしても、私達のバックログの欠陥の数が、およそ同じであり続ける」と、マネージャーは私達に言った；  
+1,500万行(15 MSLOC)のCとC++の製品をつくる私達が働いていた数百人の開発者に対して。  
+どうしたんだい？  
+システム思考なら解決できるかもしれない。  
+小さなグループにおいて、その要因がより迅速に見られて、自然な理解がされているが、大規模開発－または全ての大きなシステム－では、それが難しい。  
 ゲイリーワインバーグはこの状況の2つの決定的な要因を強調する：
 
 <!---
@@ -36,7 +36,7 @@ Gerry Weinberg highlights two decisive factors in this situation:
 > More software projects have gone awry from management’s taking action based on incorrect system models than for all other causes combined.
 --->
 
-> ワインバーグ-ブルックスの法則:
+> ワインバーグ-ブルックスの法則:  
 > 結合されたすべての他の原因を兼ね備えたものより、間違ったシステムモデルに基礎を置くマネジメントの行動をとる多くのソフトウェアプロジェクトは間違っている。
 
 <!---
@@ -45,8 +45,8 @@ Gerry Weinberg highlights two decisive factors in this situation:
 > and we can tell which is which. [Weinberg92]
 --->
 
-因果関係の間違った考え方：
-すべての結果は原因を持っている…
+因果関係の間違った考え方：  
+すべての結果は原因を持っている…  
 だから、どちらがどちらかわかる。[ワインバーグ92]
 
 <!---
@@ -63,11 +63,11 @@ Accordingly, in large-scale agile adoption it is useful to be able to get togeth
 Systems thinking is one of those reasoning tools.
 --->
 
-精神的なモデルと仮定から生じる問題は、1つの論点である。
-もう一方は、スクラム、リーン思考やアジャイルの原則の大規模な採用は、開発グループと切り離されているということである。
-それは、プロダクトマネジメント、予算化、ベータテスト、ローンチ、および管理と人的リソースの方針に行き着く。
-従って、大規模なアジャイルの採用では、精神的なモデル、因果関係、フィードバックループ、およびコントロールの機構（または、コントロールの幻想）について
-同僚達と集まり、効果的に論じることができることは有益である。
+精神的なモデルと仮定から生じる問題は、1つの論点である。  
+もう一方は、スクラム、リーン思考やアジャイルの原則の大規模な採用は、開発グループと切り離されているということである。  
+それは、プロダクトマネジメント、予算化、ベータテスト、ローンチ、および管理と人的リソースの方針に行き着く。  
+従って、大規模なアジャイルの採用では、精神的なモデル、因果関係、フィードバックループ、およびコントロールの機構（または、コントロールの幻想）について  
+同僚達と集まり、効果的に論じることができることは有益である。  
 システム考察は、論じるためのツールの1つである。
 
 <!---
@@ -76,7 +76,7 @@ This paper spurred the movement of systems thinking in business education, and t
 System dynamics is sometimes treated as a synonym for systems thinking , though the latter is a more general term.
 --->
 
-1958年、ハーバードビジネスレビューにおいて、MITスローン経営学大学院教授のジェイ・フォレスターによって「産業のダイナミクス：意思決定者のための主要なブレークスルー、」という画期的な論文が発表された。
+1958年、ハーバードビジネスレビューにおいて、MITスローン経営学大学院教授のジェイ・フォレスターによって「産業のダイナミクス：意思決定者のための主要なブレークスルー、」という画期的な論文が発表された。  
 この論文は、職業教育においてシステム思考のムーブメントを駆り立て、そして、MITスローン経営学大学院は、システムダイナミクスの人々を教育するために知られた。
 
 
@@ -99,11 +99,11 @@ The behavior of these systems defies our gut instinct.
 And then there is the minor issue of people.
 --->
 
-大きな開発グループ（組織）の振る舞いは、なぜ理解されない、あるいはうまく先導されなかったのか？
-答えは、LeSSの原則である待ち行列理論の中で掘り下げているように、列と変動性を持つ確率システムの振る舞いの部分的なものである。
-そして、同じような答えがコントロール理論にある：
-－製品開発グループのような－ほとんどの組織は、複合的にポジティブかつネガティブなフィードバックループおよび非線型挙動を持っている。
-これらの組織の行動は私達の直感を無視する。
+大きな開発グループ（組織）の振る舞いは、なぜ理解されない、あるいはうまく先導されなかったのか？  
+答えは、LeSSの原則である待ち行列理論の中で掘り下げているように、列と変動性を持つ確率システムの振る舞いの部分的なものである。  
+そして、同じような答えがコントロール理論にある：  
+－製品開発グループのような－ほとんどの組織は、複合的にポジティブかつネガティブなフィードバックループおよび非線型挙動を持っている。  
+これらの組織の行動は私達の直感を無視する。  
 それから、ちょっとした人々の問題がある。
 
 
@@ -138,8 +138,8 @@ The leadership team is part of the system being perturbed;
 if they do not apply systems thinking, they could really perturb it—and not in a good way!
 --->
 
-これらの理由は、マネジメントとリーンおよびアジャイルな原則の大規模な採用の交差する点において重要である。
-リーダーシップチームは、混乱しているシステムの一部である；
+これらの理由は、マネジメントとリーンおよびアジャイルな原則の大規模な採用の交差する点において重要である。  
+リーダーシップチームは、混乱しているシステムの一部である；  
 もし彼らがシステム思考を適用しないならば、本当に混乱させるかもしれないし、よい方法ではない！
 
 <!---
@@ -177,10 +177,10 @@ Dividing an elephant in half does not produce two small elephants.
 There is no blame.
 --->
 
-小さな変更は、大きい結果をもたらすことができる…
-最高の手段というのは、少なく明白なことがほとんど。
-あなたはケーキを、一度だけでなく何度も食べることができる。
-象を半分に分けても、2匹の小さな象を産むわけではない。
+小さな変更は、大きい結果をもたらすことができる…  
+最高の手段というのは、少なく明白なことがほとんど。  
+あなたはケーキを、一度だけでなく何度も食べることができる。  
+象を半分に分けても、2匹の小さな象を産むわけではない。  
 疑いようがない。
 
 ---
@@ -190,7 +190,7 @@ Toyota’s internal motto is “Good thinking, good products.”
 Systems thinking is a set of thinking tools to help…
 --->
 
-トヨタの標語は、「よい思考、よい製品」である
+トヨタの標語は、「よい思考、よい製品」である  
 システム思考は、それを手助けする思考ツールのセットである…
 
 <!---
@@ -206,27 +206,27 @@ Systems thinking is a set of thinking tools to help…
   rather than global optimization for the lean systems-level goal of deliver value fast with high quality and high morale.
 --->
 
-* システム力学を知る
+* システム力学を知る  
   開発組織は、捉えがたいフィードバックループと予想だにしない成り行きと共にする人々とポリシーのシステムである
     * 私達は、ワークショップで作成された因果ループ図によってシステムを改善することを学ぶことができる
-* 精神的なモデルを知る
+* 精神的なモデルを知る  
   1つの理由の背景に、誤った仮定と不完全な理由からなっており最適な決断になっていない
     * 因果ループ図と'5つのなぜ'が、これらを露出する
-* 部分最適を知る
-  もう一方の最適な決断になっていない別の要因は、
-  高い品質および高い意欲と共に早く納品の価値を提供するというリーンのシステムゴールのための全体最適化よりも、
+* 部分最適を知る  
+  もう一方の最適な決断になっていない別の要因は、  
+  高い品質および高い意欲と共に早く納品の価値を提供するというリーンのシステムゴールのための全体最適化よりも、  
   人または部門の観点から‘最もよい’決定を作るという部分最適化である
 
 <!---
 This introduction is organized around the following areas in systems thinking: Learning to see (1) system dynamics , (2) mental models , (3) root causes , and (4) local optimization .
 --->
 
-この序論は、システム思考の下記の要素で構成される：
-学べること
-(1) システム力学
-(2) 精神的なモデル
-(3) 根本原因
-(4) 部分最適化
+この序論は、システム思考の下記の要素で構成される：  
+学べること  
+(1) システム力学  
+(2) 精神的なモデル  
+(3) 根本原因  
+(4) 部分最適化  
 
 
 <!---
@@ -246,9 +246,9 @@ Many of us, especially in engineering and finance, are educated to master comple
 That is, complexity of a static, information, or structural nature.
 --->
 
-私達の多くは、特にエンジニアリングおよび財政において、静的な内容
-ー情報（要件、財務分析、…）を分析し、管理したり、複雑な構造をより簡単なものなどに分解することを学ぶことなどー
-の複雑さをマスターするために教育される。
+私達の多くは、特にエンジニアリングおよび財政において、静的な内容  
+ー情報（要件、財務分析、…）を分析し、管理したり、複雑な構造をより簡単なものなどに分解することを学ぶことなどー  
+の複雑さをマスターするために教育される。  
 すなわち、静的、情報、または構造の自然の複雑さ。
 
 
@@ -258,8 +258,8 @@ What might happen if the USA invades Iraq?
 Seeing the dynamics behind these questions involves analysis of the complexity of dynamics.
 --->
 
-なぜ、大きなソフトウェアシステムは欠陥に使われたより多くの時間とともに低下する傾向があるのか？
-もし米国がイラクを侵略するならば、何が起こるであろうか？
+なぜ、大きなソフトウェアシステムは欠陥に使われたより多くの時間とともに低下する傾向があるのか？  
+もし米国がイラクを侵略するならば、何が起こるであろうか？  
 力学の背景にあるこれらの問題を理解するには、力学の複雑さに関する分析を必要とする。
 
 <!---
@@ -269,9 +269,9 @@ Forrester demonstrated that “common sense” is just not so in complex systems
 and showed it is possible to formally educate people to become better system dynamics thinkers in the workplace using dynamic system models visualized in flow diagrams [Forrester61].
 --->
 
-静的詳細教育と対比すると、私達の多くは、特に職場力学という分析力学の複雑さについて形式的な教育を全然受けない。
-おそらく、職場の常識に頼っていることに十分な確信を持っている。
-フォレスターはただ「常識」が複雑系にそうないのを証明した、
+静的詳細教育と対比すると、私達の多くは、特に職場力学という分析力学の複雑さについて形式的な教育を全然受けない。  
+おそらく、職場の常識に頼っていることに十分な確信を持っている。  
+フォレスターはただ「常識」が複雑系にそうないのを証明した、  
 そして、フローチャート[Forrester61]において視覚化された動的なシステムモデルを使い、これまでよりも良い形で職場のシステム力学思想家になるように、人々を形式的に教育することが可能であると伝えている。
 
 <!---
@@ -282,10 +282,10 @@ they all show stocks (variables), causal links, and delay.
 In [Weinberg92] this is called the diagram of effect.
 --->
 
-フローチャートは、素材、金融、および情報フロー、株（欠陥の現金や数などの量を持つ変数）、決定と方針のインパクト、および原因効果関係を含んでいる。
-ポピュラーな単純化は、システム[Sterman00]の原因効果関係とフィードバックループを中心に行う因果ループ図である。
-各種の同様な表記法がある；
-それらすべては、株（変数）、原因となるリンク、および遅延を示す。
+フローチャートは、素材、金融、および情報フロー、株（欠陥の現金や数などの量を持つ変数）、決定と方針のインパクト、および原因効果関係を含んでいる。  
+ポピュラーな単純化は、システム[Sterman00]の原因効果関係とフィードバックループを中心に行う因果ループ図である。  
+各種の同様な表記法がある；  
+それらすべては、株（変数）、原因となるリンク、および遅延を示す。  
 [Weinberg92]において、これは効果の図と呼ばれる。
 
 <!---
@@ -299,7 +299,7 @@ A tool to learn to see system dynamics is a causal loop diagram, ideally sketche
 Before going further, here is the First Law of Diagramming
 --->
 
-システム力学を理解するためのツールは、因果ループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。
+システム力学を理解するためのツールは、因果ループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。  
 先に進む前に、これが図示するための最初の規律である
 
 <!---
@@ -316,9 +316,9 @@ But still, the diagram is secondary to what people take away:
 learning and a revised understanding through a discussion.
 --->
 
-グループがホワイトボードに因果ループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、
-主要な価値は対話であり、それが彼らがモデルを作成する間に生まれた理解を共有している。
-言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つ精神的なモデル－を具体的かつ明白にすることが重要である。
+グループがホワイトボードに因果ループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、  
+主要な価値は対話であり、それが彼らがモデルを作成する間に生まれた理解を共有している。  
+言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つ精神的なモデル－を具体的かつ明白にすることが重要である。  
 それでもやはり、図は二の次である。人々が持ち帰る何か（対話を通しての理解で、学び復習すること）
 
 ![](https://less.works/img/systems_thinking/xgroup,P20cld,P20modeling.jpg.pagespeed.ic.Pnh1_YRIQk.jpg)
@@ -328,7 +328,7 @@ Doing system thinking.
 Sketching a causal loop diagram together—modeling to have a conversation.
 --->
 
-システム思考を実践中。
+システム思考を実践中。  
 因果ループ図を対話しながら一緒にモデリングして描いている。
 
 <!---
@@ -341,12 +341,12 @@ There will be (or should be) lots of rewriting, erasing, and redrawing during th
 The most meaningful outcome is understanding ; in addition, some participants will want to take a digital photo of the whiteboard sketch.
 --->
 
-具体的なモデリングの秘訣：
-私達は、変数を定義するために、付箋に書いて始める。
-付箋からは、“機能速度”、または“#欠陥。”を読みとることができる。
-これらをホワイトボードに貼る。
-そして、付箋の間に原因を表す線をスケッチする。
-モデリング中にたくさんの書き替え、消したり、また書き直したりする（または、そうであるはずである）。
+具体的なモデリングの秘訣：  
+私達は、変数を定義するために、付箋に書いて始める。  
+付箋からは、“機能速度”、または“#欠陥。”を読みとることができる。  
+これらをホワイトボードに貼る。  
+そして、付箋の間に原因を表す線をスケッチする。  
+モデリング中にたくさんの書き替え、消したり、また書き直したりする（または、そうであるはずである）。  
 最も意味がある結果は理解がある；さらに、何人かの参加者がホワイトボードスケッチのデジタルの写真を撮りたいだろう。
 
 <!---
@@ -365,11 +365,11 @@ When?
 Probably during a LeSS Overall Retrospective.
 --->
 
-因果ループ図は、大規模な開発において力学がそういうものだと理解するのに役立つように、LeSSの序文の中で正式に使われる。
-理由だけを理解することに役立つ。
-そして、あなたにとって有益である、私達は、ホワイトボードで同僚とともにこれらをするように勧める。
-対話しながらモデリングをする。
-いつ実施するのか？
+因果ループ図は、大規模な開発において力学がそういうものだと理解するのに役立つように、LeSSの序文の中で正式に使われる。  
+理由だけを理解することに役立つ。  
+そして、あなたにとって有益である、私達は、ホワイトボードで同僚とともにこれらをするように勧める。  
+対話しながらモデリングをする。  
+いつ実施するのか？  
 たぶん、LeSSのオーバーオールレトロスペクティブの時に。
 
 <!---
@@ -380,9 +380,9 @@ sketching causal loop diagrams together,
 then there is a concrete and potentially high-impact practice that connects “be a systems thinker” with “do systems thinking.”
 --->
 
-この秘訣の実用的な面は、最初に真価が認められうるより重要である。
-「システム思想家でありなさい。」ということを示唆することは、漠然としていて、印象としては小さい。
-しかし、もしあなたと4人の同僚が、大きいホワイトボードの前で一緒に立つことを習慣にしていれば、一緒に因果ループ図を描くことができ、
+この秘訣の実用的な面は、最初に真価が認められうるより重要である。  
+「システム思想家でありなさい。」ということを示唆することは、漠然としていて、印象としては小さい。  
+しかし、もしあなたと4人の同僚が、大きいホワイトボードの前で一緒に立つことを習慣にしていれば、一緒に因果ループ図を描くことができ、  
 そして、「システム思想家でありなさい」を、「システム思考をしなさい。」に繋げるプラクティスとして高い印象を与える可能性がある。
 
 <!---
@@ -391,8 +391,8 @@ But imagine you were at a whiteboard with other people and the diagrams were bei
 That’s the way we suggest ‘doing’ systems thinking.
 --->
 
-以下の例は、本の中で示されているような内容が乏しいものに見えるかもしれない。
-しかし、あなたが、他の人々と一緒にホワイトボード前にいて、活発な会話中に図の概略を述べていたと想像してください。
+以下の例は、本の中で示されているような内容が乏しいものに見えるかもしれない。  
+しかし、あなたが、他の人々と一緒にホワイトボード前にいて、活発な会話中に図の概略を述べていたと想像してください。  
 それが、私達が提案するシステム思考を‘実践する’方法である。
 
 <!---
@@ -405,7 +405,7 @@ Notation and Examples
 Causal loop diagrams contain many elements; the following common useful subset is explored through a scenario.
 --->
 
-因果ループ図は多くの要素を含んでいる；
+因果ループ図は多くの要素を含んでいる；  
 以下の共通の有益なサブセットはシナリオを通して探究される。
 
 <!---
@@ -434,8 +434,8 @@ Causal loop diagrams include variables (or stocks) such as the velocity (rate of
 Variables have a measurable quantity.
 --->
 
-変数ー
-因果ループ図は、欠陥数やソフトウェア機能の生産量（納品率）のような変数を含む。
+変数ー  
+因果ループ図は、欠陥数やソフトウェア機能の生産量（納品率）のような変数を含む。  
 変数は、測定できる量を持っている必要がある。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-4.png.pagespeed.ic.7hyPwR5tv7.png)
@@ -445,7 +445,7 @@ Causal links—An element can have an effect on another, such as if feature velo
 that is, more new code, more defects.
 --->
 
-因果リンク－要素は別の効果があるかもしれない、もし機能生産量の増加させれば、欠陥数が増加するかもしれない；
+因果リンク－要素は別の効果があるかもしれない、もし機能生産量の増加させれば、欠陥数が増加するかもしれない；  
 すなわち、より新しいコードが増え、それに伴いより多くの欠陥が増えるということである。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-5.png.pagespeed.ic.1C4UDvPgs8.png)
@@ -457,9 +457,9 @@ it is something else to model with insight.
 For example, consider the relationship between the number of developers and feature velocity.
 --->
 
-今や、ワインバーグ・ブルックの法則と因果関係の誤った推論をぶつける時である。
-図を描くことは容易である；
-それは、洞察を持つ素晴らしいモデルである。
+今や、ワインバーグ・ブルックの法則と因果関係の誤った推論をぶつける時である。  
+図を描くことは容易である；  
+それは、洞察を持つ素晴らしいモデルである。  
 例えば、開発者の数と機能生産量の間の関係を考察する。
 
 <!---
@@ -470,10 +470,10 @@ Or, more bad programmers could really slow you down.
 An argument can be made that removing terrible developers can improve velocity.
 --->
 
-人々がより多くの開発者がより生産量を多くするという意味のような結論に跳ぶというような発想は人々に共通しているが、
-全ての原因と効果の関係の性質は、実際には明らかにならない、
-人を追加することは、開発の遅延させ生産量を減らすかもしれない（「ブルックスの法則」の部分的な要素[Brooks95]）。
-または、能力の低いプログラマーは、あなたの生産性を落とすことができるだろう。
+人々がより多くの開発者がより生産量を多くするという意味のような結論に跳ぶというような発想は人々に共通しているが、  
+全ての原因と効果の関係の性質は、実際には明らかにならない、  
+人を追加することは、開発の遅延させ生産量を減らすかもしれない（「ブルックスの法則」の部分的な要素[Brooks95]）。  
+または、能力の低いプログラマーは、あなたの生産性を落とすことができるだろう。  
 ひどい開発者を除去することが生産量を高めることができると言った議論を作ることができる。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-6.png.pagespeed.ic.Gl_PMhx0t9.png)
@@ -486,9 +486,9 @@ Suppose defects going up puts a drag on the system,
 lowering the velocity of new features because people spend more time fixing or working around bugs.
 --->
 
-逆の効果－原因となるリンク効果Aは同じまたは逆方向であるかもしれない；
-もしAが上がるならば、Bは上が理、逆もまたしかり。
-逆の効果は、ライン上に『O』で示される。
+逆の効果－原因となるリンク効果Aは同じまたは逆方向であるかもしれない；  
+もしAが上がるならば、Bは上が理、逆もまたしかり。  
+逆の効果は、ライン上に『O』で示される。  
 バグ対応に追われて多くの時間を費やすため、新機能を生産する量は低下することから、欠陥とはシステム上に邪魔なものを置いていくとようなものである。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-7.png.pagespeed.ic.uD9mVpPZOe.png)
@@ -505,7 +505,7 @@ Constraints are not causal links.
 As cash supply goes up, it is not the case that the number of developers goes up.
 --->
 
-制約は、因果リンクではない。
+制約は、因果リンクではない。  
 報酬が増えることで、開発者の人数が上がるというケースではない。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-8.png.pagespeed.ic.p4v-WNXZCh.png)
@@ -518,10 +518,10 @@ people should be cautious about assuming what actions will help.
 Now a goal and pressure for reaction is shown:
 --->
 
-目標と反応－人々、部門、およびシステムはより高い機能や生産量などの目標を持っている。
-目標はよく、目標を達成する意思を伴った反応（または行動）をすることでプレッシャーを生む。
-しかし、誤った考えから導き出された因果関係とワインバーグ・ブルックスの法則の対立があるゆえに、
-どんな行動も助けになるると思い込むことに注意すべきである。
+目標と反応－人々、部門、およびシステムはより高い機能や生産量などの目標を持っている。  
+目標はよく、目標を達成する意思を伴った反応（または行動）をすることでプレッシャーを生む。  
+しかし、誤った考えから導き出された因果関係とワインバーグ・ブルックスの法則の対立があるゆえに、  
+どんな行動も助けになるると思い込むことに注意すべきである。  
 今や、目標とプレッシャーの反応は表すことができる。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-9.png.pagespeed.ic.7T3j6vKX6T.png)
@@ -536,12 +536,12 @@ Notice how rewards can actually degrade system performance.
 Visually, the system dynamics may be…
 --->
 
-報酬を目的として目標を達成することが、その行動でプレッシャーを生み出すだけではなく、
-行動し、達成しているようにも見えることもまたプレッシャーを生み出しており、
-それが報酬が生み出した機能不全の大きさの結果である。
-そして、機能不全の大きさは、報酬の価値を認めることに比例しているかもしれない。
-なぜなら、システム[Austin96]を改善することではなく、人々が報酬を得ることが動機となるからである。
-報酬が実際どのようにシステム・パフォーマンスを低下させるのかということに気づきなさい。
+報酬を目的として目標を達成することが、その行動でプレッシャーを生み出すだけではなく、  
+行動し、達成しているようにも見えることもまたプレッシャーを生み出しており、  
+それが報酬が生み出した機能不全の大きさの結果である。  
+そして、機能不全の大きさは、報酬の価値を認めることに比例しているかもしれない。  
+なぜなら、システム[Austin96]を改善することではなく、人々が報酬を得ることが動機となるからである。  
+報酬が実際どのようにシステム・パフォーマンスを低下させるのかということに気づきなさい。  
 見た目上、システム力学はそういっているかもしれない…
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-10.png.pagespeed.ic.dyejPasI0I.png)
@@ -551,21 +551,21 @@ It is quite interesting that all these dynamics have been added by introduction 
 and yet there is no necessary connection between the top part of this model and the bottom.
 --->
 
-すべてのこれらの力学が報酬の導入により追加されたことは非常に興味深い、
+すべてのこれらの力学が報酬の導入により追加されたことは非常に興味深い、  
 それなのに、このモデルの一番上と下との間に必要な繋がりが全くない。
 
 <!---
 There is no guarantee that feature velocity has improved—or even been worked on.
 --->
 
-機能生産量が、改善したという保証が全然ないーよりいっそう取り組んだとしても。
+機能生産量が、改善したという保証が全然ないーよりいっそう取り組んだとしても。  
 
 <!---
 Removing the reward system is a root-cause solution to the dysfunction.
 Another (lesser) surface countermeasure is the lean-thinking Go See (go see physically at the place of real work) principle and management behavior:
 --->
 
-報酬システムを取り除くことは機能不全の根本原因の解決策である。
+報酬システムを取り除くことは機能不全の根本原因の解決策である。  
 別の（より小さい）表面上の対策は、リーン思考の Go See（実際の仕事場に物理的に見に行くこと）の原則と管理行動である：
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-11.png.pagespeed.ic.mXineYilEP.png)
@@ -581,12 +581,12 @@ And they may thereby hope that hiring more developers will most quickly and easi
 ‘QF’ indicates the quick fix:
 --->
 
-応急処置の反応－より高い生産量の目標に対して、難しく、時間のかかる解決策のひとつは、既存の開発者の指導と教育を増やし、ひどい労働者を追放するために、優れた開発者を雇うことである、
-選択肢は、その場しのぎの解決策と呼ばれ、少ない努力によって目標を迅速に達成するために望まれている反応である。
-その場しのぎの解決策は短期的にも長期的にもうまく作用し、実際にシステムを強化したりすることもあれば、そうでないこともある。
-「より速くはより時間がかかる」
-例えば、人々は、開発者の数を増大させることが機能生産量を増大させると信じるかもしれない。
-そして、より多くの開発者を雇うことにより生産性の問題を最も迅速に、容易に解決されることを望むかもしれない。
+応急処置の反応－より高い生産量の目標に対して、難しく、時間のかかる解決策のひとつは、既存の開発者の指導と教育を増やし、ひどい労働者を追放するために、優れた開発者を雇うことである、  
+選択肢は、その場しのぎの解決策と呼ばれ、少ない努力によって目標を迅速に達成するために望まれている反応である。  
+その場しのぎの解決策は短期的にも長期的にもうまく作用し、実際にシステムを強化したりすることもあれば、そうでないこともある。  
+「より速くはより時間がかかる」  
+例えば、人々は、開発者の数を増大させることが機能生産量を増大させると信じるかもしれない。  
+そして、より多くの開発者を雇うことにより生産性の問題を最も迅速に、容易に解決されることを望むかもしれない。  
 『QF』はその場しのぎの解決策（quick fix）を示している：
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-12.png.pagespeed.ic.BS-FVQWluL.png)
@@ -599,10 +599,10 @@ In this case, the level of cash supply now has an interaction effect with other 
 Low cash tends to strengthen the hire rate of much cheaper developers when there is pressure to increase hire rates.
 --->
 
-相互効果－雇用には給与払いの制約がある。
-難しく、時間のかかる解決策のひとつは、より多くの報酬を得ることである。
-その場しのぎの解決策は、低賃金開発者をたくさん雇用することである。
-このケースにおいて、報酬額のレベルは、現在、他の因果リンクによって相互効果がある。
+相互効果－雇用には給与払いの制約がある。  
+難しく、時間のかかる解決策のひとつは、より多くの報酬を得ることである。  
+その場しのぎの解決策は、低賃金開発者をたくさん雇用することである。  
+このケースにおいて、報酬額のレベルは、現在、他の因果リンクによって相互効果がある。  
 低予算は、雇用率を増やすプレッシャーがある時に、たくさんの低賃金開発者の雇用率を増やす傾向がある。
 
 <!---
@@ -614,10 +614,10 @@ For example, from cash supply to the quick-fix line going into hire rate of very
 --->
 
 
-低賃金開発者の雇用率に対して、（逆の）因果リンクを給与払いから単純に引くことができた、
-少ない予算が極めて低賃金な開発者をより多くの雇用するを引き起こしていると単に言っている。
-それは、私達が言いたいことではない；むしろ、私達はー影響Aは影響Bをもたらすといったー相互効果を示したい。
-これは、因果リンクを、別の因果リンクに合流するように見せることでできる。
+低賃金開発者の雇用率に対して、（逆の）因果リンクを給与払いから単純に引くことができた、  
+少ない予算が極めて低賃金な開発者をより多くの雇用するを引き起こしていると単に言っている。  
+それは、私達が言いたいことではない；むしろ、私達はー影響Aは影響Bをもたらすといったー相互効果を示したい。  
+これは、因果リンクを、別の因果リンクに合流するように見せることでできる。  
 給与払いから低賃金開発者の雇用率に入っている応急処置の線の例：
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-13.png.pagespeed.ic.hoU7NExB0v.png)
@@ -628,8 +628,8 @@ but on average, you get what you pay for—when you hire from a large pool of ve
 In the model we want to show that the impact of hiring very cheap labor on the number of low-skilled developers is a significantly greater effect than average.
 --->
 
-極端な効果－私達は、何人かの大変優秀なスキルを持っているにも関わらずとても低賃金な開発者、そして、驚くほど非常に高収入な開発者と働いたことがある、
-しかし、平均的に、あなたは、支払った分に見合ったものを得る－あなたがたくさんの低賃金労働者の中から雇用する時には、その平均的なスキルレベルはより低い。
+極端な効果－私達は、何人かの大変優秀なスキルを持っているにも関わらずとても低賃金な開発者、そして、驚くほど非常に高収入な開発者と働いたことがある、  
+しかし、平均的に、あなたは、支払った分に見合ったものを得る－あなたがたくさんの低賃金労働者の中から雇用する時には、その平均的なスキルレベルはより低い。  
 モデルの中で、私達は、低スキルの開発者の数の低賃金労働者を雇用すことの影響が、平均的なものよりかなり大きな影響を及ぼすことを示したい。
 
 <!---
@@ -649,16 +649,16 @@ Also, the COCOMO model—based on large and longitudinal studies—shows that th
 And, on average, very weak programmers create poor-quality code (poor design) and more defects, creating another drag on the system.
 --->
 
-遅延－ソフトウェア開発において雇用することにおける1つの問題が、プログラマーの偏りはあまりないという誤った考えである
-－プログラマーの偏り（生産性 コード品質など）は比較的少ないということを信じているのは間違いである。
-しかし、プログラマーの偏りは、最上位の人と最下位の人で見たとき25％[Prechelt00]は平均よりも4倍仕事が速いとを示唆することを学んだ。
-むしろ意義深いことである。
-また、 COCOMOモデル－大規模かつ長期的な研究に基づく－開発人員の能力は生産性[Boehm00]のための最も重要な要因であることを見せてくれた。
+遅延－ソフトウェア開発において雇用することにおける1つの問題が、プログラマーの偏りはあまりないという誤った考えである  
+－プログラマーの偏り（生産性 コード品質など）は比較的少ないということを信じているのは間違いである。  
+しかし、プログラマーの偏りは、最上位の人と最下位の人で見たとき25％[Prechelt00]は平均よりも4倍仕事が速いとを示唆することを学んだ。  
+むしろ意義深いことである。  
+また、 COCOMOモデル－大規模かつ長期的な研究に基づく－開発人員の能力は生産性[Boehm00]のための最も重要な要因であることを見せてくれた。  
 そして平均的に、能力の低いプログラマーは低品質のコード（ダメな設計）とより多くの欠陥を生み、システムのための別の障害物を作成する。
 
-> メモ：
-> COCOMOモデル
-> ソフトウェア開発費用を見積もる手法のひとつ。
+> メモ：  
+> COCOMOモデル  
+> ソフトウェア開発費用を見積もる手法のひとつ。  
 > 開発に必要とする段階の数、各工程の難易度、あるいはチームの開発能力などを補正係数として掛け合わせて、工程数や人員を見積もる手法のこと。
 
 <!---
@@ -667,8 +667,8 @@ For example, it takes a relatively long time after hiring a large pool of weak p
 Similarly, the average decrease in feature velocity (because of the powerful impact of programmer variance) will not show up immediately.
 --->
 
-しかし、これらの効果のインパクトはすぐに明らかになるものではない。
-例えば、能力の低いプログラマーを大量雇用した後、ますます多くの悪いコード／設計のインパクトを感じ始めるには相対的に長い時間かかる。
+しかし、これらの効果のインパクトはすぐに明らかになるものではない。  
+例えば、能力の低いプログラマーを大量雇用した後、ますます多くの悪いコード／設計のインパクトを感じ始めるには相対的に長い時間かかる。  
 同様に、機能生産量（プログラマーの偏りの強力なインパクトによる）の平均値の減少は、すぐには現れない。
 
 <!---
@@ -685,8 +685,8 @@ If an impact or unintended consequence is long delayed,
 one does not feel the effect (pain or gain) and so does not clearly see how A influenced B, or more subtly how A influenced B influenced A .
 --->
 
-遅延は、システムにおいて、教育的で興味深い影響や矯正力を持っている。
-もし影響や思いがけない結果が長い間遅延させるようであれば、
+遅延は、システムにおいて、教育的で興味深い影響や矯正力を持っている。  
+もし影響や思いがけない結果が長い間遅延させるようであれば、  
 効果（苦痛または利益）を感じず、どのようにAがBに影響し、また、どのようにAがBに、そしてBがAに影響したかというより微妙なことがはっきりとわからない。
 
 <!---
@@ -695,8 +695,8 @@ Likewise, gradual improvement through the lean thinking practice of kaizen can t
 patience and insight are needed to see if and how things improve.
 --->
 
-従って、－方針、管理動作、ツールなどー明らかな誤りを正そうとせず、学びもしない。
-その上、改善活動といったリーン思考の実践に時間がかかるかもしれず、ゆるやかな改良になる；
+従って、－方針、管理動作、ツールなどー明らかな誤りを正そうとせず、学びもしない。  
+その上、改善活動といったリーン思考の実践に時間がかかるかもしれず、ゆるやかな改良になる；  
 忍耐と洞察は、どのように物が改善するかを理解するために必要である。
 
 <!---
@@ -708,11 +708,11 @@ But an office with a lot of low-skill developers does not generate a lot of grea
 They would rather work somewhere else.
 --->
 
-ポジティブなフィードバックループ－
-ネガティブまたはポジティブなフィードバックはループし、遅延は、システムにおいてより微妙になり始める所であり－システムを理解する中で。
-例えば、どのようにして、よりよいプログラマーになるか？
-偉大なプログラマーからの指導や、たくさんの素晴らしいコードの例として見ることは一部分である。
-しかし、たくさんの低スキルな開発者を持つオフィスは、たくさんの大きい素晴らしいコードの例を作れず、それは、指導者として行動できた少ない偉大なプログラマー引き付けず、維持もできない。
+ポジティブなフィードバックループ－  
+ネガティブまたはポジティブなフィードバックはループし、遅延は、システムにおいてより微妙になり始める所であり－システムを理解する中で。  
+例えば、どのようにして、よりよいプログラマーになるか？  
+偉大なプログラマーからの指導や、たくさんの素晴らしいコードの例として見ることは一部分である。  
+しかし、たくさんの低スキルな開発者を持つオフィスは、たくさんの大きい素晴らしいコードの例を作れず、それは、指導者として行動できた少ない偉大なプログラマー引き付けず、維持もできない。  
 彼らはどこか他の場所で働くほうがよいだろう。
 
 <!---
@@ -720,7 +720,7 @@ Now the development group starts to enter a self-reinforcing downward spiral—a
 Fortunately, the downward trend is constrained by the supply of cash.
 --->
 
-今や、開発グループは下向きのスパイラルを自ら補強し始める－ポジティブなフィードバックループの1セット。
+今や、開発グループは下向きのスパイラルを自ら補強し始める－ポジティブなフィードバックループの1セット。  
 幸運にも、下向きの傾向は報酬により制約される。
 
 <!---
@@ -732,11 +732,11 @@ Since feature velocity is dropping further, there is more pressure to hire yet m
 All this leads to multiple positive reinforcement loops in the system, for example:
 --->
 
-－素晴らしいコードや指導などを念入り作れた－より偉大なプログラマーは去る。
-そして、質の高いコードから見て学ぶことはますます少なくなる。
-程スキルのプログラマーの割合はいっそう大きくなり、機能生産量の落下は促進する。
-コードはより乱雑で、扱いにくく、重複したもので溢れる。従って、機能を迅速に実装する能力は、衰える。
-機能生産量がさらに低下すると、いっそう低賃金のプログラマーを雇用するためのより多くのプレッシャーになる。
+－素晴らしいコードや指導などを念入り作れた－より偉大なプログラマーは去る。  
+そして、質の高いコードから見て学ぶことはますます少なくなる。  
+程スキルのプログラマーの割合はいっそう大きくなり、機能生産量の落下は促進する。  
+コードはより乱雑で、扱いにくく、重複したもので溢れる。従って、機能を迅速に実装する能力は、衰える。  
+機能生産量がさらに低下すると、いっそう低賃金のプログラマーを雇用するためのより多くのプレッシャーになる。  
 すべてのこれがシステムにおいて複数のポジティブな増強ループをもたらすことを導く、例えば：
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-16.png.pagespeed.ic.mnzd-1dyJm.png)
@@ -746,7 +746,7 @@ Tip : You can find positive feedback loops by finding cycles with an even number
 There are several examples in the model above.
 --->
 
-秘訣：あなたは、『逆の』効果の多く数のをもつサイクルとの関係性を見つけることで、ポジティブなフィードバックループを見つけることができる。
+秘訣：あなたは、『逆の』効果の多く数のをもつサイクルとの関係性を見つけることで、ポジティブなフィードバックループを見つけることができる。  
 上記のモデルにいくつかの例がある。
 
 
@@ -762,8 +762,8 @@ A causal loop diagram can visualize rich dynamics in a workplace system.
 These are best created by a group at a whiteboard.
 --->
 
-シナリオは、あくまで例である。
-因果ループ図によって、職場システムの豊かな力学は視覚化できる。
+シナリオは、あくまで例である。  
+因果ループ図によって、職場システムの豊かな力学は視覚化できる。  
 これらはホワイトボードでグループで実施することで最もよいものが作成される。
 
 <!---
