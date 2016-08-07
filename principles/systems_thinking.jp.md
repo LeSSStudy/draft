@@ -24,11 +24,10 @@ Systems thinking may help.
 In small groups the forces at play are more quickly seen and informally understood, but in large product development—or any large system—it’s tough.
 Gerry Weinberg highlights two decisive factors in this situation:
 --->
-「たとえ私達が何をしても、私達のバックログの欠陥の数が、およそ同じであり続ける」と、マネージャーは私達に言った；  
-1,500万行(15 MSLOC)のCとC++の製品をつくる私達が働いていた数百人の開発者に対して。  
-どうしたんだい？  
-システム思考なら解決できるかもしれない。  
-小さなグループにおいて、その要因がより迅速に見られて、自然な理解がされているが、大規模開発－または全ての大きなシステム－では、それが難しい。  
+「たとえ私達が何かしたとしても、バックログから発生する欠陥の数は変わらない」と、1,500万行(15 MSLOC)のCとC++の製品をつくる私達が数百人の開発者に対して、マネージャーは言った。  
+何が起きたのだろう？  
+システム思考ならそれがわかるかもしれない。  
+小さな規模のグループでは、（バグの発生）要因がより迅速に見つかり、自然に理解もされているが、大規模開発－全ての大きなシステム－では、それが難しい。  
 ゲイリーワインバーグはこの状況の2つの決定的な要因を強調する：
 
 <!---
@@ -37,7 +36,7 @@ Gerry Weinberg highlights two decisive factors in this situation:
 --->
 
 > ワインバーグ-ブルックスの法則:  
-> 結合されたすべての他の原因を兼ね備えたものより、間違ったシステムモデルに基礎を置くマネジメントの行動をとる多くのソフトウェアプロジェクトは間違っている。
+> すべてを兼ね備えたの原因そのものより、間違ったシステムモデルに基礎を置いたマネジメントで行動する多くのソフトウェアプロジェクトはうまくいかない。
 
 <!---
 > Causation Fallacy:
@@ -45,15 +44,15 @@ Gerry Weinberg highlights two decisive factors in this situation:
 > and we can tell which is which. [Weinberg92]
 --->
 
-因果関係の間違った考え方：  
-すべての結果は原因を持っている…  
-だから、どちらがどちらかわかる。[ワインバーグ92]
+> 因果関係の間違った考え方：  
+> すべての結果は原因を持っている…  
+> だから、何がどのようになっているか分かるはず。[[ワインバーグ92]](http://www.amazon.com/Quality-Software-Management-Systems-Thinking/dp/0932633226/ref=sr_1_1?ie=UTF8&qid=1413527418&sr=8-1&keywords=Quality+Software+Management%3A+Systems+Thinking)
 
 <!---
 These reflect the impact of our mental models on the system, a subject that will be revisited later in this section.
 --->
 
-これらは、私達のシステム上における精神的なモデルの効果を示しており、このセクションの後で再び取り上げる問題である。
+これらは、私達のシステム上におけるメンタルモデルの影響を反映しており、このセクションの後で再び取り上げる問題である。
 
 <!---
 Problems stemming from mental models and assumptions are one issue.
@@ -63,12 +62,11 @@ Accordingly, in large-scale agile adoption it is useful to be able to get togeth
 Systems thinking is one of those reasoning tools.
 --->
 
-精神的なモデルと仮定から生じる問題は、1つの論点である。  
-もう一方は、スクラム、リーン思考やアジャイルの原則の大規模な採用は、開発グループと切り離されているということである。  
+メンタルモデルと仮定から生じる問題は、1つの論点になる。  
+さらに、スクラム、リーン思考やアジャイルの原則の大規模な適用が、開発グループと切り離されてしまっている。  
 それは、プロダクトマネジメント、予算化、ベータテスト、ローンチ、および管理と人的リソースの方針に行き着く。  
-従って、大規模なアジャイルの採用では、精神的なモデル、因果関係、フィードバックループ、およびコントロールの機構（または、コントロールの幻想）について  
-同僚達と集まり、効果的に論じることができることは有益である。  
-システム考察は、論じるためのツールの1つである。
+従って、大規模な環境でのアジャイルの採用には、メンタルモデル、因果関係、フィードバックループ、および本当に大きなシステムの中でのコントロールメカニズム（とか、コントロールの幻想）について、仲間達と集まり、効果的に論じることができることが有益である。  
+システム考察は、論理的思考のツールの1つである。
 
 <!---
 In 1958, the Harvard Business Review published “Industrial Dynamics: A Major Breakthrough for Decision Makers,” a landmark paper by Jay Forrester, MIT Sloan School professor.
@@ -76,19 +74,24 @@ This paper spurred the movement of systems thinking in business education, and t
 System dynamics is sometimes treated as a synonym for systems thinking , though the latter is a more general term.
 --->
 
-1958年、ハーバードビジネスレビューにおいて、MITスローン経営学大学院教授のジェイ・フォレスターによって「産業のダイナミクス：意思決定者のための主要なブレークスルー、」という画期的な論文が発表された。  
-この論文は、職業教育においてシステム思考のムーブメントを駆り立て、そして、MITスローン経営学大学院は、システムダイナミクスの人々を教育するために知られた。
+1958年、ハーバードビジネスレビューにおいて、MITスローン経営学大学院教授のジェイ・フォレスターによって[「インダストリアルダイナミックス：意思決定者のための主要なブレークスルー」](http://www.lottepiil.dk/kandidat/Industrial%20Dynamics%20(Forrester%201958).pdf)という画期的な論文が発表された。  
+この論文は、職業教育においてシステム思考のムーブメントを駆り立て、そして、MITスローン経営学大学院は、システムダイナミクスの中で人々を教育するものとして知られるようになった。
+システムダイナミクスはシステム思考の類義表現として、時々論じられるが、システム思考はより一般的な専門用語である。
 
 
 <!---
 MIT also attracted other system-dynamics-oriented researchers such as Peter Senge.
 --->
 
-MITは、ピーター・センゲなどの他のシステム力学指向の研究者も引き付けた。
+MITは、ピーター・センゲなどの他のシステムダイナミクス指向の研究者も引き付けた。
 
 <!---
-Consistent with Weinberg-Brook’s Law , Forrester’s research showed that decision makers who were given dynamic models of a business system and asked to improve their output performance, usually made them run worse [SKRRS94]. The observation was that most people have weak judgement on how to fundamentally improve systems, usually applying incorrect “common sense” and quick-fix ‘solutions’ that do not create long-lasting systemic improvement.
+Consistent with Weinberg-Brook’s Law , Forrester’s research showed that decision makers who were given dynamic models of a business system and asked to improve their output performance, usually made them run worse [SKRRS94].
+The observation was that most people have weak judgement on how to fundamentally improve systems, usually applying incorrect “common sense” and quick-fix ‘solutions’ that do not create long-lasting systemic improvement.
 --->
+
+ワインバーグ-ブルックスの法則と一致するものとして、フォレスター・リサーチ社は、ビジネス・システムの力学モデルを考慮し、アウトプットのパフォーマンスの改善をさせて欲しいと頼む意思決定者がよく悪化させてしまうということを明らかにした。[[SKRRS94]](http://www.amazon.com/The-Fifth-Discipline-Fieldbook-Organization/dp/0385472560/ref=sr_1_fkmr0_3?ie=UTF8&qid=1413528034&sr=8-3-fkmr0&keywords=The+Fifth+Discipline+%EF%BF%BCFieldbook)
+その結果は、ほとんどの人は通常、間違った「常識」と、持続的な組織の改善をしない応急処置的な「ソリューション」を適用し、根本的にシステムを改善する方法について乏しい判断しか持ち合わせていないということであった。
 
 <!---
 Why is the behavior of a large development group (a system) not understood or guided skillfully?
@@ -99,18 +102,18 @@ The behavior of these systems defies our gut instinct.
 And then there is the minor issue of people.
 --->
 
-大きな開発グループ（組織）の振る舞いは、なぜ理解されない、あるいはうまく先導されなかったのか？  
-答えは、LeSSの原則である待ち行列理論の中で掘り下げているように、列と変動性を持つ確率システムの振る舞いの部分的なものである。  
-そして、同じような答えがコントロール理論にある：  
+なぜ、大きな開発グループ（組織）の行動は、理解されなかったりうまく先導されなかったのか？  
+答えは、LeSSの原則である[待ち行列理論](http://less.works/less/principles/queueing_theory.html)の中で掘り下げているように、待ち行列と変動性を持つ確率論的なシステムの振る舞いの部分的なものの中にある。  
+そして、同じような答えが制御理論にある：  
 －製品開発グループのような－ほとんどの組織は、複合的にポジティブかつネガティブなフィードバックループおよび非線型挙動を持っている。  
-これらの組織の行動は私達の直感を無視する。  
+これらの組織の行動は直感を無視している。  
 それから、ちょっとした人々の問題がある。
 
 
 <!---
 In summary, reasons for not being skillful in fathoming or guiding a big system include (but are not limited to):
 --->
-大きなシステムを測深することまたは誘導することに熟練していないことの理由の要約（しかし、以下に制限されない）：
+大きなシステムを理解したり指導することに熟練していないことの理由の要約（しかし、以下に制限されない）：
 
 <!---
 * lack of knowledge about the system dynamics, feedback loops, nonlinear systems behavior, and unintended consequences in workplace systems
@@ -120,17 +123,17 @@ In summary, reasons for not being skillful in fathoming or guiding a big system 
 * not knowing if or why quick-fix or local-department decisions degraded overall delivery performance.
 --->
 
-* 職場システムのシステム力学、フィードバックループ、ノンリニアなシステム行動、および思いがけない結果についての知識の不足
-* 問題の根原因を理解しない（そして、どのように見つけるか）
-    * 原因、原因ではないもの  
-      システム思考をする中で、複数、間接的、動的に作用を及ぼすような原因から問題となっていることがわかるもの
-* 一時しのぎの仮定や理由、またはローカル部門の決定が全体の配達性能を低下させた理由がわからない
+* システムダイナミクス、フィードバックループ、突然変換する組織の行動、職場組織における思いがけない結果について知識が不足している
+* 問題の根本的な原因（や、その見つけ方）を理解しない
+    * 原因というのはは複数あるもので、一つではない  
+      システム思考で、複数、間接的、動的に作用を及ぼすような原因が問題となっていることがわかる
+* もし、あるいは、なぜ応急処置やローカル部門の決定した時に、全体の配達性能を低下させたのか理由がわからない
 
 <!---
 In short, not being systems thinkers.
 --->
 
-要するに、システム思考ができていない。
+要するに、システム思考できる人がいないのである。
 
 <!---
 These reasons are consequential at the intersection of management and large-scale adoption of lean and agile principles.
@@ -138,15 +141,15 @@ The leadership team is part of the system being perturbed;
 if they do not apply systems thinking, they could really perturb it—and not in a good way!
 --->
 
-これらの理由は、マネジメントとリーンおよびアジャイルな原則の大規模な採用の交差する点において重要である。  
-リーダーシップチームは、混乱しているシステムの一部である；  
+これらの理由は、マネジメントとリーンおよびアジャイルな原則の大規模な採用が交差する点において重要である。  
+システムの一部として存在するようなリーダーシップチームは、かき乱すだろう；  
 もし彼らがシステム思考を適用しないならば、本当に混乱させるかもしれないし、よい方法ではない！
 
 <!---
 As a summary of systems thinking insight, we like the 11 ‘laws’ described in The Fifth Discipline:
 --->
 
-システム思考の見識からの要約として、私達は、5番目の修練において11の‘慣習’が説明されることを好んでいる：
+システム思考の見識からの要約として、私達は、[5つの規律](http://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization-ebook/dp/B000SEIFKK/ref=sr_1_1?ie=UTF8&qid=1413531002&sr=8-1&keywords=the+fifth+discipline)（邦題：[最強組織の法則](https://www.amazon.co.jp/dp/419860309X/ref=pd_sim_14_3?ie=UTF8&dpID=51YRBFKJWEL&dpSrc=sims&preST=_AC_UL160_SR108%2C160_&psc=1&refRID=P6DY1MPQRY4RCD2NQ9K7) / 完訳版：[学習する組織](https://www.amazon.co.jp/dp/4862761011/)）の中の[11の‘慣習’](https://en.wikipedia.org/wiki/The_Fifth_Discipline#The_11_Laws_of_the_Fifth_Discipline)が説明されることを好んでいる：
 
 ---
 
@@ -158,30 +161,23 @@ As a summary of systems thinking insight, we like the 11 ‘laws’ described in
 * The cure can be worse than the disease.
 * Faster is slower.
 * Cause and effect are not closely related in time and space.
+* Small changes can produce big results…but the areas of highest leverage are often the least obvious.
+* You can have your cake and eat it too—but not all at once.
+* Dividing an elephant in half does not produce two small elephants.
+* There is no blame.
 --->
 
-* 今日の問題は昨日の‘解決策’から発生する
-* あなたが激しく押すにつれて、システムはより激しく押し戻す
-* 行動はよくなるよりも先に悪くなる
-* いつも先導されるのが当たり前という姿勢から抜け出す
-* 治療は病気より悪影響を与えることもある
-* より速くはより遅くなる
-* 原因と効果は、時間やスペースと密接に関連しない
-
-
-<!---
-Small changes can produce big results…
-but the areas of highest leverage are often the least obvious.
-You can have your cake and eat it too—but not all at once.
-Dividing an elephant in half does not produce two small elephants.
-There is no blame.
---->
-
-小さな変更は、大きい結果をもたらすことができる…  
-最高の手段というのは、少なく明白なことがほとんど。  
-あなたはケーキを、一度だけでなく何度も食べることができる。  
-象を半分に分けても、2匹の小さな象を産むわけではない。  
-疑いようがない。
+1. 今日の問題は昨日の‘解決策’から発生する
+1. あなたが激しく押すにつれて、システムはより激しく押し戻す
+1. 行動はよくなるよりも先に悪くなる
+1. いつも先導されるのが当たり前という姿勢から抜け出す
+1. 治療は病気より悪影響を与えることもある
+1. より速くはより遅くなる
+1. 原因と結果は、時間やスペースと密接に関連しない
+1. 小さな変更は、大きい結果をもたらすことができる… しかし、最高の手段というのは、少なく明白なことがほとんど
+1. あなたはケーキを、一度だけでなく何度も食べることができる
+1. 象を半分に分けても、2匹の小さな象を産むわけではない
+1. 疑いようがないものである
 
 ---
 
@@ -190,13 +186,13 @@ Toyota’s internal motto is “Good thinking, good products.”
 Systems thinking is a set of thinking tools to help…
 --->
 
-トヨタの標語は、「よい思考、よい製品」である  
+トヨタの標語は、[「よい思考、よい製品」](http://www.toyota-global.com/company/toyota_traditions/quality/may_jun_2005.html)である  
 システム思考は、それを手助けする思考ツールのセットである…
 
 <!---
 * see system dynamics—
   a development organization is a system of people and policies with subtle feedback loops and unintended consequences
-    * we can learn to see and thus improve the system with causal loop diagrams created in a workshop
+    * we can learn to see and thus improve the system with **causal loop diagrams** created in a workshop
 * see mental models—
   one reason behind suboptimal decisions is mistaken assumptions and faulty reasoning
     * causal loop diagramming and Five Whys expose these
@@ -206,16 +202,14 @@ Systems thinking is a set of thinking tools to help…
   rather than global optimization for the lean systems-level goal of deliver value fast with high quality and high morale.
 --->
 
-* システム力学を知る  
+* システムダイナミクスを知る  
   開発組織は、捉えがたいフィードバックループと予想だにしない成り行きと共にする人々とポリシーのシステムである
-    * 私達は、ワークショップで作成された因果ループ図によってシステムを改善することを学ぶことができる
-* 精神的なモデルを知る  
-  1つの理由の背景に、誤った仮定と不完全な理由からなっており最適な決断になっていない
-    * 因果ループ図と'5つのなぜ'が、これらを露出する
+    * 私達は、ワークショップで作成された **因果ループ図** によってシステムを改善することを学ぶことができる
+* メンタルモデルを知る  
+  部分的な解決になっている背景には、誤った仮定と不完全な理由がある
+    * 因果ループ図と'5つのなぜ'が、これらを明らかにする
 * 部分最適を知る  
-  もう一方の最適な決断になっていない別の要因は、  
-  高い品質および高い意欲と共に早く納品の価値を提供するというリーンのシステムゴールのための全体最適化よりも、  
-  人または部門の観点から‘最もよい’決定を作るという部分最適化である
+  部分的な解決になっている別の要因は、高い品質や意欲と共に素早く価値を提供するというリーンのシステムゴールのための **全体最適化** よりも、人または部門の観点から‘最もよい’解決策を作るという **部分最適化** である
 
 <!---
 This introduction is organized around the following areas in systems thinking: Learning to see (1) system dynamics , (2) mental models , (3) root causes , and (4) local optimization .
@@ -223,8 +217,8 @@ This introduction is organized around the following areas in systems thinking: L
 
 この序論は、システム思考の下記の要素で構成される：  
 学べること  
-(1) システム力学  
-(2) 精神的なモデル  
+(1) システムダイナミクス  
+(2) メンタルモデル  
 (3) 根本原因  
 (4) 部分最適化  
 
@@ -233,7 +227,7 @@ This introduction is organized around the following areas in systems thinking: L
 Seeing System Dynamics: Introduction
 --->
 
-### システム力学を知る：序文 
+### システムダイナミクスを知る：序文 
 
 <!---
 Static versus Dynamic Complexity
@@ -272,7 +266,7 @@ and showed it is possible to formally educate people to become better system dyn
 静的詳細教育と対比すると、私達の多くは、特に職場力学という分析力学の複雑さについて形式的な教育を全然受けない。  
 おそらく、職場の常識に頼っていることに十分な確信を持っている。  
 フォレスターはただ「常識」が複雑系にそうないのを証明した、  
-そして、フローチャート[Forrester61]において視覚化された動的なシステムモデルを使い、これまでよりも良い形で職場のシステム力学思想家になるように、人々を形式的に教育することが可能であると伝えている。
+そして、フローチャート[Forrester61]において視覚化された動的なシステムモデルを使い、これまでよりも良い形で職場のシステムダイナミクス思想家になるように、人々を形式的に教育することが可能であると伝えている。
 
 <!---
 Flow diagrams encompass material, financial, and information flows, stocks (variables with a quantity, such as cash or number of defects), the impact of decisions and policies, and cause-effect relations.
@@ -299,7 +293,7 @@ A tool to learn to see system dynamics is a causal loop diagram, ideally sketche
 Before going further, here is the First Law of Diagramming
 --->
 
-システム力学を理解するためのツールは、因果ループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。  
+システムダイナミクスを理解するためのツールは、因果ループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。  
 先に進む前に、これが図示するための最初の規律である
 
 <!---
@@ -318,7 +312,7 @@ learning and a revised understanding through a discussion.
 
 グループがホワイトボードに因果ループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、  
 主要な価値は対話であり、それが彼らがモデルを作成する間に生まれた理解を共有している。  
-言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つ精神的なモデル－を具体的かつ明白にすることが重要である。  
+言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つメンタルモデル－を具体的かつ明白にすることが重要である。  
 それでもやはり、図は二の次である。人々が持ち帰る何か（対話を通しての理解で、学び復習すること）
 
 ![](https://less.works/img/systems_thinking/xgroup,P20cld,P20modeling.jpg.pagespeed.ic.Pnh1_YRIQk.jpg)
@@ -353,7 +347,7 @@ The most meaningful outcome is understanding ; in addition, some participants wi
 Seeing System Dynamics: Causal Loop Diagrams
 --->
 
-### システム力学を知る：因果ループ図 
+### システムダイナミクスを知る：因果ループ図 
 
 <!---
 Causal loop diagrams are used regularly in introductions to LeSS, to help see the dynamics of what is going on in large-scale development.
@@ -521,7 +515,7 @@ Now a goal and pressure for reaction is shown:
 目標と反応－人々、部門、およびシステムはより高い機能や生産量などの目標を持っている。  
 目標はよく、目標を達成する意思を伴った反応（または行動）をすることでプレッシャーを生む。  
 しかし、誤った考えから導き出された因果関係とワインバーグ・ブルックスの法則の対立があるゆえに、  
-どんな行動も助けになるると思い込むことに注意すべきである。  
+どんな行動も助けになると思い込むことに注意すべきである。  
 今や、目標とプレッシャーの反応は表すことができる。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-9.png.pagespeed.ic.7T3j6vKX6T.png)
@@ -542,7 +536,7 @@ Visually, the system dynamics may be…
 そして、機能不全の大きさは、報酬の価値を認めることに比例しているかもしれない。  
 なぜなら、システム[Austin96]を改善することではなく、人々が報酬を得ることが動機となるからである。  
 報酬が実際どのようにシステム・パフォーマンスを低下させるのかということに気づきなさい。  
-見た目上、システム力学はそういっているかもしれない…
+見た目上、システムダイナミクスはそういっているかもしれない…
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-10.png.pagespeed.ic.dyejPasI0I.png)
 
@@ -734,10 +728,10 @@ All this leads to multiple positive reinforcement loops in the system, for examp
 
 －素晴らしいコードや指導などを念入り作れた－より偉大なプログラマーは去る。  
 そして、質の高いコードから見て学ぶことはますます少なくなる。  
-程スキルのプログラマーの割合はいっそう大きくなり、機能生産量の落下は促進する。  
+定スキルのプログラマーの割合はいっそう大きくなり、機能生産量の落下は促進する。  
 コードはより乱雑で、扱いにくく、重複したもので溢れる。従って、機能を迅速に実装する能力は、衰える。  
 機能生産量がさらに低下すると、いっそう低賃金のプログラマーを雇用するためのより多くのプレッシャーになる。  
-すべてのこれがシステムにおいて複数のポジティブな増強ループをもたらすことを導く、例えば：
+このすべてがシステムにおいて複数のポジティブな増強ループをもたらすことを導く、例えば：
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-16.png.pagespeed.ic.mnzd-1dyJm.png)
 
