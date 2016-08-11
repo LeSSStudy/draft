@@ -172,7 +172,7 @@ As a summary of systems thinking insight, we like the 11 ‘laws’ described in
 1. 行動はよくなるよりも先に悪くなる
 1. いつも先導されるのが当たり前という姿勢から抜け出す
 1. 治療は病気より悪影響を与えることもある
-1. より速くはより遅くなる
+1. より速くはより時間がかかる
 1. 原因と結果は、時間やスペースと密接に関連しない
 1. 小さな変更は、大きい結果をもたらすことができる… しかし、最高の手段というのは、少なく明白なことがほとんど
 1. あなたはケーキを、一度だけでなく何度も食べることができる
@@ -358,12 +358,13 @@ When?
 Probably during a LeSS Overall Retrospective.
 --->
 
-因果ループ図は、大規模な開発において力学がそういうものだと理解するのに役立つように、LeSSの序文の中で正式に使われる。  
+因果ループ図は、大規模な開発において関係性がそういうものだと理解するのに役立つように、LeSSの序文の中で正式に使われている。  
 理由だけを理解することに役立つ。  
-そして、あなたにとって有益である、私達は、ホワイトボードで同僚とともにこれらをするように勧める。  
-対話しながらモデリングをする。  
-いつ実施するのか？  
-たぶん、LeSSのオーバーオールレトロスペクティブの時に。
+そして、あなたにとって有益である。
+ホワイトボードで仲間とともに実施ように勧める。  
+対話しながらモデリングをしなさい。  
+いつ実施することになるのだろうか？  
+たぶん、LeSSのオーバーオールレトロスペクティブの中で。
 
 <!---
 The practical aspect of this tip is more important than may first be appreciated.
@@ -373,10 +374,10 @@ sketching causal loop diagrams together,
 then there is a concrete and potentially high-impact practice that connects “be a systems thinker” with “do systems thinking.”
 --->
 
-この秘訣の実用的な面は、最初に真価が認められうるより重要である。  
-「システム思想家でありなさい。」ということを示唆することは、漠然としていて、印象としては小さい。  
-しかし、もしあなたと4人の同僚が、大きいホワイトボードの前で一緒に立つことを習慣にしていれば、一緒に因果ループ図を描くことができ、  
-そして、「システム思想家でありなさい」を、「システム思考をしなさい。」に繋げるプラクティスとして高い印象を与える可能性がある。
+この秘訣の実用面は、最初に評価されたものより重要である。  
+「システム思想家になる」ということを示唆することは、漠然としていて、印象としては小さい。  
+しかし、もしあなたと4人の仲間が、大きいホワイトボードの前で一緒に立つことを習慣にしていれば、一緒に因果ループ図を描くことができ、  
+そして、「システム思想家になる」を、「システム思考をする」に繋げるプラクティスとして高い印象を与える可能性がある。
 
 <!---
 The following examples seem sterile when presented in a book.
@@ -384,9 +385,9 @@ But imagine you were at a whiteboard with other people and the diagrams were bei
 That’s the way we suggest ‘doing’ systems thinking.
 --->
 
-以下の例は、本の中で示されているような内容が乏しいものに見えるかもしれない。  
-しかし、あなたが、他の人々と一緒にホワイトボード前にいて、活発な会話中に図の概略を述べていたと想像してください。  
-それが、私達が提案するシステム思考を‘実践する’方法である。
+以下の例は、本の中で示されているような内容で面白みのないものに見えるかもしれない。  
+あなたが、他の人々と一緒にホワイトボード前にいて、活発な会話中に図の概略を述べていたと想像してみなさい。  
+それこそが、私達が提案するシステム思考を‘実践する’方法である。
 
 <!---
 Notation and Examples
@@ -402,24 +403,34 @@ Causal loop diagrams contain many elements; the following common useful subset i
 以下の共通の有益なサブセットはシナリオを通して探究される。
 
 <!---
-* Variables           reactions; quick-fix reactions
-* causal links        interaction effects
-* opposite effects    extreme effects
-* constraints         delays
-* goals               positive feedback loops
+* Variables
+* causal links
+* opposite effects
+* constraints
+* goals
+* reactions; quick-fix reactions
+* interaction effects
+* extreme effects
+* delays
+* positive feedback loops
 --->
 
-* Variables（変数）           反応; その場しのぎの反応
-* causal links（因果リンク）   相互作用した効果
-* opposite effects（相反効果） 極端な効果
-* constraints（制約）         遅延
-* goals（ゴール）             ポジティブなフィードバックループ
+* 変数
+* 因果リンク
+* 相反効果
+* 制約
+* ゴール
+* 反応; 応急処置
+* 相互作用した結果
+* 極端な結果
+* 遅延
+* ポジティブなフィードバックループ
 
 <!---
 The following simplified scenario is for a particular organization. It is not a generalization.
 --->
 
-以下の簡素化されたシナリオは、特定の組織に向いているもので、一般化ではない。
+以下の簡素化されたシナリオは、特定の組織に向いているもので、一般論ではない。
 
 <!---
 Variables—
@@ -427,8 +438,7 @@ Causal loop diagrams include variables (or stocks) such as the velocity (rate of
 Variables have a measurable quantity.
 --->
 
-変数ー  
-因果ループ図は、欠陥数やソフトウェア機能の生産量（納品率）のような変数を含む。  
+<span style="color: #1997C0">**変数**</span>ー因果ループ図は、 _欠陥数_ や _ソフトウェア機能の生産量（納品率）_ のような変数を含む。  
 変数は、測定できる量を持っている必要がある。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-4.png.pagespeed.ic.7hyPwR5tv7.png)
@@ -438,7 +448,7 @@ Causal links—An element can have an effect on another, such as if feature velo
 that is, more new code, more defects.
 --->
 
-因果リンク－要素は別の効果があるかもしれない、もし機能生産量の増加させれば、欠陥数が増加するかもしれない；  
+<span style="color: #1997C0">**因果リンク**</span>－要素は別の効果があるかもしれない、もし機能生産量の増加させれば、欠陥数が増加するかもしれない；  
 すなわち、より新しいコードが増え、それに伴いより多くの欠陥が増えるということである。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-5.png.pagespeed.ic.1C4UDvPgs8.png)
@@ -450,10 +460,10 @@ it is something else to model with insight.
 For example, consider the relationship between the number of developers and feature velocity.
 --->
 
-今や、ワインバーグ・ブルックの法則と因果関係の誤った推論をぶつける時である。  
+今や、ワインバーグ・ブルックスの法則と因果関係の誤った推論をぶつける時である。  
 図を描くことは容易である；  
-それは、洞察を持つ素晴らしいモデルである。  
-例えば、開発者の数と機能生産量の間の関係を考察する。
+深い理解をモデル化するのは素晴らしいことである。  
+例えとして、開発者の数と機能生産量の間の関係を考察してみる。
 
 <!---
 The nature of any cause-effect relationship is actually not obvious,
@@ -463,11 +473,11 @@ Or, more bad programmers could really slow you down.
 An argument can be made that removing terrible developers can improve velocity.
 --->
 
-人々がより多くの開発者がより生産量を多くするという意味のような結論に跳ぶというような発想は人々に共通しているが、  
+開発者を多くすれば、生産量がより増えるという発想は人々に共通しているが、  
 全ての原因と効果の関係の性質は、実際には明らかにならない、  
-人を追加することは、開発の遅延させ生産量を減らすかもしれない（「ブルックスの法則」の部分的な要素[Brooks95]）。  
-または、能力の低いプログラマーは、あなたの生産性を落とすことができるだろう。  
-ひどい開発者を除去することが生産量を高めることができると言った議論を作ることができる。
+人を追加することは、開発を遅延させ生産量を減らすかもしれない（「ブルックスの法則」の部分的な要素[Brooks95]）。  
+あるいは、能力の低いプログラマーが、あなたの生産性を落とすかもしれない。  
+ひどい開発者を排除することが生産量を高めることができると言った議論を作ることができる。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-6.png.pagespeed.ic.Gl_PMhx0t9.png)
 
@@ -479,10 +489,10 @@ Suppose defects going up puts a drag on the system,
 lowering the velocity of new features because people spend more time fixing or working around bugs.
 --->
 
-逆の効果－原因となるリンク効果Aは同じまたは逆方向であるかもしれない；  
-もしAが上がるならば、Bは上が理、逆もまたしかり。  
-逆の効果は、ライン上に『O』で示される。  
-バグ対応に追われて多くの時間を費やすため、新機能を生産する量は低下することから、欠陥とはシステム上に邪魔なものを置いていくとようなものである。
+<span style="color: #1997C0">**相反効果**</span>－原因となるリンク効果Aは同じまたは逆方向であるかもしれない；  
+もしAが上がるならば、Bは上がり、逆もまた同様である。  
+相反効果は、ライン上に『O』で示される。  
+バグ対応に追われて多くの時間を費やすため、新機能を生産する量は低下することから、欠陥とはシステム上に邪魔なものを置くようなものである。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-7.png.pagespeed.ic.uD9mVpPZOe.png)
 
@@ -491,7 +501,7 @@ Constraints—Unless you can find people to work for free,
 there is a constraint on the number of developers, based upon cash supply.
 --->
 
-制約－無償で働く人々を見つけることができない限り、報酬支払いに基づいて雇う開発者の人数という制約がある。
+<span style="color: #1997C0">**制約**</span>－無償で働く人々を見つけることができない限り、開発者の人数には、予算内で雇える数という制約がある。
 
 <!---
 Constraints are not causal links.
@@ -499,7 +509,7 @@ As cash supply goes up, it is not the case that the number of developers goes up
 --->
 
 制約は、因果リンクではない。  
-報酬が増えることで、開発者の人数が上がるというケースではない。
+予算が増えることで、開発者の人数が上がっていくというケースではない。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-8.png.pagespeed.ic.p4v-WNXZCh.png)
 
@@ -511,11 +521,11 @@ people should be cautious about assuming what actions will help.
 Now a goal and pressure for reaction is shown:
 --->
 
-目標と反応－人々、部門、およびシステムはより高い機能や生産量などの目標を持っている。  
+<span style="color: #1997C0">**目標と反応**</span>－人々、部門、およびシステムはより高い機能や生産量などの目標を持っている。  
 目標はよく、目標を達成する意思を伴った反応（または行動）をすることでプレッシャーを生む。  
 しかし、誤った考えから導き出された因果関係とワインバーグ・ブルックスの法則の対立があるゆえに、  
 どんな行動も助けになると思い込むことに注意すべきである。  
-今や、目標とプレッシャーの反応は表すことができる。
+目標とプレッシャーの反応は下図のように表すことができる。
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-9.png.pagespeed.ic.7T3j6vKX6T.png)
 
@@ -533,9 +543,9 @@ Visually, the system dynamics may be…
 行動し、達成しているようにも見えることもまたプレッシャーを生み出しており、  
 それが報酬が生み出した機能不全の大きさの結果である。  
 そして、機能不全の大きさは、報酬の価値を認めることに比例しているかもしれない。  
-なぜなら、システム[Austin96]を改善することではなく、人々が報酬を得ることが動機となるからである。  
+なぜなら、システム[[Austin96]](http://www.amazon.com/Measuring-Managing-Performance-Organizations-Dorset-ebook/dp/B00DY3KQX6/ref=sr_1_1?ie=UTF8&qid=1413596674&sr=8-1&keywords=measuring+and+managing+performance+in+organizations)を改善することではなく、人々が報酬を得ることが動機となるからである。  
 報酬が実際どのようにシステム・パフォーマンスを低下させるのかということに気づきなさい。  
-見た目上、システムダイナミクスはそういっているかもしれない…
+システムダイナミクスはそういっているかもしれない…
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-10.png.pagespeed.ic.dyejPasI0I.png)
 
@@ -574,13 +584,13 @@ And they may thereby hope that hiring more developers will most quickly and easi
 ‘QF’ indicates the quick fix:
 --->
 
-応急処置の反応－より高い生産量の目標に対して、難しく、時間のかかる解決策のひとつは、既存の開発者の指導と教育を増やし、ひどい労働者を追放するために、優れた開発者を雇うことである、  
-選択肢は、その場しのぎの解決策と呼ばれ、少ない努力によって目標を迅速に達成するために望まれている反応である。  
-その場しのぎの解決策は短期的にも長期的にもうまく作用し、実際にシステムを強化したりすることもあれば、そうでないこともある。  
+<span style="color: #1997C0">**応急処置の反応**</span>－より高い生産量の目標に対して、難しく、時間のかかる解決策のひとつは、既存の開発者の指導と教育を増やし、ひどい労働者を追放するために、優れた開発者を雇うことである、  
+選択肢は、応急処置と呼ばれ、少ない努力によって目標を迅速に達成するために望まれている反応である。  
+応急処置は短期的にも長期的にもうまく作用し、実際にシステムを強化したりすることもあれば、そうでないこともある。  
 「より速くはより時間がかかる」  
 例えば、人々は、開発者の数を増大させることが機能生産量を増大させると信じるかもしれない。  
 そして、より多くの開発者を雇うことにより生産性の問題を最も迅速に、容易に解決されることを望むかもしれない。  
-『QF』はその場しのぎの解決策（quick fix）を示している：
+『QF』は応急処置（quick fix）を示している：
 
 ![](https://less.works/img/systems_thinking/xsystems,P20thinking-12.png.pagespeed.ic.BS-FVQWluL.png)
 
@@ -592,9 +602,9 @@ In this case, the level of cash supply now has an interaction effect with other 
 Low cash tends to strengthen the hire rate of much cheaper developers when there is pressure to increase hire rates.
 --->
 
-相互効果－雇用には給与払いの制約がある。  
-難しく、時間のかかる解決策のひとつは、より多くの報酬を得ることである。  
-その場しのぎの解決策は、低賃金開発者をたくさん雇用することである。  
+<span style="color: #1997C0">**相互効果**</span>－雇用には予算の制約がある。  
+難しく、時間のかかる解決策のひとつは、より多くの予算を得ることである。  
+応急処置は、低賃金開発者をたくさん雇用することである。  
 このケースにおいて、報酬額のレベルは、現在、他の因果リンクによって相互効果がある。  
 低予算は、雇用率を増やすプレッシャーがある時に、たくさんの低賃金開発者の雇用率を増やす傾向がある。
 
@@ -621,7 +631,7 @@ but on average, you get what you pay for—when you hire from a large pool of ve
 In the model we want to show that the impact of hiring very cheap labor on the number of low-skilled developers is a significantly greater effect than average.
 --->
 
-極端な効果－私達は、何人かの大変優秀なスキルを持っているにも関わらずとても低賃金な開発者、そして、驚くほど非常に高収入な開発者と働いたことがある、  
+<span style="color: #1997C0">**極端な効果**</span>－私達は、何人かの大変優秀なスキルを持っているにも関わらずとても低賃金な開発者、そして、驚くほど非常に高収入な開発者と働いたことがある、  
 しかし、平均的に、あなたは、支払った分に見合ったものを得る－あなたがたくさんの低賃金労働者の中から雇用する時には、その平均的なスキルレベルはより低い。  
 モデルの中で、私達は、低スキルの開発者の数の低賃金労働者を雇用すことの影響が、平均的なものよりかなり大きな影響を及ぼすことを示したい。
 
@@ -642,17 +652,19 @@ Also, the COCOMO model—based on large and longitudinal studies—shows that th
 And, on average, very weak programmers create poor-quality code (poor design) and more defects, creating another drag on the system.
 --->
 
-遅延－ソフトウェア開発において雇用することにおける1つの問題が、プログラマーの偏りはあまりないという誤った考えである  
+<span style="color: #1997C0">**遅延**</span>－ソフトウェア開発において雇用することにおける1つの問題が、プログラマーの偏りはあまりないという誤った考えである  
 －プログラマーの偏り（生産性 コード品質など）は比較的少ないということを信じているのは間違いである。  
-しかし、プログラマーの偏りは、最上位の人と最下位の人で見たとき25％[Prechelt00]は平均よりも4倍仕事が速いとを示唆することを学んだ。  
+しかし、プログラマーの偏りは、最上位の人と最下位の人で見たとき25％[[Prechelt00]](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.4788)は平均よりも4倍仕事が速いとを示唆することを学んだ。  
 むしろ意義深いことである。  
-また、 COCOMOモデル－大規模かつ長期的な研究に基づく－開発人員の能力は生産性[Boehm00]のための最も重要な要因であることを見せてくれた。  
+また、 COCOMOモデル－大規模かつ長期的な研究に基づく－開発人員の能力は生産性[[Boehm00]](http://www.amazon.com/Software-Cost-Estimation-Cocomo-II/dp/0130266922/ref=sr_1_1?ie=UTF8&qid=1413597244&sr=8-1&keywords=Software+Cost+Estimation+with+Cocomo+II)のための最も重要な要因であることを見せてくれた。  
 そして平均的に、能力の低いプログラマーは低品質のコード（ダメな設計）とより多くの欠陥を生み、システムのための別の障害物を作成する。
 
+<!---
 > メモ：  
 > COCOMOモデル  
 > ソフトウェア開発費用を見積もる手法のひとつ。  
 > 開発に必要とする段階の数、各工程の難易度、あるいはチームの開発能力などを補正係数として掛け合わせて、工程数や人員を見積もる手法のこと。
+--->
 
 <!---
 But the impacts of these effects are not immediately obvious.
@@ -701,7 +713,7 @@ But an office with a lot of low-skill developers does not generate a lot of grea
 They would rather work somewhere else.
 --->
 
-ポジティブなフィードバックループ－  
+<span style="color: #1997C0">**ポジティブなフィードバックループ**</span>－  
 ネガティブまたはポジティブなフィードバックはループし、遅延は、システムにおいてより微妙になり始める所であり－システムを理解する中で。  
 例えば、どのようにして、よりよいプログラマーになるか？  
 偉大なプログラマーからの指導や、たくさんの素晴らしいコードの例として見ることは一部分である。  
