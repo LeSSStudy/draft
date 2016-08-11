@@ -233,18 +233,17 @@ Seeing System Dynamics: Introduction
 Static versus Dynamic Complexity
 --->
 
-#### 複雑さにおける 静的 VS 動的 
+#### 複雑性における 静的 VS 動的 
 
 <!---
 Many of us, especially in engineering and finance, are educated to master complexity of static details—learning to analyze and manage information (requirements, financial analysis, …), decompose complex structures into simpler ones, and so forth.
 That is, complexity of a static, information, or structural nature.
 --->
 
-私達の多くは、特にエンジニアリングおよび財政において、静的な内容  
+私達の多くは、特にエンジニアリングや財務において、 **静的な内容の複雑性**  
 ー情報（要件、財務分析、…）を分析し、管理したり、複雑な構造をより簡単なものなどに分解することを学ぶことなどー  
-の複雑さをマスターするために教育される。  
-すなわち、静的、情報、または構造の自然の複雑さ。
-
+をマスターするために教育される。  
+すなわち、静的、情報、または構造の自然の複雑性である。
 
 <!---
 Why do big software systems tend to degrade, with more and more time spent on defects?
@@ -252,9 +251,9 @@ What might happen if the USA invades Iraq?
 Seeing the dynamics behind these questions involves analysis of the complexity of dynamics.
 --->
 
-なぜ、大きなソフトウェアシステムは欠陥に使われたより多くの時間とともに低下する傾向があるのか？  
+大きなソフトウェアシステムはデグレードする傾向があり、バグ対応のためにますます多くの時間が使われてしまうは、なぜなのだろうか？  
 もし米国がイラクを侵略するならば、何が起こるであろうか？  
-力学の背景にあるこれらの問題を理解するには、力学の複雑さに関する分析を必要とする。
+関係性の背景にあるこれらの問題を理解するには、 **関係性の複雑さ** に関する分析を必要とする。
 
 <!---
 In contrast to static-details education, many of us receive no formal education in analyzing dynamics complexity, especially workplace dynamics.
@@ -263,10 +262,10 @@ Forrester demonstrated that “common sense” is just not so in complex systems
 and showed it is possible to formally educate people to become better system dynamics thinkers in the workplace using dynamic system models visualized in flow diagrams [Forrester61].
 --->
 
-静的詳細教育と対比すると、私達の多くは、特に職場力学という分析力学の複雑さについて形式的な教育を全然受けない。  
-おそらく、職場の常識に頼っていることに十分な確信を持っている。  
-フォレスターはただ「常識」が複雑系にそうないのを証明した、  
-そして、フローチャート[Forrester61]において視覚化された動的なシステムモデルを使い、これまでよりも良い形で職場のシステムダイナミクス思想家になるように、人々を形式的に教育することが可能であると伝えている。
+静的な詳細部分に関する教育と対比すると、私達の多くは、特に職場の関係性という関係性分析の複雑さについて、正規でない教育を受け入れてしまう。  
+おそらく、職場の常識に頼るこで十分であると信じている。  
+フォレスター社は、複雑なシステムの中では「常識」が「常識でない」ことを証明した、  
+そして、 _フロー図_ [[Forrester61]](http://www.amazon.com/Industrial-Dynamics-Jay-Wright-Forrester/dp/1614275335/ref=sr_1_1?ie=UTF8&qid=1413582840&sr=8-1&keywords=Industrial+Dynamics)において視覚化された関係性システムモデルを使い、これまでよりも良い形で職場のシステムダイナミクスを考えられる人になるように、人々を形式的に教育することが可能であると伝えている。
 
 <!---
 Flow diagrams encompass material, financial, and information flows, stocks (variables with a quantity, such as cash or number of defects), the impact of decisions and policies, and cause-effect relations.
@@ -276,11 +275,11 @@ they all show stocks (variables), causal links, and delay.
 In [Weinberg92] this is called the diagram of effect.
 --->
 
-フローチャートは、素材、金融、および情報フロー、株（欠陥の現金や数などの量を持つ変数）、決定と方針のインパクト、および原因効果関係を含んでいる。  
-ポピュラーな単純化は、システム[Sterman00]の原因効果関係とフィードバックループを中心に行う因果ループ図である。  
-各種の同様な表記法がある；  
-それらすべては、株（変数）、原因となるリンク、および遅延を示す。  
-[Weinberg92]において、これは効果の図と呼ばれる。
+フロー図は、題材、財務、情報の流れ、ストック（現金や欠陥の数などの量を持つ変数）、決定と方針のインパクト、および原因効果関係を含んでいる。  
+一般的な単純化は、原因効果関係とシステムのフィードバックループ[[Sterman00]](http://www.amazon.com/Business-Dynamics-Systems-Thinking-Modeling/dp/0071179895)にフォーカスした因果ループ図である。  
+類似した表記法が色々ある；  
+それらすべては、ストック（変数）、原因となるリンク、および遅延を示す。  
+[[Weinberg92]](http://www.amazon.com/Quality-Software-Management-Systems-Thinking/dp/0932633226/ref=sr_1_1?ie=UTF8&qid=1413527418&sr=8-1&keywords=Quality+Software+Management%3A+Systems+Thinking)において、これは _結果図_ と呼ばれる。
 
 <!---
 The First Law of Diagramming: Model to Have a Conversation
@@ -293,14 +292,14 @@ A tool to learn to see system dynamics is a causal loop diagram, ideally sketche
 Before going further, here is the First Law of Diagramming
 --->
 
-システムダイナミクスを理解するためのツールは、因果ループ図である。理想としては同僚と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。  
-先に進む前に、これが図示するための最初の規律である
+システムダイナミクスを理解するためのツールは、因果ループ図である。理想としては仲間と一緒にLeSSのオーバーオールレトロスペクティブの中で、ホワイトボードに書けるとよい。  
+更に説明を進める前に、ここが _図示するための最初の規律_ であることを理解しておくこと。
 
 <!---
 > The primary value in diagrams is in the discussion while diagramming—we model to have a conversation.
 --->
 
-図の主要な価値は、図示する間の議論にある－対話しながらのモデリング
+> 図の最も重要な価値は、図示する間の議論にある－対話しながらのモデリングするということ
 
 <!---
 When a group gets together to sketch a causal loop diagram on a whiteboard (See it is the acts of discussing and thinking that are most important when diagramming, Valtech India.),
@@ -310,10 +309,10 @@ But still, the diagram is secondary to what people take away:
 learning and a revised understanding through a discussion.
 --->
 
-グループがホワイトボードに因果ループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることがわかる）、  
-主要な価値は対話であり、それが彼らがモデルを作成する間に生まれた理解を共有している。  
-言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図は、（ホワイトボード上で）アイデア－人々が持つメンタルモデル－を具体的かつ明白にすることが重要である。  
-それでもやはり、図は二の次である。人々が持ち帰る何か（対話を通しての理解で、学び復習すること）
+グループがホワイトボードに因果ループ図を描くために集まる時（Valtech India社では、議論して考えることが図示するときの最も重要な行為であることが見てわかる）、  
+最も重要な価値は、対話と彼らがモデルを作成する間に生まれた理解の共有である。  
+言葉だけではあいまいで誤解するかもしれないため、簡単でわかりやすい図を用いて、アイデア－人々が持つメンタルモデル－を（ホワイトボード上で）具体的かつ明白にすることが重要である。  
+それでもやはり、図は人々が持ち帰る何か（対話を通しての理解で、学び復習すること）よりも、重要ではない。
 
 ![](https://less.works/img/systems_thinking/xgroup,P20cld,P20modeling.jpg.pagespeed.ic.Pnh1_YRIQk.jpg)
 
@@ -337,11 +336,11 @@ The most meaningful outcome is understanding ; in addition, some participants wi
 
 具体的なモデリングの秘訣：  
 私達は、変数を定義するために、付箋に書いて始める。  
-付箋からは、“機能速度”、または“#欠陥。”を読みとることができる。  
+付箋からは、“機能生産量”、または“#個の欠陥”を読みとることができる。  
 これらをホワイトボードに貼る。  
 そして、付箋の間に原因を表す線をスケッチする。  
 モデリング中にたくさんの書き替え、消したり、また書き直したりする（または、そうであるはずである）。  
-最も意味がある結果は理解がある；さらに、何人かの参加者がホワイトボードスケッチのデジタルの写真を撮りたいだろう。
+最も意味がある結果には理解がある；さらに、何人かの参加者がホワイトボードスケッチのデジタルの写真を撮りたいだろう。
 
 <!---
 Seeing System Dynamics: Causal Loop Diagrams
