@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title: Testing
+title: Unit Testing
 order: 10
 ---
 
@@ -210,7 +210,7 @@ When you passed a functional test, you could be very confident about the functio
 But when you found it fail, usually you need to do some debugging to see what is wrong. 
 Unit test might be able to give you more precise information about what is working and what is broken.
 
-** フィードバックの品質 **
+**フィードバックの品質 **
 機能テストをパスした時、テストしたばかりの機能性に関してはかなり自信を持てるだろう。
 しかし失敗した時には、たいてい何が間違っているのかを調べるのにいくらかデバッグをする必要がある。
 ユニットテストは何が間違っているのか、何が壊れているのかに関するより正しい情報を与えてくれるだろう。
