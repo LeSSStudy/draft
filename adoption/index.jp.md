@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title: 採用(Adoption)
+title: 導入(Adoption)
 order: 45
 ---
 
@@ -8,17 +8,17 @@ order: 45
 The issues to take into account when adopting LeSS are:
 --->
 
-LeSSを採用する際に考慮すべき点は次の通り:
+LeSSを導入する際に考慮すべき点は次の通り:
 
 <!---
 **Many people**—LeSS adoption involves big organizations and lots of minds with deeply rooted assumptions in them about how organizations should work. Successful adoption requires breaking assumptions and changing structure, with all the explosive politics and “loss of face” that entails across a big group. Adoption needs everyone to improve towards a shared goal.
 --->
-**たくさんの人々***-LeSSの採用は、大きな組織や組織はいかに働くべきかという根深い思い込みに影響を与える。成功した採用は、すべての爆発的政治と大きなグループ全体で"メンツを失う"ことを伴うような、思い込みを壊し、構造を変更する必要があります。採用は、共通のゴールに向けて改善するために、すべての人を必要とします。
+**たくさんの人々***-LeSS導入では大規模な組織と多くの人が組織とはかくあるべきという思考を相手にすることになります。導入を成功させるには、そのような思考を疑い、組織構造をシンプルにしなくてはなりません。その過程では、危険な政治や「体面」という、大きな組織に起こりがちな問題にも対処していく必要もあります。導入で必須なのは、全ての人が共通のゴールに向かって改善していくことです。
 
 <!---
 **Continuous improvement towards perfection**—Naturally, a group adopting LeSS brings to the table their assumptions and habits about adoption. Those are? Create a change vision and kick off many change projects. When the original goal is apparently achieved then:
 --->
-**完璧に向けた継続的改善**-当然のことながら、LeSSの採用グループは、採用についての習慣および仮定を交渉の席に持ってくる。それらは？ ビジョンの変化をもたらし、多くの変更プロジェクトを立ち上げる。元のゴールが明らかに達成される。そのときに:
+**完璧を目指しての継続的な改善**-LeSSを導入しようというグループの人は、導入というものに対する自分たちのイメージや経験を、自然に持ち込んでしまいます。それは、変革のビジョンを作り、そのうえで変革のためのプロジェクトをいくつも実行することです。当初のゴールにたどり着いたように見えたら:
 
 <!---
 1. “the change is done”, and
@@ -26,17 +26,15 @@ LeSSを採用する際に考慮すべき点は次の通り:
 3. the next change effort surfaces, and then
 4. undoes the previous change.
 --->
-1. "変更は終わった"、そして
-2. 組織は新たな現状に落ち着くまで
-3. 次の変更への表面上の努力、そして
-4. 変更を元に戻す
+1. 「変革が完了」となり、
+2. 組織は、新たな現状に落ち着き、そのうち、
+3. 次の変革が必要となり、そして、
+4. 前の変革を元に戻します。
 
 <!---
 This classic approach is like the sequential and “big batch” approach of software development where change is an exception strictly managed… by many change-control boards.
 
 In LeSS adoptions, there is no change initiative, no change group, no change managers. In LeSS, change is continuous through experimentation and improvement and change is the status quo.
 --->
-この古典的なアプローチは、変更をたくさんの変更管理ボードによって厳密な例外管理をするようなものは、ソフトウェア開発でのシーケンシャルで大きなバッチのようなものです。
-
-LeSSの採用では、変化しない取り組み、変化しないグループ、変化しないマネージャーは存在しない。
-LeSSでは、変更は実験と改善を通して継続していくもので、変更は通例です。
+このような古典的なアプローチの多くは変革管理委員会によって、まるでソフトウェア開発におけるシーケンシャルで "大きなバッチ"のアプローチに似ています... そこでは、変革が例外として厳格に委員会により管理されます。
+LeSSの導入においては、変革リーダー、変革グループ、変革マネージャーは存在しません。 LeSSでは、変革は実験と改善と通して継続し、常に変革中となります。
