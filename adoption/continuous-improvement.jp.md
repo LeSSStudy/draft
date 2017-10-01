@@ -1,17 +1,23 @@
-Continuous Improvement
+---
+layout: Continuous Improvement
+title: 継続的改善(Continuous Improvement)
+order: 45
+---
+
 
 “We’ve completed our lean adoption.” “We’ve completed our LeSS adoption.” Does that need explaining? Probably not.
 
 So in lean thinking and in LeSS, there’s only continuous improvement towards perfection. That’s a radically different mindset and behavior than the punctuated, big-batch, controlled-change traditional model. How does it feel different? For example:
 
-You’ve eliminated the corrosive HR policy of stacked ranking of individuals in semi-annual performance appraisals? Great. Can you abolish performance appraisals next?
+* You’ve eliminated the corrosive HR policy of stacked ranking of individuals in semi-annual performance appraisals? Great. Can you abolish performance appraisals next?
 You’ve eliminated the project/program manager positions in the product group? Great. Can you eliminate the Project Management Office next?
-You’ve reduced your total build time—including all tests—from nine hours to two? Great. Can you strive for in one second?
+* You’ve reduced your total build time—including all tests—from nine hours to two? Great. Can you strive for in one second?
+
 As these examples show, the boundary of improvement and change experiments is not limited to the Teams. Evolutionary continuous improvement in LeSS expands to the overall system, eroding all the organizational impediments to a perfect value stream, month after month after month.
 
 And so there’s no change initiative, no change group, no change managers. In LeSS, change is the status quo.
 
-Create a clear direction
+## Create a clear direction
 
 Organizations are wonderfully complex systems in which it’s impossible to control everything or to know everything.
 
@@ -27,7 +33,7 @@ Create the organizational ability to respond to changes by being able to deliver
 
 Managers—together with the whole product group—have to establish clear directions that guide decision making. This is usually done by informal discussions and workshops, leading to some guiding vision and principles. Discussing is important work, but words float away. So people also want to write a vision to help get everyone on the same page, literally.
 
-Do experiments
+## Do experiments
 
 The mandate to improve is a lofty goal, and can scare off people from experimenting. What if the improvement…doesn’t? Kaneyoshi Kusunoki, a student of Taiichi Ohno and executive vice-president at Toyota, said about kaizen and management support:
 
@@ -37,7 +43,7 @@ Developing problem-solving skills through many experiments is cen- tral to lean 
 
 The real measure of success is the number of experiments that can be crowded into 24 hours.—Thomas Edison
 
-Focus on problems, not tools.
+## Focus on problems, not tools.
 
 “We’re starting to do agile. What tool should we buy for agile project management?” This is a question we hear often; our suggestion is always the same—and we mean this even for the very large-scale cases: “Avoid any special agile tools until several years after starting the adoption. Keep it simple. Use the wall or, in the most complex solution, a simple spreadsheet and wiki.” Why?
 
