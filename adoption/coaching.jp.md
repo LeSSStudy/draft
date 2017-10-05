@@ -8,13 +8,27 @@ order: 45
   <img src="/img/adoption/coaching.png" alt="coaching.png">
 </figure>
 
+<!---
 Coaching means that an experienced Coach will work closely together with an organization to improve the organization’s product development. This usually involved shortening feedback loops and focusing on improved quality. This faster feedback cycle leads to benefits such as higher productivity and more flexibility.
+--->
+コーチングとは、経験豊富なコーチが、組織のプロダクト開発を改善するために、組織と密接に協力して進めていくことを意味します。これは通常、複雑なフィードバックループを短くし、品質を向上させることにフォーカスします。素早いフィードバックサイクルは、より高い生産性と柔軟性などの利点をもたらします。
 
+<!---
 A LeSS adoption chance of success is dramatically higher when the organization ensures the appropriate level of coaching. Many organizations think that reading a book or a short training is enough while adopting LeSS. While there are certainly cases where that worked, most cases it doesn’t and a LeSS adoption needs more active coaching.
+--->
+適切なレベルのコーチングを組織が保証している場合は、LeSS導入の成功する可能性は、劇的に高まります。多くの組織は、LeSSの導入している間、本を読んだり、短時間のトレーニングで充分だと考えています。それが成功したケースも確かにありますが、大抵の場合、上手く行きません。LeSSの導入には、より積極的にコーチを活用すべきです。
 
+<!---
 ## Internal vs External coaching
 
 Coaching doesn’t have to be external (from outside the company). It is possible, though very hard, to set up an internal coaching network which supports the LeSS adoption. Setting up an internal coaching network often fails because (1) being a coach internally is often not a job which the potential coaches want to pick up… as they like working on the product itself, (2) coaches often lose touch with the reality of the product development as they don’t practice enough Go See
+--->
+
+## 内部コーチと外部コーチ
+
+コーチは社外である必要はありません。非常に難しいですが、LeSS導入を支援する内部コーチネットワークを立ち上げることは可能です。内部コーチネットワークの立ち上げは、しばしば失敗します。その原因は、
+(1)内部コーチであることは、潜在的なコーチがやりたい仕事ではない。なぜならば、彼らはプロダクトに直接取り組むのが好きなためです。(2)コーチは、現地現物を十分に練習しないため、しばしばプロダクト開発の現場との関わりが無くなります。
+
 
 Warning: If you do set up a coaching group in your organization, ensure to not just staff it with the “left-over people” who happened to be available. That will fail.
 
