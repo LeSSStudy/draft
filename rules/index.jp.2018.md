@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title: LeSSルール(February 2020)
+title: LeSSルール(April 2018)
 order: 45
 ---
 
@@ -11,6 +11,7 @@ The LeSS Rules are the definition of the LeSS Framework. They are things we cons
 ([前回からの変更点](rules-changes.jp.html))
 LeSSのルールはLeSSフレームワークを定義するもので、必須と定めているものです。
 [なぜLeSSなのか?](../framework/why-less.jp.html)を参照してください。
+
 <!---
 ## LeSS Framework Rules
 
@@ -30,7 +31,7 @@ LeSSフレームワークは2〜”8”チームで開発するプロダクト�
 - A Scrum Master is a dedicated full-time role.
 - One Scrum Master can serve 1-3 teams.
 - In LeSS, managers are optional, but if managers do exist their role is likely to change. Their focus shifts from managing the day-to-day product work to improving the value-delivering capability of the product development system.
-- Managers’ role is to improve the product development system by practicing Go See, encouraging Stop & Fix, and “experiments over conformance.”
+- Managers’ role is to improve the product development system by practicing Go See, encouraging Stop & Fix, and “experiments over conformance”.
 - For the product group, establish the complete LeSS structure “at the start”; this is vital for a LeSS adoption.
 - For the larger organization beyond the product group, adopt LeSS evolutionarily using Go and See to create an organization where experimentation and improvement is the norm.
 --->
@@ -51,7 +52,7 @@ LeSSフレームワークは2〜”8”チームで開発するプロダクト�
 <!---
 ### LeSS Product
 - There is one Product Owner and one Product Backlog for the complete shippable product.
-- The Product Owner shouldn’t work alone on Product Backlog refinement; she is supported by the multiple Teams working directly with customers/users and other stakeholders.
+- The Product Owner shouldn’t work alone on Product Backlog refinement; he is supported by the multiple Teams working directly with customers/users and other stakeholders.
 - All prioritization goes through the Product Owner, but clarification is as much as possible directly between the Teams and customer/users and other stakeholders.
 - The definition of product should be as broad and end-user/customer centric as is practical. Over time, the definition of product might expand. Broader definitions are preferred.
 - One Definition of Done for the whole product common for all teams.
@@ -132,7 +133,7 @@ LeSS Hugeはプロダクトを「”８チーム以上」”で作る場合に�
 
 <!---
 ### LeSS Huge Product
-- One (overall) Product Owner is responsible for product-wide prioritization and deciding which teams work in which Area. She works closely with Area Product Owners.
+- One (overall) Product Owner is responsible for product-wide prioritization and deciding which teams work in which Area. He works closely with Area Product Owners.
 - Area Product Owners act as Product Owners towards their teams.
 - There is one Product Backlog; every item in it belongs to exactly one Requirement Area.
 - There is one Area Product Backlog per Requirement Area. This backlog is conceptually a more granular view onto the one Product Backlog.
