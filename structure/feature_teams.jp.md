@@ -27,38 +27,38 @@ The characteristics of a feature team are listed below:
 * composed of generalizing specialists
 * in Scrum, typically 7 ± 2 people
 --->
-* 長寿命 - チームは、より高いパフォーマンスを発揮するために、一緒に居続ける。そして時間を掛けて新しいフィーチャーを引き受ける
+* 長寿命 - チームが一緒にいることで、より高いパフォーマンスを発揮できるようにし、時間をかけて新しいフィーチャーに取り組んでいきます。
 * 機能横断的でコンポーネント横断的
 * 理想的には同じ場所にいる
-* 全てのコンポーネントや領域(分析、プログラミング、テスト)を超え、完全なる顧客中心のフィーチャーで作業する
-* 一般的に専門家で構成される
+* すべてのコンポーネントと分野（分析、プログラミング、テスト、...）にまたがって、完全な顧客中心のフィーチャーに取り組んでください。
+* ジェネライジング・スペシャリスト[^訳注]で構成される
 * スクラムでは、通常は7±2人
+
+[^訳注]:訳注:自分の専門領域は持ちつつ、自分の肩書き以外の仕事も積極的にこなす。ジェネラリストとは異なる。
+
 
 <!---
 Applying modern engineering practices—especially continuous integration—is essential when adopting feature teams. Continuous integration facilitates shared code ownership, which is a necessity when multiple teams work at the same time on the same components.
 --->
-モダンなエンジニアプラクティスを適用する - フィーチャーチームを採用する場合は、特に継続的インテグレーションが不可欠です。
-継続的インテグレーションは、複数のチームが同じコンポーネントを同時に作業する場合に必須であるコードの共同所有を容易にします。
+フィーチャーチームを採用する際には、最新のエンジニアリング手法(特に継続的インテグレーション)を適用することが不可欠です。継続的インテグレーションはコードの所有権を共有することを容易にし、複数のチームが同じコンポーネントで同時に作業する場合に必要となります。
 
 <!---
 A common misunderstanding: every member of a feature team needs to know the whole system. Not so, because
 --->
-共通の誤解:フィーチャーチームのすべてのメンバーは、システム全体を知る必要があります。
+共通の誤解:フィーチャーチームのすべてのメンバーは、システム全体を知っている必要があります。
 あながち間違いではないが、理由は
 
 <!---
 * The team as a whole—not each individual member—requires the skills to implement the entire customer-centric feature. These include component knowledge and functional skills such as test, interaction design, or programming. But within the team, people still specialize… preferably in multiple areas.
 * Features are not randomly distributed over the feature teams. The current knowledge and skills of a team are factored into the decision of which team works on which features.
 --->
-* チーム(各チームメンバーではない)として、顧客中心のフィーチャー全体を実装するためのスキルを必要とします。
-これらスキルは、コンポーネントの知識、テストなどの機能スキル、インタラクションデザイン、プログラミングを含みます。
-しかしながら、チーム内でまだ特化してしまう...できれば複数の領域にしてください。
-* フィーチャーはフィーチャーチームを超えて、無作為に分配されるわけではない。どのフィーチャーをどのチームが作業するかは、現在の知識とチームのスキルを織り込んで決定する。
+* チーム全体(各チームメンバーではない)として、顧客中心のフィーチャーを全体的に実装するスキルが求められます。これには、コンポーネントの知識やテスト、インタラクションデザイン、プログラミングなどの機能的なスキルが含まれます。しかしながら、チーム内でまだ特化してしまう...できれば複数の領域にしてください。
+* フィーチャーはフィーチャーチームに無作為に分配されるわけではない。どのフィーチャーをどのチームが作業するかは、現在の知識とチームのスキルを考慮して決定する。
 
 <!---
 Within a feature team organization, when specialization becomes a constraint…learning happens.
 --->
-フィーチャーチームの組織では、分業が制約になると...学習が発生する。
+フィーチャーチームの組織内では、専門化が制約になると、学習が起こります。
 
 <!---
 A feature team organization exploits speed benefits from specialization, as long as requirements map to the skills of the teams.
@@ -99,19 +99,19 @@ The table below and Figure 2 show the differences between feature teams and more
 | コンポーネントチーム | フィーチャーチーム |
 | ------------------ |------------------ |
 |コードの行数を最大化するために最適化|顧客価値を最大化するために最適化|
-|'簡単に'低い価値のフィーチャーを実装することにより増えた、個人の生産性にフォーカスする|価値の高いフィーチャーや、システムの生産性(価値のスループット)にフォーカスする|
+|価値の低い「簡単な」機能を実装することで、個人の生産性を向上させることにフォーカスする|価値の高いフィーチャーや、システムの生産性(価値のスループット)にフォーカスする|
 |顧客中心のフィーチャーの一部分だけに責任を持つ|顧客中心のフィーチャー全てに責任を持つ|
-|コンウェイの法則に従う伝統的なチーム編成方法|チーム編成の'近代的な'方法はコンウェイの法則を回避する|
-|'生み出す'作業と永遠に成長する組織につながる|顧客重視、可視性、中小規模の組織につながる|
-|チームの依存関係は計画の追加につながる|柔軟性を高めるためにチーム間の依存関係を最小化する|
+|コンウェイの法則に従う伝統的なチーム編成方法|コンウェイの法則を回避する「最新の」チーム編成方法|
+|「生み出された」作業と永遠に成長する組織につながる|顧客重視、可視性、そしてより小さな組織につながる|
+|チームの依存関係は計画の追加につながる|チーム間の依存関係を最小化して柔軟性を高める|
 |単一の専門分野にフォーカス|複数の専門分野にフォーカス|
 |個人/チームでのコードの所有|プロダクトコードの共同所有|
-|個人の責任|チームの責任|
-|ウォーターフォール開発の結果|反復開発をサポート|
-|既存の専門知識を活用;新しいスキルの低レベルの学習|柔軟性を活用;継続した幅広い学習|
-|ずさんなエンジニアリングの実践と連携 - 効果が局所的|熟練したエンジニアリングの実践が求められる - 効果は広く明らか|
-|信念に反して、コンポーネントの低品質なコードにつながる|メンテナンスとテストを容易にするためのコードを書く動機をもたらす|
-|実装が一見簡単|実装が一見難しい|
+|個人の責任を明確にする|チームでの責任の共有|
+|ウォーターフォール開発の実現|反復的な開発をサポート|
+|新しいスキルの学習レベルが低いため、既存の専門知識を活用する|継続的かつ広範な学習を行うため、柔軟性を活用する|
+|ずさんなエンジニアリング手法を利用するため、効果は局所的|熟練したエンジニアリングの実践が求められる - 効果は広く明らか|
+|信念に反して、しばしばコンポーネントの低品質なコードにつながる|メンテナンスやテストが容易なコードを作るモチベーションを提供する|
+|一見簡単に実装できるように見える|実装が難しいと思われる|
 
 <figure>
   <img src="/img/feature_teams/xcomponent_vs_feature_teams.jp.png" alt="component_vs_feature_teams.jp.png">
