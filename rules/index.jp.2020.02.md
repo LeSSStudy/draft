@@ -1,6 +1,6 @@
 ---
 layout: mechanics
-title: LeSSルール(December 2020)
+title: LeSSルール(February 2020)
 order: 45
 ---
 
@@ -11,11 +11,12 @@ The LeSS Rules are the definition of the LeSS Framework. They are things we cons
 ([前回からの変更点](rules-changes.jp.html))
 LeSSのルールはLeSSフレームワークを定義するもので、必須と定めているものです。
 [なぜLeSSなのか?](../framework/why-less.jp.html)を参照してください。
-
 <!---
-LeSS Framework Rules
+## LeSS Framework Rules
+
 The LeSS framework applies to products with 2-“8” teams.
 --->
+
 ## LeSSフレームワークのルール
 
 LeSSフレームワークは2〜”8”チームで開発するプロダクトに適用します。
@@ -33,6 +34,7 @@ LeSSフレームワークは2〜”8”チームで開発するプロダクト�
 - For the product group, establish the complete LeSS structure “at the start”; this is vital for a LeSS adoption.
 - For the larger organization beyond the product group, adopt LeSS evolutionarily using Go and See to create an organization where experimentation and improvement is the norm.
 --->
+
 ### LeSSの構造
 
 - 実際のチームを組織の基本構成要素として組織を構成します。
@@ -52,10 +54,11 @@ LeSSフレームワークは2〜”8”チームで開発するプロダクト�
 - The Product Owner shouldn’t work alone on Product Backlog refinement; she is supported by the multiple Teams working directly with customers/users and other stakeholders.
 - All prioritization goes through the Product Owner, but clarification is as much as possible directly between the Teams and customer/users and other stakeholders.
 - The definition of product should be as broad and end-user/customer centric as is practical. Over time, the definition of product might expand. Broader definitions are preferred.
-- One Definition of Done for the whole product, common for all teams.
+- One Definition of Done for the whole product common for all teams.
 - Each team can have their own stronger Definition of Done by expanding the common one.
 - The perfection goal is to improve the Definition of Done so that it results in a shippable product each Sprint (or even more frequently).
 --->
+
 ### LeSSのプロダクト
 
 - 1人のプロダクトオーナーと1つのプロダクトバックログがあり、出荷可能なプロダクト全体を運用します。
@@ -80,6 +83,7 @@ LeSSフレームワークは2〜”8”チームで開発するプロダクト�
 - Each Team has their own Sprint Retrospective.
 - An Overall Retrospective is held after the Team Retrospectives to discuss cross-team and system-wide issues, and create improvement experiments. This is attended by Product Owner, Scrum Masters, Team representatives, and managers (if any).
 --->
+
 ### LeSSのスプリント
 
 - １つのプロダクトに関わる全てのチームは同じスプリントで作業します。スプリントの開始も終了も全チーム共通です。スプリントの終わりにはプロダクト全体が１つに統合されている状態にします。
@@ -100,6 +104,7 @@ LeSS Huge applies to products with “8+” teams. Avoid applying LeSS Huge for 
 
 All LeSS rules apply to LeSS Huge, unless otherwise stated. Each Requirement Area acts like the basic LeSS framework.
 --->
+
 ## LeSS Hugeフレームワークのルール
 
 LeSS Hugeはプロダクトを「”８チーム以上」”で作る場合に適用します。これよりも小さな規模でLeSS Hugeを適用することは推奨しません。不必要なオーバーヘッドや部分最適の原因となります。
@@ -115,6 +120,7 @@ LeSS Hugeはプロダクトを「”８チーム以上」”で作る場合に�
 - LeSS Huge adoptions, including the structural changes, are done with an evolutionary incremental approach.
 - Remember each day: LeSS Huge adoptions take months or years, infinite patience, and sense of humor.
 --->
+
 ## LeSS Hugeの構造
 
 - 顧客視点で関連の強い顧客の要求は、要求エリアにまとめられます。
@@ -131,6 +137,7 @@ LeSS Hugeはプロダクトを「”８チーム以上」”で作る場合に�
 - There is one Product Backlog; every item in it belongs to exactly one Requirement Area.
 - There is one Area Product Backlog per Requirement Area. This backlog is conceptually a more granular view onto the one Product Backlog.
 --->
+
 ### LeSS Hugeのプロダクト
 
 - 全体の（オーバーオール）プロダクトオーナーの役割はプロダクト全体の優先順位決めと、どのチームがどのエリアを対応するかを決めることです。エリア・プロダクトオーナーとは密にコミュニケーションを取る必要があります。
@@ -143,6 +150,7 @@ LeSS Hugeはプロダクトを「”８チーム以上」”で作る場合に�
 - There is one product-level Sprint, not a different Sprint for each Requirement Area. It ends in one integrated whole product.
 - The Product Owner and Area Product Owners synchronize frequently. Before Sprint Planning they ensure the Teams work on the most valuable items. After the Sprint Review, they further enable product-level adaptations.
 --->
+
 ### LeSS Hugeのスプリント
 
 - プロダクト単位でスプリント期間は共通です。各要求エリアで別々のスプリント期間にとすることはありません。スプリントの終わりには統合された１つのプロダクトになっている必要があります。
